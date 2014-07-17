@@ -1,0 +1,3 @@
+<MAP NAME="Map2">
+<AREA SHAPE="rect" COORDS="82,2,142,13" HREF="../mapa_site.html"> <AREA SHAPE="rect" COORDS="22,2,65,14" HREF="../produtos/downloads_index.html">
+<AREA SHAPE="rect" COORDS="154,3,212,13" HREF="../parceiros/parceiros_index.html"></MAP>

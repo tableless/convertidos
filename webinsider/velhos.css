@@ -1,0 +1,40 @@
+h1 {
+	margin:0px;
+	font:bold 110% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+p {
+	margin:0px 0px 15px 0px;
+	font:70% Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+
+/*********************************************
+Menu da Esquerda
+*********************************************/
+#menuesquerda {
+	width:122px;
+	float:left;
+	margin:17px 0px 0px 0px;
+}
+
+#seuemail {
+	font:60% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+/*********************************************
+Texto que ficam no meio da página
+*********************************************/
+/* Onde tem as fotos dos colunistas */
+#ladodireito {
+	width:138px;
+}
+
+.direito {
+	font:60% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+.direito a, .direito a:visited, .texto a, .texto a:visited  {
+	color:black;
+	text-decoration:none;
+}

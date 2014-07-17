@@ -1,0 +1,76 @@
+/**********************************
+Inputs
+**********************************/
+form {
+	margin:0px;
+}
+
+/**********************************
+Todas as imagens
+**********************************/
+img {
+	border:0px;
+}
+
+#geral {
+	width:713px;
+	background:#E6E6E6;
+}
+
+/**********************************
+Topo
+**********************************/
+#topo {
+	background:white;
+}
+
+/***** Menu *****/
+#menu {
+	width:140px;
+}
+
+#menu img {
+	display:block;
+}
+
+/***** Onde tá escrito HOME *****/
+#locbar {
+	background:#EBEADD;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+	font:bold 60%  Verdana, Arial, Helvetica, Sans-Serif;
+	padding:3px 8px;
+}
+
+#locbar a, #locbar a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+/**********************************
+Direita
+**********************************/
+#direita {
+	background:white;
+	margin:0px 0px 0px 142px;
+}
+
+#barramenu {
+	text-align:right;
+}
+
+#contcenter {
+	margin:45px 20px 30px 20px;
+}
+
+#fig {
+	margin:0px 0px 12px 0px;
+}
+
+/***** ofertas dos celulares *****/
+#ofertas {
+	background:url("imagens/linhaofertas.gif") no-repeat #FFFFED;
+	text-align:center;
+	padding:19px 0px 40px 0px;
+}
+

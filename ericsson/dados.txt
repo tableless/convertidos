@@ -1,0 +1,19 @@
+Original
+
+-> Tam do HTML			: 13,7 Kb
+-> Tam total			: 48,9 Kb
+-> Velocidade em DLS 128 Kbps 	: 3.26 segundos
+-> Validado no W3C		: Não - HTML 4.0 Transitional
+
+Tableless
+
+-> Tam do HTML			: 4.59 Kb
+-> Tam total			: 24.3 Kb
+-> Velocidade em DLS 128 Kbps 	: 1.72 segundos
+-> Validado no W3C		: Sim - XHTML 1.0 Strict
+
+
+Dados
+
+-> Júlio Cesar Santos Lima
+-> julio@foxdata.com.br

@@ -1,0 +1,151 @@
+body {
+	background:#1E77D3;
+}
+
+/* Primeiro menuzin lá do topo */
+ul#menuzin {
+	width:676px;
+	_width:772px;
+	height:20px;
+	background:#1E77D3 url(imagens/fadeaatop.gif) repeat-Y;
+	font:60% Verdana, Arial, tahoma, 'Sans-Serif';
+	list-style:none;
+}
+
+ul#menuzin li {
+	display:inline;
+}
+
+ul#menuzin li a {
+	color:white;
+	text-decoration:none;
+	border:1px solid #1E77D3;
+}
+
+ul#menuzin li a.pri {border-right:1px solid #A1C6EB;}
+
+ul#menuzin li a:hover {
+	background:#3484D7;
+	border:1px solid #A1C6EB;
+}
+
+/* Logo e busca */
+#topo {
+	background:white url(imagens/fadeabtop.gif) repeat-Y top left;
+}
+
+#topo h1 a {
+	background:url(imagens/ms_masthead_ltr.gif) no-repeat top left;
+}
+
+#topo form {
+	font:60% Verdana, Arial, 'Sans-Serif';
+}
+
+/* GERAL */
+#geral {
+	background:white url(imagens/geral.gif) repeat-Y right;
+	width:772px;
+}
+
+/* MENU */
+#menu {
+	background:white url(imagens/fademenu.gif) repeat-X bottom;
+	border-right:1px solid #999;
+}
+
+#menu h3 {
+	font:bold 70% Verdana, arial, 'Sans-Serif';
+	border-top:1px solid #999;
+	clear:both;
+}
+
+#menu ul {
+	list-style:none;
+	font:70% Verdana, Arial, 'Sans-Serif';
+}
+
+#menu li a {
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+
+#menu li a:hover {
+	background:#F1F1F1;
+	border:1px solid #CCC;
+	margin:0px;
+	padding:2px 0px 2px 11px;
+	_padding:0px 0px 0px 11px;
+}
+
+/* Conteudo do lado direita */
+#conteudo #destaque {
+	background:url(imagens/ts_aug25_WindowsXPSP2.jpg) no-repeat top left;
+}
+
+#left dl dt#tit1 {background:url(imagens/popular_downloads.gif) no-repeat top left;}
+#left dl dt#tit2 {background:url(imagens/popular_searches.gif) no-repeat top left;}
+#left dl dt#tit3 {background:url(imagens/support.gif) no-repeat top left;}
+
+#left dl dd, #right dl dd {
+	background:url(imagens/ponto.gif) no-repeat 0px 7px;
+	padding-left:10px;
+}
+
+#left dl dd	a, #right dl dd	a {
+	font:60% Verdana, arial, 'Sans-Serif';
+	text-decoration:none;
+	color:#003399;
+}
+
+#left dl dd a:hover, #right dl dd a:hover, address a:hover {
+	color:#FF3300;
+	text-decoration:underline;
+}
+
+#right dl {
+	width:150px;
+	float:left;
+	margin-top:-15px;
+	margin-bottom:10px;
+}
+
+#right h3 {
+	width:200px;
+	height:25px;
+	background:url(imagens/popular_destinations.gif) no-repeat 10px 10px;
+	_background:url(imagens/popular_destinations.gif) no-repeat 0px 10px;
+}
+
+#right dl dt#tit4 {background:url(imagens/for_your_home.gif) no-repeat top left;}
+#right dl dt#tit5 {background:url(imagens/for_your_organization.gif) no-repeat top left;}
+#right dl dt#tit6 {background:url(imagens/for_developers.gif) no-repeat top left;}
+#right dl dt#tit7 {background:url(imagens/for_your_job.gif) no-repeat top left;}
+#right dl dt#tit8 {background:url(imagens/for_ITpros.gif) no-repeat top left;}
+#right dl dt#tit9 {background:url(imagens/company_info.gif) no-repeat top left;}
+
+
+#right small {
+	display:block;
+	color:#999;
+	font:9px Verdana, Arial;
+	text-align:center;
+	margin-top:7px;
+	_margin-top:45px;
+}
+
+address {
+	border-top:1px solid #999;
+	background:#2078D3 url(imagens/faderoda.gif) repeat-Y 0px 0px;
+	padding:11px;
+	font:normal 70% verdana;
+	clear:both;
+	width:752px;
+	_width:772px;
+}
+
+address a {
+	color:#0033CC;
+	text-decoration:none;
+}

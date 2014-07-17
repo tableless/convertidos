@@ -1,0 +1,153 @@
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #1e77d3
+}
+TD {
+	FONT-SIZE: 70%; FONT-FAMILY: verdana
+}
+TABLE {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BORDER-COLLAPSE: collapse
+}
+#ca TD {
+	VERTICAL-ALIGN: top
+}
+.main {
+	BORDER-TOP: #999999 1px solid; WIDTH: 771px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.page {
+	WIDTH: 771px
+}
+A {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#NavTd {
+	BORDER-RIGHT: #999999 1px solid; FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF',endColorStr='#cadef4',gradientType='0' ); WIDTH: 179px; BACKGROUND-COLOR: #cedfff
+}
+#Nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 2px
+}
+#Nav .line {
+	BORDER-TOP: #999999 1px solid; MARGIN: 4px 0px 5px
+}
+#Nav P {
+	BORDER-RIGHT: 1px; PADDING-RIGHT: 4px; BORDER-TOP: 1px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; MARGIN: 0px 2px; BORDER-LEFT: 1px; ; WIDTH: expression(NavTd.clientWidth-4); CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: 1px
+}
+#Nav H4 {
+	FONT-SIZE: 95%; MARGIN: 4px 0px 2px 5px
+}
+#Nav A {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BORDER-LEFT: 1px; COLOR: black; BORDER-BOTTOM: 1px
+}
+#Nav A:visited {
+	COLOR: black
+}
+#Nav A:hover {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; COLOR: black; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f1f1f1; TEXT-DECORATION: none
+}
+.ad {
+	PADDING-LEFT: 28px; PADDING-TOP: 20px
+}
+#fa {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px 0px 1px; PADDING-TOP: 0px; BORDER-BOTTOM: #d8d8bc 1px solid
+}
+DIV .storyS {
+	BORDER-LEFT: #d2d3d6 1px solid; HEIGHT: 162px
+}
+.heroL {
+	WIDTH: 100%; HEIGHT: 325px
+}
+.heroS {
+	WIDTH: 295px; HEIGHT: 162px
+}
+.hFade {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#d1d3d4',endColorStr='#ffffff',gradientType='0' ); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 8px; BACKGROUND-COLOR: #f5f5f5
+}
+.rotatingSection {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 10px; PADDING-BOTTOM: 25px; WIDTH: 180px; PADDING-TOP: 0px
+}
+.popDest {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 10px; PADDING-BOTTOM: 25px; WIDTH: 390px; PADDING-TOP: 0px; BACKGROUND-COLOR: #f5f5f5
+}
+.vSep {
+	WIDTH: 1px; BACKGROUND-COLOR: #d2d3d6
+}
+DIV .s {
+	MARGIN: 7px 0px 0px
+}
+DIV .s IMG {
+	MARGIN: 0px 0px 5px
+}
+DIV .popDest DIV .s {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 19px; WIDTH: 50%; PADDING-TOP: 0px
+}
+DIV .r {
+	MARGIN: 10px 0px 13px 18px
+}
+.rh {
+	MARGIN-LEFT: -18px
+}
+.t {
+	CLEAR: left; PADDING-RIGHT: 5px; PADDING-LEFT: 17px; FONT-SIZE: 85%; PADDING-BOTTOM: 0px; COLOR: #999999; PADDING-TOP: 18px; FONT-FAMILY: Tahoma
+}
+.bt1 {
+	PADDING-LEFT: 7px; BACKGROUND: url(b.gif) no-repeat left top; MARGIN-BOTTOM: 5px
+}
+#msviRegionIdGraphic {
+	PADDING-LEFT: 7px
+}
+.gt0 {
+	BORDER-RIGHT: #1e77d3 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #1e77d3 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; PADDING-BOTTOM: 2px; BORDER-LEFT: #1e77d3 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #1e77d3 1px solid
+}
+.gt1 {
+	BORDER-RIGHT: #a1c6eb 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #a1c6eb 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; BACKGROUND: #3484d7; PADDING-BOTTOM: 2px; BORDER-LEFT: #a1c6eb 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #a1c6eb 1px solid
+}
+.gtsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; FONT: 65% Verdana; COLOR: #a1c6eb; PADDING-TOP: 0px
+}
+#msviGlobalToolbar A {
+	FONT: 65% Verdana; COLOR: #ffffff; TEXT-DECORATION: none
+}
+#msviGlobalSearch {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 6px; FONT: 65% Verdana; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#msviSearchForm {
+	MARGIN: -1px 0px 0px
+}
+#msviSearchBox {
+	FONT: 110% Tahoma; WIDTH: 235px; xheight: 18px
+}
+#msviGoButton {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0em; FONT: 110% Tahoma; MARGIN-LEFT: 6px; PADDING-TOP: 0em; POSITION: relative; TOP: 1px
+}
+#msviFooter {
+	FONT: 70% Tahoma, Helvetica
+}
+#msviFooter TD {
+	FONT-SIZE: 100%
+}
+#msviLocalFooter {
+	PADDING-LEFT: 10px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#msviGlobalFooter {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 13px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#msviFooter A {
+	COLOR: #03c; MARGIN-RIGHT: 2px
+}
+#msviFooter A:visited {
+	COLOR: #03c
+}
+#msviFooter A:hover {
+	COLOR: #f60
+}
+#msviFooter NOBR {
+	COLOR: #666666; MARGIN-RIGHT: 5px
+}
+#msviFooter2 {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF',endColorStr='#1e77d3',gradientType='1' ); BACKGROUND-COLOR: white
+}

@@ -1,0 +1,1020 @@
+/* BEGIN old Stylesheet */
+/* siemens.com frontend Stylesheet
+/* Text */
+.menuborder {
+  border: 1px solid #ffffff;
+}
+
+p,ul,ol,li,td,th { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight:500; }
+select { font-family:Arial,Helvetica, sans-serif; font-size:10px; font-weight:500; }
+b                { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight:700; }
+
+/* Sizes Classes*/
+.small  /* .txt */   {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+ }
+.smallbluelink     { font-family: Arial, Helvetica, sans-serif; font-size: 8px;  font-weight:500; }
+.smallwhite     { font-family: Arial, Helvetica, sans-serif; font-size: 8px;  font-weight:500;  color: #ffffff ; }
+.maxihead  { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight:700; color: #000000 ; }
+.superhead { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight:700; color: #000000 ;}
+.headline /* .txtbold */ {
+			text-decoration:none; 
+			font-size:12px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+.subhead /* .txtbold */ {
+			text-decoration:none; 
+			font-size:12px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+
+.LoginField {width:221px}
+.LoginErrorHeaderStandard     { font-family: Arial, Helvetica, sans-serif; font-size: 16pt;  font-weight:bold; }
+.LoginErrorStandard     { font-family: Arial, Helvetica, sans-serif; font-size: 8pt;  font-weight:500; }
+.LoginStandard     { font-family: Arial, Helvetica, sans-serif; font-size: 10pt;  font-weight:500; }
+.LoginStandardWhite     { font-family: Arial, Helvetica, sans-serif; font-size: 10pt;  font-weight:500;  color: #ffffff ; }
+.LoginStandardBold     { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; }
+a.LoginStandard:link {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: underline}
+a.LoginStandard:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: underline}
+a.LoginStandard:active {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: underline}
+a.LoginStandardBold:link {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: bold; color: #000000 ; text-decoration: underline}
+a.LoginStandardBold:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: bold; color: #000000 ; text-decoration: underline}
+a.LoginStandardBold:active {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: bold; color: #000000 ; text-decoration: underline}
+a.LoginStandardNoDecor:link {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.LoginStandardNoDecor:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.LoginStandardNoDecor:active {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.LoginStandardWhite:link {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+ font-weight: 500;  color: #ffffff ; text-decoration: none}
+a.LoginStandardWhite:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+ font-weight: 500;  color: #ffffff ; text-decoration: none}
+a.LoginStandardWhite:active {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+ font-weight: 500;  color: #ffffff ; text-decoration: none}
+
+/* Link behaviour */
+a { color:#000000 }
+/* a:link    { font-family: Arial, Helvetica, sans-serif;  font-weight: normal; color: #336699 ; text-decoration: none}
+a:hover   { font-family: Arial, Helvetica, sans-serif;  font-weight: normal; color: #000000 ; text-decoration: underline}
+a:visited { font-family: Arial, Helvetica, sans-serif;  font-weight: normal; color: #000000 ; text-decoration: none}
+a:active  { font-family: Arial, Helvetica, sans-serif;  font-weight: normal; color: #000000 ; text-decoration: none}
+*/
+
+/* Generic Navigation Items */
+  a.gennav:link         {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.gennav:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.gennavhigh:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.gennavhigh:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.gennav_high:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.gennav_high:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+
+  a.gennavblack:link         {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennavblack:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennavhighblack:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennavhighblack:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennav_black:link         {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennav_black:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennav_high_black:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.gennav_high_black:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+
+  /* Search-Button */
+  .searchBlack { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: bold; color: #000000}
+  .searchWhite { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: bold; color: #FFFFFF}
+
+/* Primary Navigation Items */
+/*
+  a.primnav:link         {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primnav:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primnavhigh:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primnavhigh:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primnav_high:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primnav_high:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+
+  a.primnavhighwhite:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.primnavhighwhite:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+
+  a.primnavhigh2:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.primnavhigh2:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.primnav_high2:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.primnav_high2:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+
+  a.primnavhigh2white:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #FFFFFF ; text-decoration: none}
+  a.primnavhigh2white:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #FFFFFF ; text-decoration: none}
+*/
+  /* Buy from and Sell to Siemens */
+/*
+  a.primhovernav:link         {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernav:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernavhigh:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernavhigh:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernavover:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.primhovernavover:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.primhovernav_high:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernav_high:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #000000 ; text-decoration: none}
+  a.primhovernav_over:link    {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+  a.primhovernav_over:visited {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 500; color: #FFFFFF ; text-decoration: none}
+*/
+/* for insensitive Links */
+  .insensitive    { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #9c9c9c; text-decoration: none}
+
+/* Secondary Navigation Items */
+  a.secnav:link         {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnav:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnavhigh:link    {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnavhigh:visited {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: none}
+
+  a.secnavviwhite:link         {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #FFFFFF ; text-decoration: none}
+  a.secnavviwhite:visited      {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #FFFFFF ; text-decoration: none}
+
+  a.secnavghtml:link    { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnavghtml:hover   { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnavghtml:visited { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnavghtml:active  { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+
+  a.secnav_ghtml:link    { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml:hover   { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml:visited { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml:active  { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: normal; color: #000000 ; text-decoration: none}
+
+  a.secnavghtmlbold:link    { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnavghtmlbold:hover   { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnavghtmlbold:visited { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnavghtmlbold:active  { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+
+  a.secnav_ghtml_bold:link    { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml_bold:hover   { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml_bold:visited { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+  a.secnav_ghtml_bold:active  { font-family: Arial, Helvetica, sans-serif;  font-size:10pt; font-weight: bold; color: #000000 ; text-decoration: none}
+
+  .secnavdark{font-family: Arial,Helvetica,sans-serif; font-size: 13px;  color: #000000; text-decoration: none;}
+  .secnavbright{font-family: Arial, Helvetica, sans-serif; font-size: 13px;  color: #FFFFFF; text-decoration: none;}
+  
+  /* secondary navigation index */
+  .indexTableFrame{background-color:#2F7FA1}  /* index selection border color*/
+  .indexSelContent{background-color:#ffffff}  /* index selection content backgroud color */
+  .indexSel{text-decoration:none;width:100%;color:#000;font-size:12px}  /* index selection */
+  .indexSel:hover{color:#fff;background-color:#900;}  /* index selection */
+
+  .formElements{font-family: Arial, Helvetica, sans-serif;  font-size: 12px;} 
+
+/* latest_news links in white*/
+  a.latestnewswhite:link  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latestnewswhite:visited  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latestnewswhite:hover  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latestnewswhite:active  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latestnews:link  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #000000}
+  a.latestnews:visited  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #000000}
+  a.latestnews:hover  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #000000}
+  a.latestnews:active  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #000000}
+
+  a.latest_news_white:link  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latest_news_white:visited  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latest_news_white:hover  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+  a.latest_news_white:active  { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+
+
+/* Bread Crumb Navigation */
+.path { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #666666 }
+a.path:link { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #666666 }
+a.path:hover { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #666666 }
+a.path:visited { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #666666 }
+a.path:active { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #666666 }
+.pathwhite { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.pathwhite:link { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.pathwhite:hover { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.pathwhite:visited { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.pathwhite:active { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+.path_white { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.path_white:link { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.path_white:hover { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.path_white:visited { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+a.path_white:active { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; color: #c0c0c0 }
+
+
+/* other */
+input { font-family: Verdana, Arial, Helvetica, sans-serif}
+
+
+/* rigth teaser bar styles */
+
+.addcont-normal { font-family:Arial, Helvetica, sans-serif; font-size:10pt; font-weight:500}
+.addcont-bold { font-family:Arial, Helvetica, sans-serif; font-size:10pt; font-weight:700}
+
+
+.menuboxlistname         { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 700; color: #0000AA } 
+.menuboxlistnamehigh     { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 700; color: #FFFFFF }
+/* defined in navigation/cssstyle.jsp .menu_box_listdescription  { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #0000AA; margin-top: 5pt } */
+.menuboxlistitem         { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #0000AA; text-decoration: none } 
+/* defined in navigation/cssstyle.jsp .menu_box_listitemlink     { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #0000AA; text-decoration: bold } */
+.secnavlistitemlink     { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #FFFFFF; text-decoration: none } 
+.secnavlistitemlinkselected     { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #000000; text-decoration: none } 
+.secnavlistitemlinkblack     { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #000000; text-decoration: none } 
+.secnavSpecialLink { font-style:normal;text-decoration:none;font-size:11px;color:#333333;font-family:Arial,Verdana;line-height:16px; }
+
+/* defined in navigation/cssstyle.jsp .news_online_listitem         { font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: 700; color: #770000; text-decoration: none } */
+.menuboxlistitemnowrap  { font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color: #0000AA; text-decoration: none; white-space: nowrap  }
+/* defined in navigation/cssstyle.jsp .menu_box_small_listitemlink   { font-family: Arial,Helvetica,sans-serif; font-size: 7pt; font-weight: 500; color: #0000AA; text-decoration: none } */
+/* defined in navigation/cssstyle.jsp .menu_box_header_background{ background-color: #0000AA } */
+
+/* newscomments */
+.newscommentareaheading { background-color: #999999; color: #FFFFFF; text-decoration: none }
+.newscommentinfo {line-height: 130%; border:solid 1 #DDDDDD}
+.newscommentproperties {color:#000000; font-size: 7pt; text-decoration: none}
+.newscommenttablebackground { background: #EEEEEE; }
+.newscommentpopupfont { font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: 500; color: #000000} 
+.newscommentpopuplinkbutton:link      { line-height: 110%; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color:#0000FF; text-decoration: none }
+.newscommentpopuplinkbutton:visited   { line-height: 110%; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color:#0000FF; text-decoration: none }
+.newscommentpopuplinkbutton:hover     { line-height: 110%; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: 500; color:#0000FF; text-decoration: underline }
+
+
+.checklistcombotableborder { border-style:solid; border-color:#770000; border-width:1px }
+.checklistcombotableHeader { border-width: 1px; border-bottom: 1px solid; border-bottom-color=#770000; }
+.checklistcombolink:link { color: black ; background: white; text-decoration: none; }
+.checklistcombolink:visited { color: black ; background: white; text-decoration: none }
+.checklistcombolink:hover { color: blue ; background: white; text-decoration: underline } 
+.personalizationLink:link { color: #770000 ; background: #CCCCCC; text-decoration: none; }
+.personalizationLink:visited { color: #770000 ; background: #CCCCCC; text-decoration: none }
+.personalizationLink:hover { color: blue ; background: #CCCCCC; text-decoration: underline } 
+
+a.addcont000002:visited { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #000000}
+a.addcont000002:link { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #000000}
+a.addcont000002:hover { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #000000 }
+
+a.addcontFFFFFD:visited { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #FFFFFF}
+a.addcontFFFFFD:link { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #FFFFFF}
+a.addcontFFFFFD:hover { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: underline; font-size: 10pt; color: #FFFFFF}
+
+/*
+.whitenormal         { font-family:Arial, Helvetica, sans-serif; font-size:10pt; font-weight:500; ; color: #FFFFFF}
+.whitebold         { font-family:Arial, Helvetica, sans-serif; font-size:10pt; font-weight:700; ; color: #FFFFFF }
+*/
+a.right:visited { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #FFFFFF; text-decoration: underline; font-size: 10pt}
+a.right:link         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #FFFFFF; text-decoration: underline; font-size: 10pt }
+a.right:hover         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #FFFFFF; text-decoration: underline; font-size: 10pt }
+
+a.rightblack:hover        { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt }
+a.rightblack:link         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt }
+a.rightblack:visited         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt}
+a.right_black:hover        { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt }
+a.right_black:link         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt }
+a.right_black:visited         { font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #000000; text-decoration: underline; font-size: 10pt }
+
+
+/* these may be used in GHTML-Objects */
+
+h1 { font-family:Arial,Helvetica, sans-serif; font-size:14pt; font-weight:700; }
+h2 { font-family:Arial,Helvetica, sans-serif; font-size:12pt; font-weight:700; }
+h3 { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight:700; }
+h4 { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight:500; font-style:italic; }
+h5 { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:700; }
+h6 { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:500; font-style:italic; }
+
+/* we'll need something for the news items here */
+.newsHigh { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: 700;   color: #D06800}
+.newsMain { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:700;    color: #000000}
+.newsText { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #000000}
+.newsDate { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #000000}
+.newsmore { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:700;    color: #D06800}
+.power { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #000000}
+
+
+/* we'll need something for the news items white here */
+.newsHighwhite { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: 700;   color: #D06800}
+.newsMainwhite { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:700;    color: #FFFFFF}
+.newsTextwhite { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+.newsDatewhite { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #FFFFFF}
+.newsmorewhite { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:700;    color: #FFFFFF}
+.powerwhite { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #FFFFFF}
+
+.newsHigh_white { font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: 700;   color: #D06800}
+.newsMain_white { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:700;    color: #FFFFFF}
+.newsText_white { font-family:Arial,Helvetica, sans-serif; font-size:9pt;  font-weight:normal; color: #FFFFFF}
+.newsDate_white { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #FFFFFF}
+.newsmore_white { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:700;    color: #FFFFFF}
+.power_white { font-family:Arial,Helvetica, sans-serif; font-size:8pt;  font-weight:normal; color: #FFFFFF}
+
+/* for SBS pages done by Simius. NOT TO BE USED IN .COM !! */
+
+.copy {  font-family: Helvetica, Arial, sans-serif; font-size: 10pt; color: #000000; line-height: 12pt}
+.link {  font-family: Helvetica, Arial, sans-serif; font-size: 10pt; color: #009999; text-decoration: none; line-height: 12pt}
+.table {  font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #009999; text-decoration: none;}
+
+
+/* from prototype; do we really need these?
+
+.contentMain { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000000 }
+.contentMainwhite { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #ffffff }
+.contentMaingrey { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #333333 }
+.contentMain b { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000 }
+.contentMain9px { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;}
+
+.header {  font-family: Arial, Helvetica, sans-serif; font-size: 13pt; font-weight: bold; color: #FFFFFF}
+.blockquote {  left: auto; width: auto; position: relative}
+.contentHeader { font-family: Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #000000 }
+.contentSubHeader { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #000000 }
+.contentLink:link { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: normal; color: #000000 ; text-decoration: underline}
+.contentLink:hover { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: underline}
+.contentLink:visited { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: underline}
+.contentLink:active { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #000000 ; text-decoration: underline}
+
+*/
+/* for Success Story */
+
+.successstoryHigh {font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: 700;  color: #ff6600}
+.successstoryMain {font-family:Arial,Helvetica, sans-serif; font-size:10pt; font-weight: 700;  color: #669999}
+.successstoryLink {font-family:Arial,Helvetica, sans-serif; font-size:8pt; font-weight: normal;  valign:top; color: #669999; text-decoration: none}
+
+/* for Products */
+
+.productQuery {font-family:Arial,Helvetica, sans-serif; font-size:12pt; font-weight: 700;  color: #ff9900}
+
+/* for ICN */
+
+.tab { font-family:Arial,Helvetica; font-size:9pt; font-weight:500; color: #000000; text-decoration:none; }
+.tallblack3 { font-family:Arial,Helvetica; font-size:9pt; font-weight:bold; text-decoration:none;  color:#000000 ; }
+.search { font-family:Arial,Helvetica;        font-size:9pt;        font-weight:bold; color:#FFFFFF ; text-decoration:none; }
+.footer { font-family:Arial,Helvetica; font-size:8pt; font-weight:500; text-decoration:none; color:#000000; }
+.smallred { font-family:Arial,Helvetica; font-size:9pt; font-weight:bold; text-decoration:none; color:#990000 ; }
+.tab2 {	font-family:Arial, Helvetica;font-size:12px;font-weight:  500;color: #000000;	width : 290px;}
+.tallred2 {	font-family:Arial,Helvetica;font-size:9pt;font-weight:bold;	text-decoration: none;color:#990000 ;}
+.tallblack {font-family:Arial,Helvetica;font-size:9pt;font-weight:bold;	text-decoration: none;color:#000000 ;}
+.tallred3 {	font-family:Arial,Helvetica;font-size:9pt;font-weight:500;text-decoration: none;color:#990000 ;}
+a.tallred3 { font-family:Arial,Helvetica; font-size:9pt; font-weight:500; text-decoration:underline ;  color:#990000 ; }
+
+/* for SBS Corporate headlines, done by RaySono */
+.head12  { font-family: Arial, Helvetica, sans-serif; font-size: 12pt;
+font-weight:700; color: #000000 ; }
+.head11  { font-family: Arial, Helvetica, sans-serif; font-size: 11pt;
+font-weight:700; color: #000000 ; }
+
+/* subheadlines, done by RaySono */
+/* mit fliesstext davor */
+        /* schwarz */
+.subheadb01   { font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+font-weight:700; color: #000000; margin-top: 16pt; margin-bottom:2pt; }
+        /* grau */
+.subheadg01   { font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+font-weight:700; color: #666666; margin-top: 16pt; margin-bottom:2pt; }
+
+/* mit headline davor */
+        /* schwarz */
+.subheadb02   { font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+font-weight:700; color: #000000; margin-top: 8pt; margin-bottom:2pt; }
+        /* grau */
+.subheadg02   { font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+font-weight:700; color: #666666; margin-top: 8pt; margin-bottom:2pt; }
+
+.normal { font-family:Arial,Helvetica, sans-serif; font-size:9pt;
+font-weight:500; }
+
+/* for SBS Deutschland: offerings, done by RaySono */
+a.small:link {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.small:visited {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.small:active {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #000000 ; text-decoration: none}
+a.smallbluelink:link {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #0000ff ; text-decoration: none}
+a.smallbluelink:visited {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #0000ff ; text-decoration: none}
+a.smallbluelink:active {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+font-weight: 500; color: #0000ff ; text-decoration: none}
+a.smallwhite:link {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: bold;  color: #ffffff ; text-decoration: none}
+a.smallwhite:visited {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: bold;  color: #ffffff ; text-decoration: none}
+a.smallwhite:active {font-family: Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: bold;  color: #ffffff ; text-decoration: none}
+
+
+/* for SBS corporate content, done by RaySono */
+        /* pic headline davor und mit fliesstext danach*/
+.pic01 { margin-top: 9pt; margin-bottom:9pt }
+        /* pic mit fliesstext davor aber ohne fliesstext danach*/
+.pic02 { margin-top: 11pt; margin-bottom:0pt }
+        /* pic mit fliesstext davor und danach*/
+.pic03 { margin-top: 11pt; margin-bottom:9pt }
+        /*spezial tables with pics*/
+
+
+/* fonts for hotnews application form */
+.hnews_head {font-size: 16px; font-family: arial,helvetica,sans-serif; color: #000000;font-weight: bold;}
+.hnews_error_head {font-size: 16px; font-family: arial,helvetica,sans-serif; color: #FF0000;font-weight: bold;}
+.hnews_text { font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: 500; color: #000000; line-height:13px; }
+.hnews_text_bold { font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: 700; color: #000000; line-height:13px; }
+.hnews_text_small {font-size: 12px; font-family: arial,helvetica,sans-serif; color: #000000;}
+
+.table01 { margin-top: 11pt; margin-bottom:2pt }
+
+/* for swiss */
+.specialconthead 
+{
+FONT-WEIGHT: bold;
+FONT-SIZE: 12px;
+COLOR: #000000;
+LINE-HEIGHT: 18px;
+FONT-FAMILY: Arial, Verdana, Helvetica, Geneva;
+TEXT-DECORATION: none
+}
+
+.conttext 
+{
+FONT-WEIGHT: normal;
+FONT-SIZE: 12px;
+COLOR: #000000;
+LINE-HEIGHT: 16px;
+FONT-FAMILY: Arial, Verdana, Helvetica, Geneva;
+TEXT-DECORATION: none
+}
+
+.subheadline
+{
+FONT-WEIGHT: bold;
+FONT-SIZE: 12px;
+COLOR: #666666;
+LINE-HEIGHT: 18px;
+FONT-FAMILY: Arial, Verdana, Helvetica, Geneva;
+TEXT-DECORATION: none
+}
+
+.chheadlines
+{
+FONT-WEIGHT: bold;
+FONT-SIZE: 12px;
+COLOR: #000000;
+LINE-HEIGHT: 18px;
+FONT-FAMILY: Arial, Verdana, Helvetica, Geneva;
+TEXT-DECORATION: none
+}
+
+/* for the unit Vertrieb Deutschland */
+.tallblack4  { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight:700; color: #000000 ; }
+a.rightblackbold:hover        { font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #000000; text-decoration: underline; font-size: 10pt }
+a.rightblackbold:link         { font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #000000; text-decoration: underline; font-size: 10pt }
+a.rightblackbold:visited      { font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #000000; text-decoration: underline; font-size: 10pt }
+
+/* INTRANET News */
+.intranetnewspicturetext{color:#222;font-size:11px;text-decoration:none;}
+.intranetnewsarticlesummary{color:#222;font-weight:bold;}
+.intranetnewstext{color:#222;margin-top:8}
+.intranetnewssubtitle{color:#222;font-weight:bold;}
+
+/* INTRANET Footer */
+.intranetfooterfont{color:#000;font-size:10px;font-family:arial,helvetica,geneva;} /* Schrift im Footer */
+.intranetfooterlines{background-color:#666;} /* Farbe der Linien im Footer */
+
+.intranetShowListFooter{color:#000}
+
+/* END old Stylesheet */
+
+/* *****************  BEGIN VI styles (format.css)*************************** */
+		a:LINK {font-style:normal; text-decoration:none; font-family:Arial,Verdana}
+		a:VISITED {font-style:normal; text-decoration:none; font-family:Arial,Verdana;}
+		.selectXXL {font-size:11px; color:#333333; font-family:Arial,Verdana;  width:278px;}
+		.selectS {font-size:11px; color:#333333; font-family:Arial,Verdana;  width:83px;}	
+		.selectM {font-size:11px; color:#333333; font-family:Arial,Verdana; width:97px;}		
+		.inputXL {font-size:11px; color:#333333; font-family:Arial,Verdana;  width:210px;}	
+		.inputXXL {font-size:11px; color:#333333; font-family:Arial,Verdana;  width:250px;}			
+		.input {font-size:11px; color:#333333; font-family:Arial,Verdana;  width:170px; height:20px;}
+		.inputblue {font-size:11px; color:#336699; font-family:Arial,Verdana;  width:170px; height:20px;}		
+		.textareaXXL {font-size:11px; color:#333333; font-family:Arial,Verdana; width:386px;}
+		.textareaXL {font-size:11px; color:#333333; font-family:Arial,Verdana; width:350px;}
+		
+		.txtnavi {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:12px;
+		}
+		.txtnaviwhite {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#ffffff;
+			font-family:Arial,Verdana; 
+			line-height:12px;
+		}	
+		.txtXS {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:9px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:14px;
+		}
+		.txt {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}
+		.txt12 {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:12px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}		
+		.txtprint {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#000000;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}		
+		.txtgreysearch {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#999999;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}		
+		.txtmap {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:12px;
+		}
+		.txtgreydark {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:10px; 
+			color:#666666;
+			font-family:Arial,Verdana;
+			line-height:18px;
+		}				
+		.txtgrey {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:10px; 
+			color:#999999; 
+			font-family:Arial,Verdana;
+			line-height:18px;
+		}
+		.txtprint2 {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:10px; 
+			color:#000000; 
+			font-family:Arial,Verdana;
+			line-height:18px;
+		}		
+		.txtgreylight {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px; 
+			color:#666666; 
+			font-family:Arial,Verdana;
+			line-height:16px;
+		}		
+		.txtwhite {
+			font-style:normal; 
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana;
+			line-height:16px;			
+		}
+		.txtgreylightXS {
+			font-style:normal; 
+			text-decoration:none; 
+			font-size:9px; 
+			color:#666666; 
+			font-family:Arial,Verdana;
+			line-height:12px;			
+		}		
+		.txtred {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#cc3301;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}
+		.txtredXS {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:9px;
+			color:#cc3301;
+			font-family:Arial,Verdana; 
+			line-height:12px;
+		}
+		.txtgreen {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:9px;
+			color:#006600;
+			font-family:Arial,Verdana; 
+			line-height:12px;
+		}		
+
+		.txtbold12 {
+			text-decoration:none; 
+			font-size:12px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+		.txtbold {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+		.txtboldprint {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#000000; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}		
+		.txtbold2 {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:15px;
+		}	
+		.txtboldred {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#cc3300; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:14px;
+		}					
+		.txtboldmap {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:14px;
+		}				
+		.txtboldwhite {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana; 
+			font-weight:bold;
+			line-height:18px;
+		}	
+		.txtboldwhite2 {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:15px;
+		}		
+
+		.contboxheadertxt {
+			text-decoration:none; 
+			font-size:11px; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:15px;
+		}		
+
+		.contboxtxt {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:14px;
+		}
+
+		.orangeBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#ff9900;  
+			padding:0px;  
+		}	
+		
+		.greyBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#666666;  
+			padding:4px;  
+		}		
+		
+		.blueBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#99cdff;  
+			padding:0px;  
+		}		
+		.redBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#cc3301;  
+			padding:0px;  
+		}		
+		.greenBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#669933;  
+			padding:0px;  
+		}		
+		.darkblueBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#336699;  
+			padding:0px;  
+		}
+		.darkgreyBorder { 
+			border-width:1px; 
+			border-style:solid;  
+			border-color:#999999;  
+			padding:0px;  
+		}		
+
+/* *****************  END VI styles ************************************** */
+
+/* FROM format.css (product-finder) */
+.content {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #313131; FONT-FAMILY: Arial,Helvetica,Sans-Serif
+}
+.textheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Arial,Verdana
+}
+.darkheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Arial,Verdana
+}
+.clusterheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #999999; LINE-HEIGHT: 16px; FONT-FAMILY: Arial,Verdana
+}
+TD.selectedCategory {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #cc3300
+}
+.pfsearchfield {
+    FONT-SIZE: 11px; WIDTH: 165px; FONT-FAMILY: Arial,Verdana; HEIGHT: 18px
+}
+
+
+
+/* REDEFINITIONS of old styles */
+
+p,ul,ol,li,td,th /* .txt */ {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}
+b /* .txtbold */ {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+.whitenormal /* .txtwhite */  {
+			font-style:normal; 
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana;
+			line-height:16px;			
+		}
+.whitebold   /* vi02: .txtboldwhite */  {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana; 
+			font-weight:bold;
+			line-height:18px;
+		}	
+
+/* generic classnames */
+
+A.primnav       /* .txtbold      */ {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+A.primnav-high  /* .txtboldwhite */ {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana; 
+			font-weight:bold;
+			line-height:18px;
+		}	
+A.primnav1      /* .txtbold      */ {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#333333; 
+			font-family:Arial,Verdana; 
+			font-weight:bold; 
+			line-height:18px;
+		}
+A.primnav1-high /* .txtboldwhite */ {
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana; 
+			font-weight:bold;
+			line-height:18px;
+		}	
+A.primnav2      /* .txt          */ {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px;
+			color:#333333;
+			font-family:Arial,Verdana; 
+			line-height:16px;
+		}
+A.primnav2-high /* .txtwhite     */ {
+			font-style:normal; 
+			text-decoration:none; 
+			font-size:11px; 
+			color:#ffffff; 
+			font-family:Arial,Verdana;
+			line-height:16px;			
+		}
+A.insensitive   /* .txtgreylight */ {
+			font-style:normal;
+			text-decoration:none; 
+			font-size:11px; 
+			color:#666666; 
+			font-family:Arial,Verdana;
+			line-height:16px;
+		}	
+primnavsections { /* lineheight of sections in primnav */
+      line-height: 18px
+    }
+/* FROM format.css */
+.content {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #313131; FONT-FAMILY: Arial,Helvetica,Sans-Serif
+}
+.textheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Arial,Verdana
+}
+.darkheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Arial,Verdana
+}
+.clusterheadline {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #999999; LINE-HEIGHT: 16px; FONT-FAMILY: Arial,Verdana
+}
+TD.selectedCategory {
+    FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #cc3300
+}
+.pfsearchfield {
+    FONT-SIZE: 11px; WIDTH: 165px; FONT-FAMILY: Arial,Verdana; HEIGHT: 18px
+}	
+
+/* for Release 4.5 */
+.tableFixedWidth { table-layout:fixed; }
+.tdBoxspacing { margin-top:2px; margin-bottom:2px; margin-left:5px; margin-right:5px; }
+.textareaspinningglobe {font-size:11px; color:#333333; font-family:Arial,Verdana; width:185px;}
+
+.txtbblue {
+font-style:normal;
+text-decoration:none;
+font-size:11px;
+color:#336699;
+font-family:Arial,Verdana;
+line-height:16px;
+}
+.txtblueunderline {
+font-style:normal;
+text-decoration:underline;
+font-size:11px;
+color:#336699;
+font-family:Arial,Verdana;
+line-height:16px;
+}
+
+.lightBlueBorder { 
+border-width:1px; 
+border-style:solid;  
+border-color:#99ccff; 
+padding:0px;  
+} 
+
+td.lightbluebackground { 
+FONT-WEIGHT: bold; 
+FONT-SIZE: 9pt; 
+COLOR: #ffffff; 
+FONT-FAMILY: Arial,Verdana; 
+BACKGROUND-COLOR: #99ccff 
+}                                       
+.lightBrownBorder { 
+border-width:1px; 
+border-style:solid;  
+border-color:#cc9900; 
+padding:0px;  
+} 
+
+td.lightbrownbackground { 
+FONT-WEIGHT: bold; 
+FONT-SIZE: 9pt; 
+COLOR: #ffffff; 
+FONT-FAMILY: Arial,Verdana; 
+BACKGROUND-COLOR: #cc9900 
+}                       
+
+
+/* Style for list_of_dropdown.jsp */
+DIV.dropdownlist FORM { margin:0px; }
+DIV.dropdownlist SELECT { width:100%; }
+
+/* Related Content Box */
+.rcbox_text {
+  color:black;
+}
+.rcBoxDefaultHead {
+  color:black;
+}
+.rcBoxDefaultHeadSep {
+}
+
+/* description box */
+.descriptionBoxHead   {font-family: Arial, Helvetica, sans-serif; font-size:14px;color:#000;font-weight:bold;}  /* Headline der Beschreibungsbox */ 
+.descriptionBoxIntro  {font-family: Arial, Helvetica, sans-serif; font-size:12px;color:#000}                    /* einfuehrender Introtext */ 
+.descriptionBoxLines  {font-family: Arial, Helvetica, sans-serif; background-color:#2F7FA1}                     /* Farben der Linien */ 
+
+
+
+/* Register Tabs */
+.regTab {
+	text-decoration:none; 
+	font-size:11px; 
+	color:#333333; 
+	font-family:Arial,Verdana; 
+	font-weight:bold; 
+	line-height:15px;
+        background-color:#ffffff;	
+}	
+.regTabSelected {
+	text-decoration:none; 
+	font-size:11px; 
+	color:#cc3300; 
+	font-family:Arial,Verdana; 
+	font-weight:bold; 
+	line-height:14px;
+        background-color:#ffffff;	
+}
+
+/* from snippets_pu04.css */
+DIV.snpImageLeft  { float:left;  margin:0px 8px 5px 0px; clear:all; }
+DIV.snpImageRight { float:right; margin:0px 0px 5px 8px; clear:all; }
+
+/* 4 Guided search */
+.separatorLineLight {
+	background-color:#999999;
+}
+.portletBackground {
+	background-color:#eeeeee;
+}
+.inputS { font-size:11px;
+	font-family:Arial,Verdana,sans-serif;
+}
+.txtparagraph {
+	font-family:Arial,Verdana,sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	text-decoration:none; 
+	color:#333333;
+}		

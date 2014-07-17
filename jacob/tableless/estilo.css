@@ -1,0 +1,96 @@
+body {
+	background:#ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ;
+}
+
+
+/* Os sinais de maiores */
+.sinalmaior {
+	font-size: xx-small; color: #999999;
+}
+
+/***************************************
+CABECALHO 
+***************************************/
+#cabecalho {
+	float:inherit;
+	width:100%;
+	background: #FFFF66 ;
+	border-bottom:1px solid #E6E6E6;
+}
+
+#inputscabecalho {
+	text-align:right;
+	padding:3px;
+}
+
+#textocabecalho {
+	font:80% Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+	float:left;
+	margin:7px 0px 0px 2px;
+}
+
+/***************************************
+GERAL
+***************************************/
+#geral {
+	background:#FFFFDD;
+}
+
+h2 {
+	margin:3px 0px 0px;
+	padding:0px;
+}
+
+
+/***************************************
+CONTEUDO DA ESQUERDA
+***************************************/
+#esq {
+	float:left;
+	width:48%;
+	padding:12px;
+}
+
+
+
+/***************************************
+CONTEUDO DA DIREITA 
+***************************************/
+#dir {
+	background:#CCF6F6;
+	background:#CCF6F6;
+	margin:0px 0px 0px 50%;
+	border:1px solid #CCF6F6;
+	padding:12px;
+}	
+
+#esq p, #dir p {
+	padding:2px 0px 0px;
+}
+
+#dir .lh{
+	font:bold 80% Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+}
+
+/***************************************
+RODAPE	
+***************************************/
+#rodape {
+	font:80%  Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ;
+}
+
+/***************************************
+TITULOS
+***************************************/
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ; 
+}
+
+h1 b {
+	color:#CC0000;
+}
+
+h4 {
+	margin:22px 0px 6px 0px;
+}

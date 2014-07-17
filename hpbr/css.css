@@ -1,0 +1,190 @@
+body {
+	background:white;
+	margin:0px;
+	padding:0px;
+}
+
+img {
+	border:0px;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+/*****************************
+Geral
+*****************************/
+#geral {
+	width:730px;	
+}
+
+/*****************************
+Esquerda
+*****************************/
+#esquerda {
+	margin:0px;
+	margin-right:-13px;
+	float:left;
+	width:178px;
+}
+
+html>body #esquerda {
+	margin-right:0px;
+}
+
+#logo {
+	padding:67px 58px 40px;
+}
+
+#caixadebusca {
+	background:#CCCCCC;
+	padding:10px 22px 21px 13px;
+	font:bold 80% Arial, Verdana, Helvetica, Sans-Serif;
+	color:black;
+}
+
+html>body #caixadebusca {
+	padding:19px 22px 21px 13px;
+}
+
+.busca {
+	width:121px;
+}
+
+/*****************************
+Direita
+*****************************/
+#direita {
+	margin:0px 0px 0px 176px;
+	width:547px;
+}
+
+/* Onde vai o Brasil */
+#topo {
+	padding-top:3px;
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	color:#666666;
+	height:24px;
+}
+
+#topo img {
+	margin:-3px 0px 0px;
+	vertical-align:bottom;
+	float:right;
+}
+
+#fotos img {
+	margin:0px 1px 1px 0px;
+}
+
+/*****************************
+As caxinhas de destaque
+*****************************/
+.destaque {
+	float:left;
+	font:80% Arial, Verdana, Helvetica, Sans-Serif;
+	color:black;
+}
+
+#direita .destaque {
+	width:135px;
+	float:left;
+	height:123px;
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	border-left:1px solid #CCCCCC;
+	margin:-4px 1px 0px 0px;
+}
+
+html>body #direita .destaque {
+	margin:0px;
+}
+
+#direita .destaque p {
+	margin:0px 5px 0px 9px
+}
+
+/* Listas */
+ul, li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	color:#003366;
+}
+
+.destaque ul {
+	padding:3px 0px 0px 11px;
+}
+
+.destaque a, li a {
+	text-decoration:none;
+	color:#003366;
+}
+
+.destaque a:hover, li a:hover {
+	text-decoration:underline;
+}
+
+.destaque img, #titdestaques img  {
+	border:1px solid #3399CC;
+	border-right:0px;
+}
+
+/*****************************
+Baixo
+*****************************/
+#baixo {
+	margin:-10px 0px 0px;
+	padding:3px 0px 0px;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #999999;
+	width:730px;
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+html>body #baixo {
+	margin:10px 0px 0px;
+}
+
+#pais, #empresa, #emdestaque  {
+	float:left;
+}
+
+#empresa a, #emdestaque a {
+
+}
+
+#pais {
+	width:225px;
+	padding:5px;
+}
+
+#empresa {
+	width:170px;
+}
+
+#emdestaque {
+	width:325px;
+}
+
+.linkesquerda, .linkesquerda2 {
+	float:left;
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	color:#003366;
+	margin:0px 107px 2px 0px;
+}
+
+.linkesquerda2 {
+	margin:7px 0px 0px;
+}
+
+/*****************************
+Rodape
+*****************************/
+#rodape {
+	text-align:center;
+	font:70%  Arial, Verdana, Helvetica, Sans-Serif;
+	color:#666666;
+	border-top:1px solid #CCCCCC;
+}

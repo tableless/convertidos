@@ -1,0 +1,166 @@
+body {
+	background:#FFCC00;
+	text-align:center;
+	margin:18px 0px 39px 0px ;
+}
+
+img {
+	border:0px;
+}
+
+form {
+	margin:0px;
+}
+
+select {
+	font:60% Verdana, Arial, Helvetica, Sans-Serif;
+	width:112px;
+}
+
+.selectcolunas {
+	margin:8px 0px 0px 0px;
+}
+
+#seuemail, #colunas, #escolha, .dezmin {
+	margin:8px 0px;
+}
+
+/*********************************************
+GERAL e GERAL2
+*********************************************/
+#geral {
+	text-align:left;
+	width:735px;
+	margin:0px auto 0px auto;
+}
+
+/*********************************************
+Cabecalho
+*********************************************/
+#cabecalho {
+	margin:0px 0px 0px 0px ;
+}
+
+.logo {	
+	margin:0px 9px 0px 0px;
+}
+
+/*********************************************
+Menu da Esquerda
+*********************************************/
+/* Caixa para Receber informações pelo email */ 
+#seuemail {
+	background:black;
+}
+
+#seuemail a, #seuemail a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+#seuemail a:hover, #seuemail a:active {
+	text-decoration:underline;
+}
+
+.inputemail {
+	width:76px;
+	font:120% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+/* Caixa de busca */
+#busca {
+	background: url("imagens/busca1.gif") no-repeat black;
+	border:1px solid black;
+}
+
+.inputbusca {
+	width:66px;
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	margin:0px 7px 0px 30px ;
+}
+
+/* Caixa de colunas */
+.branca {
+	background:white;
+	border:1px solid black;
+	text-align:center;
+	padding:8px 0px;
+}
+
+/* Outros Temas */
+.escolhainput {
+	width:88px;
+}
+
+#escolha2 {
+	border-top:18px solid black;
+}
+
+/* Apoios */
+#logos {
+	font:60% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+/*********************************************
+Textos que ficam no meio da página
+*********************************************/
+#meio {
+	margin:17px 0px 0px 140px;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	background:#FF9900;
+}
+
+.titulotexto {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background:white;
+}
+
+.texto {
+	padding:9px;
+}
+
+#chamadas {
+	background:white;
+	width:450px;
+	float:left;
+}
+
+#chamadadir {
+	background:white;
+	float:right;
+	border-left:1px solid black;
+	width:220px;
+}
+
+#chamadaesq {
+	background:white;
+	margin:0px 220px 0px 0px;
+}
+
+/*********************************************
+Coluna da Direita
+*********************************************/
+/* Onde tem as fotos dos colunistas */
+#ladodireito {
+	float:right;
+	background:#FF9900;
+	border-top:0px;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+.direito {
+	margin:0px 4px 17px;
+	text-align:center;
+}
+
+.direito b {
+	font:bold 120%  Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+.direito a:hover, .direito a:active, .texto a:hover, .texto a:active {
+	text-decoration:underline;
+}

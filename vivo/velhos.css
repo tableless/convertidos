@@ -1,0 +1,19 @@
+body {
+	background:white;
+}
+
+/* Classes do Topo */
+#logo {
+	float:left;
+}
+
+#texteira {
+	padding-top:30px;
+	padding-bottom:9px;
+	border-bottom:6px solid #C6DB00;
+}
+
+/* Menu */
+#menu {
+		margin:1px 0px 0px 0px;
+}

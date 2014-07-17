@@ -1,0 +1,51 @@
+/* ###########################################################################
+
+# SUN ADVANCED.CSS v1.5.5 -- SOLUTIONS EDITION #
+
+COPYRIGHT SUN MICROSYSTEMS INC.
+
+FONT SIZES, AND MANY OTHER THINGS IN THIS CSS ARE DEFINED IN A VERY COMPLEX
+WAY. IF YOU WISH TO ADD TO OR EDIT THIS CSS CONTACT webdesign@sun.com FIRST!
+
+########################################################################### */
+
+/* FONT TAG OVERWRITE */
+font {font-size:12px !important}
+
+/* ALL OTHER FONT SIZES */
+.smaller,.smaller a,small,.small,small span,.small span,.small a,small a,div.sitelinks,div.sitelinks a,.breadcrumb,div.footlinks,div.footlinks a{font-size:11px !important}
+body,th,td,p,div,span,a,ul,ol,dl,li,select,input,textarea,code,kbd,tt,pre,code a,kbd a,tt a,pre a,code span,kbd span,tt span,pre span{font-size:12px !important}
+h5,h5 a,h6,h6 a,h5 span,h6 span,big,.big,big span,.big span,.big a,big a{font-size:14px !important}
+td.sectiontitle2,td.sectiontitle2 a,td.sectiontitle2 div,.xbig,.xbig span,.xbig a{font-size:15px !important}
+h4,h4 span,h4 a,td.sectiontitle1,td.sectiontitle1 a,td.sectiontitle1 div,div.pagetitle2,.xxlarge{font-size:16px !important}
+h1,h2,h3,h1 span,h2 span,h3 span,h1 a,h2 a,h3 a,.xxbig,.xxbig span,.xxbig a{font-size:17px !important}
+div.pagetitle,div.pagetitle code,span.pagetitleblue,div.pagetitlenopad{font-size:21px !important}
+div.smallpagetitle{font-size:20px !important}
+div.pagetitlebig{font-size:36px !important}
+
+/* FORMS */
+input.buttonblue,input.buttonred{cursor:hand;font-family:lucida,arial,sans-serif;color:#FFF;height:1.4em;font-weight:bold;font-size:11px;padding:0px;margin:0px;border:0px none #000}
+input.buttonblue{background:#594FBF}
+input.buttonred{background:#D12124}
+input.error, select.error, textarea.error{border:2px solid;background:#FEE;border-top-color:#C00;border-left-color:#C00;border-right-color:#F00;border-bottom-color:#F00}
+input.medium{width:120px}
+input.mediumlarge,select.rightmodule{width:130px}
+input.large{width:200px}
+
+/* HRS */
+hr.light{background:#E3E3E3;color:#E3E3E3;height:4px;padding:0px;border:0px}
+hr{background:#333;color:#333;height:2px;padding:0px;border:0px}
+
+/* SOLUTIONS SPECIFIC STYLES */
+/* v1.0 */
+
+/* ALL OTHER FONT SIZES */
+.authorName,.captionText{font-size:11px !important}
+.SolutionSidebars TD, .SolutionSidebars P{font-size:12px !important}
+.SolutionsDek{font-size:14px !important}
+a.SolutionsDocumentLink{font-size:15px !important}
+a.SolutionsFeatureLink,.SolutionsFeatureLink{font-size:17px !important}
+.SolutionsHed{font-size:18px !important}
+
+/* FORM ELEMENTS */
+SELECT.faceted{width:250px;font-size:11px !important}

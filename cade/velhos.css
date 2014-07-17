@@ -1,0 +1,80 @@
+body {
+	background:white;
+	text-align:center;
+}
+
+img {
+	border:0px;
+
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+/*****************************
+Menu
+*****************************/
+#menu {
+	width:430px;
+	margin:17px auto 0px;
+	padding:;
+	font:75% Arial, Verdana, Tahoma, Helvetica, Sans-Serif;
+	position:relative;
+}
+
+ul, li {
+	margin:0px 6px 0px 0px;
+	padding:0px;
+	list-style-type:none;
+	text-align:center;
+}
+
+li {
+	float:left;
+	padding:1px 6px 3px;
+	font-weight:bold;
+}
+
+.selec {
+	background:#EEEEEE;
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-weight:bold;
+}
+
+/*****************************
+Busca
+*****************************/
+#busca {
+	z-index:0;
+	width:438px;
+	background:#EEEEEE;
+	border:1px solid #999999;
+	margin:0px auto;
+	text-align:left;
+	padding:5px;
+	margin:-1px auto 0px;
+	font:60% Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+#busca input {
+	width:301px;
+	margin:0px 11px 0px 0px;
+	vertical-align:middle;
+}
+
+.buscar {
+	margin:13px 0px 17px;
+}
+
+.buscaropc {
+	text-align:left;
+	width:270px;
+	padding:0px 0px 0px 80px;
+	margin:0px auto;
+	font:70% Verdana, Arial, Helvetica, Sans-Serif;
+	background:pink;
+}

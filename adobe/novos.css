@@ -1,0 +1,118 @@
+img {
+	border:0px;
+	vertical-align:middle;
+}
+
+hr {
+	display:none;
+}
+
+form {
+	margin:0px;
+}
+
+/**********************************
+Cabecalho
+**********************************/
+#cabecalho {
+	background:black;
+	height:85px;
+}
+
+#logo {
+	float:left;
+}
+
+#navbar {
+	margin:0px 267px 0px 0px;
+	text-align:right;
+}
+
+#menunav {
+	margin:0px 0px 7px 0px;
+}
+
+/**********************************
+Links
+**********************************/
+#links {
+	width:750px;
+}
+
+.caixalinksprimeira {
+	width:189px;
+}
+
+#tituloslinks {
+	background:#CE0000;
+}
+
+#links a, #links a:visited {
+	color:#9C9A9C;
+	text-decoration:none;
+}
+
+#links a:hover, #links a:active {
+	color:black;
+	text-decoration:underline;
+}
+
+/**********************************
+Direita
+**********************************/
+#direita {
+	margin:0px 0px 0px 260px ;
+}
+
+#primeiralista {
+	background:url("imagens/pontos.gif") no-repeat bottom center;
+	padding:0px 0px 15px 0px ;
+	margin:0px 0px 15px 0px;
+}
+
+
+
+.listas div a, .listas div a:visited {
+	color:#CE0000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.listas div a:hover, listas div a:active {
+	color:black;
+	text-decoration:underline;
+}
+
+/**********************************
+Menu rodapé
+**********************************/
+#menurodape {
+	font:bold 65% Verdana,Arial,sans-serif;
+	margin:0px 0px 0px 20px;
+}
+
+#menurodape a:hover, #menurodape a:active {
+	color: black;
+	text-decoration:underline;
+}
+
+#menurodape div{
+	float:left;
+}
+
+/**********************************
+Rodapé
+**********************************/
+#rodape a:hover, #rodape a:active {
+	color:black;
+	font:Verdana, Arial,sans-serif;
+	text-decoration:underline;
+}
+
+#rodape .linksrodault {
+	float:left;
+}
+
+#rodape .linksroda {
+	float:left;
+}

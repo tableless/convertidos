@@ -1,0 +1,276 @@
+BODY {
+	BACKGROUND: #ffffff; MARGIN: 0px
+}
+BODY {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+DIV {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+TD {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+INPUT {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+SELECT {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+TEXTAREA {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica
+}
+INPUT {
+	
+}
+SELECT {
+	
+}
+TEXTAREA {
+	
+}
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f5f7f6
+}
+.checkRadio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+SELECT {
+	COLOR: #666666; BACKGROUND-COLOR: #f5f7f6
+}
+TEXTAREA {
+	BACKGROUND-COLOR: #f5f7f6
+}
+.DF-alert {
+	BACKGROUND-COLOR: #f5f7f6
+}
+.font-preto {
+	COLOR: #000000
+}
+.font-cinza-1 {
+	COLOR: #333333
+}
+.font-cinza-2 {
+	COLOR: #666666
+}
+.font-cinza-3 {
+	COLOR: #999999
+}
+.font-cinza-4 {
+	COLOR: #cccccc
+}
+.font-branco {
+	COLOR: #ffffff
+}
+.font-0 {
+	FONT-SIZE: 9px
+}
+.font-1 {
+	FONT-SIZE: 10px
+}
+.font-2 {
+	FONT-SIZE: 13px
+}
+.font-3 {
+	FONT-SIZE: 16px
+}
+.font-4 {
+	FONT-SIZE: 18px
+}
+.font-5 {
+	FONT-SIZE: 24px
+}
+.font-6 {
+	FONT-SIZE: 32px
+}
+.font-7 {
+	FONT-SIZE: 48px
+}
+.line-height-0 {
+	LINE-HEIGHT: 9px
+}
+.line-height-1 {
+	LINE-HEIGHT: 10px
+}
+.line-height-2 {
+	LINE-HEIGHT: 13px
+}
+.line-height-3 {
+	LINE-HEIGHT: 16px
+}
+.line-height-4 {
+	LINE-HEIGHT: 18px
+}
+.line-height-5 {
+	LINE-HEIGHT: 24px
+}
+.line-height-6 {
+	LINE-HEIGHT: 32px
+}
+.line-height-7 {
+	LINE-HEIGHT: 48px
+}
+.bg-none {
+	BACKGROUND-IMAGE: none
+}
+.bg-preto {
+	BACKGROUND-COLOR: #000000
+}
+.bg-cinza-1 {
+	BACKGROUND-COLOR: #333333
+}
+.bg-cinza-2 {
+	BACKGROUND-COLOR: #666666
+}
+.bg-cinza-3 {
+	BACKGROUND-COLOR: #999999
+}
+.bg-cinza-4 {
+	BACKGROUND-COLOR: #cccccc
+}
+.bg-cinza-5 {
+	BACKGROUND-COLOR: #eceeeb
+}
+.bg-cinza-6 {
+	BACKGROUND-COLOR: #f5f7f6
+}
+.bg-gelo {
+	BACKGROUND-COLOR: #f5f7f6
+}
+.bg-branco {
+	BACKGROUND-COLOR: #ffffff
+}
+.bg-cab2 {
+	BACKGROUND-COLOR: #eff1f0
+}
+.bg-rodape-1 {
+	BACKGROUND-COLOR: #e4e5e4
+}
+.bg-rodape-2 {
+	BACKGROUND-COLOR: #f3f5f4
+}
+.bg-cabecalho {
+	BACKGROUND-COLOR: #dfe3e0
+}
+.pontilhado-simples {
+	BACKGROUND-IMAGE: url(/img/pontilhado_simples.gif); BACKGROUND-REPEAT: repeat-x
+}
+.pontilhado-simples2 {
+	BACKGROUND-IMAGE: url(/img/pontilhado_simples.gif); BACKGROUND-REPEAT: repeat-y
+}
+.pontilhado-duplo {
+	BACKGROUND-IMAGE: url(/img/pontilhado_duplo.gif); BACKGROUND-REPEAT: repeat-x
+}
+.bt-bg {
+	BACKGROUND-IMAGE: url(/img/bt_bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+A:link {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+A.link-preto:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.link-preto:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.link-preto:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.link-preto:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.link-branco:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link-branco:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link-branco:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link-branco:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.border-branco {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}
+.border-preto {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.border-color-branco {
+	BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; BORDER-RIGHT-COLOR: #ffffff
+}
+.border-color-preto {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #444444; LINE-HEIGHT: 25px
+}
+.subtit {
+	FONT-SIZE: 11px; COLOR: #666666; LINE-HEIGHT: 20px
+}
+.txt {
+	COLOR: #666666; LINE-HEIGHT: 16px
+}
+.bug-font {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: verdana,arial,helvetica
+}
+.txt-letras {
+	COLOR: #7c807c; LINE-HEIGHT: 20px
+}
+.txt-letras:link {
+	COLOR: #7c807c; LINE-HEIGHT: 20px
+}
+.txt-letras:visited {
+	COLOR: #7c807c; LINE-HEIGHT: 20px
+}
+.txt-letras:active {
+	COLOR: #7c807c; LINE-HEIGHT: 20px
+}
+.txt-letras:hover {
+	COLOR: #7c807c; LINE-HEIGHT: 20px
+}
+.chamada {
+	FONT-SIZE: 11px; COLOR: #c1c1c1
+}
+.legenda {
+	FONT-SIZE: 9px; COLOR: #9a9a9a
+}
+.bt {
+	COLOR: #7c807c; TEXT-DECORATION: none
+}
+.bt:link {
+	COLOR: #7c807c; TEXT-DECORATION: none
+}
+.bt:visited {
+	COLOR: #7c807c; TEXT-DECORATION: none
+}
+.bt:active {
+	COLOR: #7c807c; TEXT-DECORATION: none
+}
+.bt:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.form-txt {
+	COLOR: #333333
+}
+.navegacao {
+	FONT-SIZE: 9px; COLOR: #666666
+}
+.tit-boutique {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #c4a158; LINE-HEIGHT: 25px
+}
+.subtit-boutique {
+	FONT-SIZE: 11px; COLOR: #c4a158; LINE-HEIGHT: 20px
+}
+.txt-boutique {
+	COLOR: #c4a158; LINE-HEIGHT: 16px
+}

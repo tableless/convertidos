@@ -1,0 +1,227 @@
+/* Padronizando tudo pra começar! */
+* {
+	font-family:arial, helvetica, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	color:#333;
+	border:0;
+	list-style:none;
+}
+
+/* Criando margem na página... */
+body {
+	padding-top:11px;
+	padding-left:10px;
+}
+
+/* Tamanho da página */
+#geral {
+	width:770px;
+}
+
+/* Propriedades Gerais */
+a {
+	color:#594FBf;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/* Propriedades do topinho... */
+#topinho {
+	font-size:11px;
+}
+
+#topinho h6 {
+	float:left;
+}
+
+#topinho #topodir {
+	width:460px;
+	float:right;
+}
+
+#topinho ul {
+	float:left;
+}
+
+#topinho form {
+	float:right;
+}
+
+#topinho input#textobusca {
+	border:solid 1px #ccc;
+}
+
+#topinho input#enviobusca {
+	background-color:#acacac;
+	color:#FFF;
+	font-weight:bold;
+}
+
+/* Propriedades das listas do topinho e do rodapé */
+
+#topinho ul li, #rodape ul li {
+	display:inline;
+	border-right:1px solid black;
+	padding-left:2px;
+	padding-right:4px !important;
+	padding-right:2px;
+}
+
+#topinho ul li.u, #rodape ul li.u {
+	border:0;
+}
+
+/* Logo e Slogan */
+
+#junto {
+	clear:both;
+}
+
+#logo {
+	float:left;
+	background-color:#594fbf;
+	width:170px;
+	height:87px;
+}
+
+#logo h1 {
+	background:url("logo.gif") no-repeat;
+	width:170px;
+	height:54px;
+}
+
+#slogan {
+	float:right;
+	width:590px;
+	background-color:#fbe249;
+	height:87px;
+}
+
+#slogan h2 {
+	background:url("slogan.gif") no-repeat;
+	width:344px;
+	height:57px;
+}
+
+#logo h1 span, #slogan h2 span {
+	display:none;
+}
+
+/* Menu */
+#menu {
+	margin-top:10px;
+	float:left;
+	clear:left;
+	width:170px;
+	font-size:12px;
+}
+
+#menu h3 {
+	font-weight:bold;
+	border-top:5px solid #ccc;
+	padding-top:3px;
+	padding-bottom:2px;
+	border-bottom:1px solid #ccc;
+}
+
+#menu ul {
+	margin-bottom:3px;
+}
+
+#menu ul li {
+	border-top:1px solid #ccc;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+/* Meio */
+#meio {
+	width:590px;
+	float:right;
+	clear:right;
+	font-size:12px;
+}
+
+/* Parte da imagem de destaque */
+#destaque img {
+	border-bottom:5px solid #ccc;
+	margin-bottom:9px;
+}
+
+/* Parte Esquerda (das notícias) */
+#esq {
+	width:286px;
+	float:left;
+	height:170px;
+	position:relative;
+}
+
+#esq ul li {
+	padding-bottom:6px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:5px;
+}
+
+#esq ul li a {
+	font-weight:bold;
+}
+
+#esq ul li.u {
+	padding-bottom:0;
+	margin-bottom:0;
+	border-bottom:0;
+}
+
+/* Parte direita (dos botões) */
+#dir {
+	float:right;
+	width:296px;
+	height:170px;
+	position:relative;
+}
+
+#dir ul li {
+	display:inline;
+	margin:2px;
+}
+
+.seeall {
+	position:absolute;
+	bottom:0;
+}
+
+/* Parte de Baixo */
+#baixo {
+	clear:both;
+}
+
+#powered {
+	width:170px;
+	float:left;
+}
+
+#rodape {
+	font-size:11px;
+	float:right;
+	width:590px;
+}
+
+#rodape ul {
+	float:left;
+}
+
+#rodape h6 {
+	float:right;
+}
+
+#powered, #rodape {
+	border-top:3px solid #ccc;
+	padding-top:8px;
+	margin-top:5px;
+}

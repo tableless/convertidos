@@ -1,0 +1,26 @@
+/* BEGIN webdir Stylesheet */
+
+.webdir {
+  margin-left:9px; 
+  margin-right:9px; 
+  margin-top:0px; 
+  margin-bottom:9px; 
+  padding:1px; 
+  border-left-width:1px; 
+  border-right-width:1px; 
+  border-top-width:0px; 
+  border-bottom-width:1px; 
+  border-style:solid; 
+  border-color:#666666;
+  }
+
+TD.webDirQueryDesc {
+  margin-left:8px; 
+  width: 100%;
+  }
+  
+SELECT.webDirQuery {
+  overflow: hidden; 
+  width: 100%;
+  margin-right:8px; 
+  }

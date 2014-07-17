@@ -1,0 +1,25 @@
+Dados estastísticos:
+----------------------------
+
+Dell ORIGINAL:
+
+HTML - 17,9kb
+CSS - 4kb
+Imagens - 36,6kb
+total = 58,5kb
+Conexão em 56.600kbps = 16 seg.
+---------------------------
+
+Dell Tableless
+
+HTML - 10,2kb
+CSS - 6,09kb
+Imagens - 35,8kb
+total = 52,09kb
+Conexão em 56.600kbps = 4 seg.
+
+Validado em XHTML 1.0 Transitional, Bobby AAA e DaSilva AAA em acessibilidade.
+
+Nome: Maudy Tadeu Pedrão
+Site: http://www.jedimania.com.br
+e-mail: mpedrao@gmail.com

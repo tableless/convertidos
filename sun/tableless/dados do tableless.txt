@@ -1,0 +1,8 @@
+					Tableless			Original
+Tamanho do HTML				2 Kb				4 Kb 
+Tamanho total HTML+CSS+IMAGENS		11,5 kb				12,3 Kb 
+Em ADSL 256				0,7 S.				1,0 S. 
+Válido pelo W3C?			SIM XHTML 1.0 Transitional	NÃO HTML 4.0 Transitional
+				  
+Denis Ferreira Iongbloed
+denis.iongbloed@gmail.com

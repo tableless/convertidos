@@ -1,0 +1,66 @@
+body, h1, h2, h3, h4, h5, h6, p, form, ol, ul, dd, dl, dt {
+	margin:0px;
+	padding:0px;
+}
+img {border:0px;}
+fieldset {
+ margin:0px; padding:0px; border:0px solid;
+}
+body {
+	text-align:center;
+}
+input {vertical-align:middle;}
+form {
+	margin-bottom:5px;
+}
+/* MENU */
+#menu {
+	font-size:1px;
+	background:url(imagens/1bg00000.gif) repeat-X;
+}
+
+/** Hack para ao Opera 7 - Estranho neh? **/
+@media all and (min-width: 0px){
+	#menu div {
+		margin-top:-1px;
+	}
+}
+
+/** Destaque com o lindo imac g5 **/
+#destaque {
+	font-size:1px;
+	margin:13px 0px 23px;
+}
+
+#destaque img {
+	margin-top:-1px;
+}
+
+/** Aquela tira de noticias **/
+a.gif {
+	display:block;
+	width:680px;
+	margin:0px auto -1px;
+	font-size:1px;
+}
+
+#chamadas {
+	width:680px;
+	margin:0px auto;
+}
+
+#chamadas img {
+	display:inline;
+}
+
+/** Rodape, informações adicionais, busca **/
+#rodape {
+	border-top:1px solid #A1A5A9;
+	width:670px;
+	margin:8px auto;
+	font:10px 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, 'sans-serif';
+}
+
+#rodape select.world {
+	margin:5px 0px 20px;
+}

@@ -1,0 +1,170 @@
+/* 
+CDC Default Home Framework Styles 
+Default - Internet Explorer 5+
+*/
+
+/* Page Template Content Table Defaults */
+.tdContentLColumn {
+width: 271px;
+border-left: 1px solid #669999;
+border-right: 1px solid #669999;
+}
+.tdContentRColumn {
+width: 190px; 
+/* border-right: 1px solid #669999; */
+}
+
+/* Header Module */
+#Logo {
+margin: 0 16px;
+}
+.SecondaryNavPosition {
+margin-bottom: 32px;
+}
+
+.SecondaryNavPosition .secondarynav {
+font-family:Verdana,sans-serif;
+font-size:9px;
+color:#666666;
+text-decoration:none;
+font-weight:normal;
+}
+.SecondaryNavPosition .secondarynavlogin {
+font-family:Verdana,sans-serif;
+font-size:9px;
+color:#CC0000;
+text-decoration:none;
+font-weight:bold;
+}
+.SecondaryNavPosition .secondarynavinactive {
+font-family:Verdana,sans-serif;
+font-size:9px;
+color:#cccccc;
+text-decoration:none;
+font-weight:bold;
+}
+.SecondaryNavPosition .secondarynavbold {
+font-family:Verdana,sans-serif;
+font-size:9px;
+color:#666666;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Search Module */
+.DefaultHomeSearch {
+background-color: #669999;
+width: 177px;
+margin: 0 0 2px 0;
+padding: 0 0 10px 0;
+}
+.DefaultHomeSearch .inputtext {
+font-family:Courier,monospace;
+font-size:12px;color:#000000;
+text-decoration:none;
+font-weight:normal;
+padding: 0;
+margin: 0;
+}
+.DefaultHomeSearch .contentheaderrev {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#ffffff;
+text-decoration:none;
+font-weight:bold;
+}
+.DefaultHomeSearchLabel {
+margin: -2px 0 1px 8px;
+}
+.DefaultHomeSearchEntry {
+margin: 0px 0 0px 8px;
+}
+.DefaultHomeSearchEntry .inputtext {
+width: 132px;
+}
+.DefaultHomeSearchDropDown {
+margin: 0 0 0 8px;
+}
+.DefaultHomeSearchDropDown .secondarynav {
+width: 132px;
+font-size: 11px;
+}
+.GoButton {
+margin: -2px 0 0 4px;
+}
+
+/* Login Module */
+.DefaultHomeLogin {
+background-color: #669999;
+width: 177px;
+padding: 0;
+margin: 0 0 2px 0;
+}
+
+.DefaultHomeMarginModuleHeader {
+background-color: #669999;
+padding: 2px 0 0 0;
+width: 177px;
+height: 18px;
+}
+.DefaultHomeMarginModuleHeader .HeaderLink {
+font-family:Verdana,sans-serif;
+font-size:11px;
+color:#ffffff;
+text-decoration:none;
+font-weight:bold;
+display: block;
+margin: 0 0 0 9px;
+padding: 0;
+vertical-align: bottom;
+}
+
+.DefaultHomeMarginModule {
+background-color: #cccccc;
+width: 177px;
+padding: 8px 0 12px 0;
+}
+.ModuleItem {
+position: relative;
+margin: 0;
+line-height: 12px;
+padding: 0 0 0 18px;
+background-image:url(def_home.gif);
+background-position: 10px 5px;
+background-repeat:no-repeat;
+}
+.DefaultHomeMarginModule .ModuleLink {
+font-family:Verdana,sans-serif;
+font-size:9px;color:#336666;
+text-decoration:underline;
+font-weight:bold;
+}
+.DefaultHomeMarginModule .ModuleContent {
+font-family:Verdana,sans-serif;
+font-size:9px;
+color:#333333;
+text-decoration:none;
+font-weight:normal;
+}
+
+/* Footer Module */
+.FooterGutter {
+height: 20px;
+}
+.DefaultRootHome {
+margin: 3px 0 0 16px;
+}
+.DefaultRootHome .footertext {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:9px;
+color:#999999;
+text-decoration:none;
+font-weight:normal;
+}
+.DefaultRootHome .footerlink {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:9px;
+color:#999999;
+text-decoration:underline;
+font-weight:normal;
+}

@@ -1,0 +1,136 @@
+h5 {
+	font:bold 135% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#333333;
+}
+
+/*********************************************
+Cabecalho
+*********************************************/
+#cabecalho {
+	font:normal 75% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#666666;
+	width:704px;
+}
+
+#cabecalho span {
+	float:right;
+}
+
+/*********************************************
+Divs do lado esquerda
+*********************************************/
+#q1 {
+	background:#99CCFF;
+	border:1px solid black;
+	padding:14px 14px 27px 14px;
+	margin:0px 0px 6px 0px;
+}
+
+#q1 select {
+	font:70% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif; 
+	background:#FFFFCC;
+	margin:-2px 0px 0px -1px;
+}
+
+#q1 a, #q1 a:visited, #q2 a, #q2 a:visited {
+	font:90% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#336699;
+}
+
+#q2 a .selec, #q2 a:visited .selec {
+	color:black;
+	text-decoration:none;
+}
+
+#q2 {
+	background:#E5F2FE;
+	border:1px solid #999999;
+	padding:14px 14px 13px 14px;
+	margin:0px 0px 6px 0px;
+}
+
+#q3 {
+	background:white;
+	border:1px solid #C6C3C3;
+	padding:14px 14px 27px 14px;
+	margin:0px 0px 6px 0px;
+	font:75% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#333333;
+	line-height:20px;
+}
+
+#q3 a, #q3 a:visited {
+	color:#336699;
+}
+
+#q3 #banner {
+	margin:16px 0px 24px 47px;
+}
+
+/*********************************************
+Divs do lado Direito
+*********************************************/
+#direita #contdireita {
+	margin:-20px 0px 0px 13px;
+}
+
+#direita i {
+	color:#666666;
+}
+
+#direita p {
+	font:85% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#333333;
+	line-height:24px;
+}
+
+#direita p a, #direita p a:visited, .opc a, .opc a:visited {
+	color:#FF6600;
+}
+
+.opc {
+	font:75% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#333333;
+	line-height:20px;
+}
+
+.opc img {
+	float:left;
+}
+
+#titg2 {
+	margin:20px 0px 0px 0px;
+}
+
+/*********************************************
+Rodape
+*********************************************/
+#rodape {
+	width:704px;
+	color:#999999;
+	font:75% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+#rodape a, #rodape a:visited {
+	color:#336699;
+}
+
+.linha {
+	margin:0px 0px 0px 0px;
+	font:1% verdana;
+	border:1px solid #DEDEDE;
+	height:5px;
+}
+
+html>body .linha {
+	height:3px;
+}
+
+#top {
+	float:right;
+	margin:0px -3px 0px 0px;
+}
+
+html>body #top {
+	margin:0px 0px 0px 0px;
+}

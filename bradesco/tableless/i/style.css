@@ -1,0 +1,510 @@
+* {
+	font-family:Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+html,body { margin:0px; padding:0px; height:100%; }
+img { display:block; border:0px; }
+body {
+	background: url(bg.png);   
+}
+#c p {
+	margin:8px 0 2px 0;
+}
+ul {
+	padding:0px;
+	margin:0px;	
+}
+a:hover {
+	text-decoration: underline !important;
+}
+
+
+/*		Headers
+********************************************************************************/
+
+h1 {
+	margin:13px 0 0 20px;
+	margin-left:expression("10px");
+	width: 176px;
+	height: 66px;
+	float: left;
+	background: url(logobradesco.png);
+}
+h1 a {
+	color: #DF1A20;
+	font-size: 0px;
+}
+#lc h4 {
+	color: #ED1A3B;
+	font-size: 10px;
+	margin:112px 0 0 18px;
+}
+h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a {
+	color: #ED1A3B;
+}
+
+/*******************************************************************************
+							#CH - Content Holder
+********************************************************************************/
+
+#ch {
+	width: 773px;
+	margin:0;
+	padding:0px; 
+}
+
+/*******************************************************************************
+							#LC - Left Content
+********************************************************************************/
+
+#lc {
+	width: 219px;
+	float: left;
+	clear: none;
+	background: url(bg_diaenoite.png) bottom no-repeat;
+}
+#lc #logoImg {
+	margin:13px 0 0 20px;
+	width: 176px;
+	height: 66px;
+}
+#lc #dateDiv {
+	height: 39px;
+	background: url(bg-datediv.png) right;
+	margin-top:24px;
+}
+#lc #dateDiv p {
+	margin: 0px;
+	font-size:9px;
+	text-align: right;
+	margin-right:10px;
+}
+#lc #dateDiv p.firstp {
+	padding-top:7px; /* FF */	
+}
+
+/*		FLASH TV
+*******************************************************************************************/
+
+#lc #tvObj {
+	margin:5px 0 0 -2px; /* humpf :) */
+}
+#lc #tvObj param,#lc #tvObj * {
+	margin: 0px;
+}
+
+
+/*		ITENS UL MENU
+*******************************************************************************************/
+
+#lc #lcItensUl {
+	list-style-type: none;
+	margin:13px 42px 0 13px;
+	margin-top:expression("15px");	
+}
+#lc #lcItensUl li {
+	border-bottom: 1px dashed #999999;
+	padding: 0 0 5px 0;
+}
+#lc #lcItensUl li a {
+	color: #666666;
+	text-decoration: none;
+	margin:0 0 0 5px;
+	font-size:10px;
+}
+#lc #lcItensUl li.langLi {
+	padding-top:2px;
+	padding-bottom:3px;
+}
+#lc #lcItensUl li.langLi a {
+	font-size: 9px;
+}
+#lc #lcItensUl li a.uk {
+	background:url(flag-uk.png) right no-repeat;
+	padding-right:14px;
+	padding-left:0px;	
+}
+#lc #lcItensUl li a.es {
+	margin-left:11px;
+	padding-right:15px;
+	background:url(flag-es.png) right no-repeat;
+}
+
+/*		PRE-COMBOBOX HEADER
+*******************************************************************************************/
+
+#lc p.preComboHp {
+	margin:17px 0 0 13px;
+	font-size:10px;
+}
+#lc p.preComboHp span {
+	color:#E21938;
+	font-size:10px;
+}
+
+/*		PRE-COMBOBOX HEADER
+*******************************************************************************************/
+
+#lc select {
+	font-size: 10px;
+	margin:4px 0 6px 13px;
+	width:160px;
+	height: 18px;
+	max-height:16px; /* ff equalization... */
+
+}
+
+
+/*		#lcAtendUl - ULTIMO UL
+*******************************************************************************************/
+
+#lcAtendUl {
+	list-style-type: none;
+	margin:2px 0 0 18px;
+	padding:1px 0 0 0;
+	padding:expression("0 0 1px 0");	
+}
+#lcAtendUl li a {
+	font-size: 10px;	
+	text-decoration: none;
+	line-height: 15px;
+	color: Black;
+}
+
+
+/*******************************************************************************
+							#CC - Center Content
+********************************************************************************/
+#cc {
+	width: 554px;
+	float: right;
+	clear: none;
+	margin: 0px;
+	padding:0px;
+	background:#FBFBFB url(cc-border-bg.png) repeat-y; 
+}
+#cc #topMenuUl {
+	background-color: white;
+	list-style: none;	
+	margin:0px;
+	padding:10px 0 0 0;
+	height:24px;
+	background:url(topm-bottom-border.png) bottom right repeat-x;
+}
+#cc #topMenuUl li {
+	float: left;
+	height: 24px;
+	background:url(topm-r.png) right top;
+	padding:0px;
+	overflow: hidden;
+}
+#cc #topMenuUl li a {
+	padding:6px 24px 8px 24px; 
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;  
+	font-family: Arial, "MS Sans Serif", Geneva, sans-serif;
+	color: #595959;
+	background:url(topm-l.png) left top no-repeat;	
+	text-align: center;
+	display: block;
+
+	/* Versão com width fixo.
+		soh pra ficar identico, apague abaixo para usar padding */
+	padding:6px 0px 8px 0px; 
+	width: 140px;
+}
+#cc #topMenuUl li.first a {
+	background:url(topm-lf.png) left top no-repeat;
+}
+#cc #topMenuUl li.last.sel {
+	background:url(topm-srl.png) right top;
+}
+#cc #topMenuUl li.sel {
+	background:url(topm-sr.png) right top;
+}
+#cc #topMenuUl li.sel a {
+	color: #F5474C;
+	color: #E9373B;
+	padding:6px 31px 8px 31px;
+	background:url(topm-sl.png) left top no-repeat;	
+
+	/* Versão com width fixo.
+		soh pra ficar identico, apague abaixo para usar padding */
+	padding:6px 0px 8px 0px;
+	width: 141px;
+}
+#cc #topMenuUl li.pjuridica {
+	position: absolute;
+	left: 661px;
+	top: 5px;
+	width: 107px;
+	height: 24px;	
+	background:none;
+	background:transparent url(bg-pjuridica-button.png) no-repeat;
+} 
+#cc #topMenuUl li.pjuridica a {
+	background: none;
+	padding:2px 0 0 7px;
+	color: #868686;
+	text-align: left;
+}
+
+/* Center Content SubMenu (Vermelho)
+************************************************************************************/
+
+#subTopLinksBottomUl {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+ul.v3ul {
+	list-style: none;
+	margin:10px 9px 0 10px;
+	padding:0px 9px 0px 10px;	
+	text-align: center; 
+	overflow: hidden;
+	height: 31px;	
+	background:#DA2C30 url(subtoplinks-needless-bg.png) no-repeat top;
+	line-height: 13px;
+	clear: both;
+}
+ul.v3ul li {
+	display: inline;
+	font-size: 9px;	 
+}
+ul.v3ul li a {
+	color: white;
+	border-left:1px solid white;
+	text-decoration: none;
+	font-size: 10px;
+	padding:0 4px 0 8px;
+	padding:expression("0 5px 0 8px");
+}
+ul.v3ul li.noborder a {
+	border:0px;
+}
+ul.v3ul li.b {
+	line-height: 21px;
+}
+
+
+/* Center Content Left Menu
+************************************************************************************/
+
+#leftCcMenuUl {
+	width: 145px;		
+	float: left;
+	margin:20px 0 0 10px;	
+	margin-left:expression("5px");
+	/* Matemática no IE: 1 != 1, 1 == 2 */
+	margin-bottom:expression("-10px");
+}
+ul.v2ul,ul.v2ul ul {
+	list-style:none;
+}
+ul.v2ul * {
+	font-size: 10px;
+	line-height: 12px;
+}
+ul.v2ul a { text-decoration: none; }
+ul.v2ul h3 a {
+ color: #ED1A3B;
+ font-size: 11px;
+ line-height: 14px;
+}
+
+ul.v2ul a { color: Black; }
+ul.v2ul h3 {
+	margin:0px;
+	padding:4px 0 2px 3px;
+	padding:expression("3px 0 3px 3px"); 
+	border-bottom:1px dotted #999999; 
+}
+ul.v2ul li {
+	padding:0px;
+	margin:0 0 0 5px;
+}
+ul.v2ul ul li {
+	border-bottom:1px dotted #999999; 
+	padding:4px 0 3px 5px;
+	padding:expression("3px 0 4px 5px");
+	margin-left:expression("0px");
+	line-height: 13px;
+}
+ul.v2ul li.noborder {
+	border-bottom:0px;
+}
+ul.v2ul li a {
+	margin: 0px;
+}
+ul.v2ul li ul {
+	margin:0px;
+	padding: 0px;
+	clear: none;
+}
+ul.v2ul li.subul {
+	padding: 0px;
+	margin-left:0px;
+	margin: expression("-12px 0 0 5px");
+}
+
+/* Center Content Holders
+************************************************************************************/
+
+#rightCcContent {
+	width:389px;	
+	float: right;
+}
+
+#rightCcTopContent {
+	height: 314px;
+	height:expression("315px"); /* box model bug... */
+	margin-right:13px;
+	border-bottom: 1px dashed #999999;
+}
+
+
+/* Center Content - Top Content
+************************************************************************************/
+
+#rightCcTopContent #topContentBanner {
+	float:left;
+	margin:20px 0 0 0;	
+}
+#rightCcTopContent dl {
+	float: right;
+	width: 171px;
+	margin:5px 0 0 0;
+	padding:0;
+}
+#rightCcTopContent dl dt {
+	padding:0px;
+	margin:16px 0 0 0;
+	display: block;
+	clear: both;
+	color: #ED1A3B;
+	font-weight: bold;
+}
+#rightCcTopContent dl dd {
+	margin:4px 0 0 0;
+	padding:0 0 0px 3px;
+	border-bottom: 1px dashed #999999;
+}
+#rightCcTopContent dl dd.last {
+	border-bottom: none;
+}
+#rightCcTopContent dl h3 {
+	display: inline;
+}
+#rightCcTopContent dl img {
+	display:inline;
+	margin:0px 3px 0 0px;
+	float: left;
+}
+#rightCcTopContent dl a {
+	text-decoration: none;
+	color: Black;
+	display: block;
+	font-size: 10px;
+	line-height: 14px;
+}
+
+/*
+	Abaixo, dois fixes para deixar o box de conteúdo idêntico 
+	ao original. Desnecesários em um site de verdade...
+*/
+#rightCcTopContent dl dd.first { height: 74px; height:expression("75px"); /* ie box model bug */ }
+#rightCcTopContent dl dd.second { height: 60px; height: expression("61px"); }
+
+
+/* Center Content - Bottom Content
+************************************************************************************/
+
+#rightCcBottomContent #topContentBottomBanner {
+	float:right;
+	margin:14px 13px 0 0;	
+}
+
+#rCcBottomContentBox {
+	width: 195px;
+	float: left;
+	margin:15px 0 0 0;
+}
+#rightCcBottomContent dl {
+	padding:0;
+	margin:0 0 15px 0;
+}
+#rightCcBottomContent dl.last {
+	margin-bottom:0px;
+}
+
+#rightCcBottomContent dl dt {
+	padding:7px 0 0 9px;
+	clear: both;
+	margin: 0px;
+	color: #ED1A3B;
+	font-weight: bold;
+}
+#rightCcBottomContent h3 {
+	padding:3px 0 4px 9px;
+	margin: 0px;
+	background-color:#EBEBED;
+	clear: both;
+}
+#rightCcBottomContent dl h4,#rightCcBottomContent dl dt {
+	color: Black;
+	font-size: 10px;	
+	margin: 0px;
+}
+#rightCcBottomContent dl dd {
+	padding:1px 8px 0 9px;
+	margin: 0px;
+}
+#rightCcBottomContent dl dd a {
+	text-decoration: none;
+	color: #666666;	
+	font-size: 10px;
+	line-height: 16px;
+}
+#ccHorizBanner {
+	clear: both;
+	margin:15px 0 0 0;
+	padding:15px 0 0 0;
+	padding:expression("0");
+	display: block;
+}
+
+
+/*		Div bottomCcContent
+********************************************************************************/
+
+#bottomCcContentDiv {
+	clear: both;
+	padding:10px 0 14px 0;	/* WTF? */
+	padding-top:expression("5px"); /* 1 == 2 */
+	background: url(cc-border-bg-bottom.png) bottom no-repeat;
+}
+
+
+/*		#F - FOOTER
+********************************************************************************/
+
+#f {
+	height: 29px;
+	clear: both;
+	background:url(bg_top.gif);
+	min-width:773px; /* break fix */
+}
+#f img,#f a {
+	float: left; 
+	margin-left:expression("-3px");
+}
+
+/*******************************************************************************/
+
+.hv {
+	visibility: hidden;
+	position: absolute;
+}
+
+

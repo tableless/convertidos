@@ -1,0 +1,188 @@
+* {
+	border:0px;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body {
+	background:#E7E3E7;
+	text-align:center;
+}
+
+div#geral {
+	width:761px;
+	margin:0 auto;
+	text-align:left;
+	background:white;
+}
+
+div#topo {
+	position:relative;
+	height:60px;
+}
+
+div#topo h1 {
+	width:127px;
+	height:52px;
+	background:url(imagens/logo_real.gif) no-repeat top left;
+	text-indent:-5000px;
+	overflow:none;
+	float:left;
+}
+
+div#topo ul {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	color:#0000FF;
+}
+
+div#topo ul li {display:inline;}
+div#topo ul li a {
+	color:#0000FF;
+	font:60% verdana, arial;
+	margin:0px 5px;
+}
+
+/***  MENU  ***/
+div#menu {
+	background:#639ACE;
+	height:20px;
+	line-height:20px;
+}
+
+div#menu ul {
+	height:20px;
+	float:right;
+	background:#316594;
+}
+
+div#menu ul li {display:inline;}
+div#menu ul li a {
+	float:left;
+	background:url(imagens/segundabarra.gif) no-repeat top left;
+	padding:0 39px 0 55px;
+	text-align:center;
+	color:white;
+	font:bold 70% arial, verdana;
+	height:20px;
+	line-height:20px;
+}
+
+div#menu ul li#prili a {background:url(imagens/primeirabarra.gif) no-repeat top left;}
+
+h2 {
+	background:url(imagens/realplayerforlinux.gif) no-repeat center center;
+	text-indent:-5000px;
+	overflow:none;
+	float:left;
+	height:95px;
+	width:100%;
+}
+
+div#download {
+	width:370px;
+	float:left;
+	padding:0 0 0 25px;
+	margin-bottom:20px;
+}
+
+div#download a#botdownload {
+	display:block;
+	background:url(imagens/download.gif) no-repeat center center;
+	text-indent:-5000px;
+	overflow:hidden;
+	text-decoration:none;
+	height:30px;
+	margin-bottom:5px;
+}
+
+div#download p {
+	text-align:center;
+	font:60% verdana, arial;
+	margin:0 0 20px;
+}
+
+
+div#features {
+	margin:0 50px 0 380px;
+}
+
+div#features h3 {
+	font:bold 70% arial, verdana;
+	border-bottom:2px solid #CCC;
+	padding:0 0 5px;
+}
+div#features dl dt {
+	font:bold 60% verdana;
+	color:#3165CE;
+	padding:0px 0px 0px 56px;
+	_padding:0px 0px 0px 36px;
+	margin:7px 0 0 0;
+}
+
+div#features dl dd {
+	font:55% verdana;
+	border-bottom:2px solid #CCC;
+	padding:0 0 10px ;
+}
+
+div#features dl dd img {
+	float:left;
+	margin:5px 10px 5px 0;
+}
+
+div#helix {
+	clear:both;
+	background:url(imagens/logo_helix.gif) no-repeat 605px 15px #E7E7E7;
+	margin:0px 30px;
+	padding:25px 15px 20px;
+}
+
+div#helix h3 {font:bold 60% verdana; color:#424542;}
+
+div#helix p {
+	margin-right:100px;
+	font:60% verdana;
+	color:#424542;
+}
+
+div#menubottom {
+	text-align:center;
+}
+
+div#menubottomazul ul li, div#menubottom ul li {display:inline;}
+div#menubottomazul ul li a, div#menubottom ul li a {
+	text-decoration:none;
+	margin:0 0px;
+}
+
+div#menubottomazul {
+	margin:40px 0px 0px;
+	background:#31659C;
+	height:20px;
+	line-height:20px;
+	color:white;
+}
+
+
+div#menubottomazul ul {
+	background:#31659C;
+	width:656px;
+	margin:0 auto;
+	height:15px;
+}
+
+div#menubottomazul ul a {
+	color:white;
+	font:bold 60% verdana;
+}
+
+div#menubottom a {color:#1041A5;}
+
+div#menubottom {
+	font:60% verdana;
+	color:#1041A5;
+	padding:10px 0px 20px;
+}

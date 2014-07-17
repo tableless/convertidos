@@ -1,0 +1,182 @@
+body,h1,h2,h3,h4,ul,ol,li,dl,dd,dt,form,p{
+			margin:0px;
+			padding:0px;
+		
+		}
+		a:link{		
+			color:#3333cc;
+			text-decoration: underline;
+		}
+		a:visited{		
+			color:#3333cc;
+			text-decoration: underline;
+		
+		}
+		a:hover{		
+			color:#000099;
+			text-decoration: underline;
+			
+		}
+		body{
+			font-family:Arial,Helvetica,Verdana,Sans-Serif;
+			font-size:70%;
+			text-align:center;
+		
+		}
+        #logo{
+        	width:185px;
+        	height:54px;
+			background:url(img/header_std_xerox_logo.gif) no-repeat; 
+			text-indent:-1000px;
+			float:left;
+			margin-bottom:13px;
+			margin-top:15px;
+			
+		}
+		#cabecalho{
+			background:#c1d1e1;
+			width:565px;
+			padding:6px 8px;
+			margin-left:190px;
+					
+		}
+		#cabecalho li{
+			display:inline;
+		
+		}	
+		.label {	
+			display:none;
+						
+		}	
+		#search { 
+			position:absolute; 
+			top: 0px; 
+			text-align:right;
+			width:570px;
+			_width:555px	
+		
+		}	
+		#comprar{
+			position:relative;
+			padding-top:13px;
+			padding-left:138px;
+
+		}
+		#menu1,#menu3{
+            background:#ff0000;
+            float:left;
+            width:100%;
+			margin-bottom:10px;
+			
+		}
+		ul,li{
+           	margin:0;
+           	padding:0;
+           	list-style:none;
+ 
+       }
+        #menu1 li,#menu3 li{
+            font-weight:bold;
+			float:left;
+            padding:2px 10px;
+            border-left:1px solid white;
+
+        }
+        #menu1 a,#menu3 a{
+            color:white;
+			text-decoration:none;
+
+		}
+        #menu1 a:hover,#menu3 a:hover{
+			text-decoration: underline;	
+
+        }
+        #tudo{
+            width:760px;
+			margin:auto;
+			text-align:left
+
+        }
+        #menu2{
+            width:180px;
+            background:#eeeeee;
+            float:left;
+			margin-right:6px;
+
+		}
+		#menu2 dt{
+			font-weight:bold;
+			background:#c1d1e1;
+			padding:2px 5px 4px 5px;
+
+		}
+		#menu2 dd{
+			background:#eeeeee;
+			padding:2px 5px 4px 5px;
+
+        }
+        #conteudo{
+            width:500px;
+            float:left;
+            margin-left:5px;
+
+        }
+		#menu4 ul{
+			background:#c1d1e1;
+			position:absolute;
+			width:569px;
+			top:510px;
+
+		}
+		#menu4 li{
+			display:inline;
+
+		}
+		#menu4 li a{
+			display:block;
+			padding:2px 4px;
+			float:left;
+			border-right:1px solid white;		
+
+		}
+		#links-miolo dl{
+			position:absolute;
+			width:569px;
+			float:left;
+			top:425px;
+
+		}
+		#links-miolo dt{
+			font-weight:bold;
+			background:#cccccc;
+			color:black;
+			padding:2px 0px 2px 5px;
+
+		}
+		#links-miolo dd{
+			padding:3px 0px 2px 5px;	
+		
+		}
+		#img-ice{
+			width:567px;
+        	height:175px;
+			float:left;
+
+		}
+		#imgs-print ul{
+			width:569px;
+			float:left;
+			margin-top:10px;
+
+		}
+		#imgs-print li{
+			display:inline;
+			padding:0px 9px;
+
+		}
+	.copyrigth{
+			float:left;
+			display:inline;		
+			color:white;
+			padding:2px 0px 0px 50px;
+}		

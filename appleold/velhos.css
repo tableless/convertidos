@@ -1,0 +1,105 @@
+/***************************************
+OBSERVAÇÕES:
+
+	Todos os comentários que o nome vier acompanhado por: *
+	É sinal que ele está escrito nos dois arquivos css (velhos.css e novos.css
+***************************************/
+
+
+body {
+	background:#FFFFFF;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+/***************************************
+ABAS
+***************************************/
+#abas {
+	background:white;
+	height:40px;
+	text-align:center;
+}
+
+#opcoesmenu {
+	background:url(imagens/fundomenu.gif);
+	width:100%;
+	text-align:center;
+}
+
+#opcoesmenu a, #opcoesmenu a:hover {
+	text-decoration:none;
+	color:black;
+	font:70% Verdana, Aria, Tahoma, Sans-serif;
+}
+
+/***************************************
+CONTEUDO
+***************************************/
+#cont {
+	float:inherit;
+	text-align:center;
+}
+
+h1 {
+	margin:0px;
+	font:bold 400% Arial, Verdana, Tahoma, Sans-Serif;
+	color:black;
+}
+
+h2 {
+	margin:0px;
+	font:155% Verdana, Arial, Tahoma, Sans-Serif;
+	color:#A2A5A9;
+}
+
+#noteb {
+ 	float:left;
+}
+
+/***************************************
+CHAMADAS DAS NOTÍCIAS *
+***************************************/
+#chamada {
+	margin:33px 0px 0px 0px;
+	font:70% Verdana, Aria, Tahoma, Sans-serif;
+}
+
+#chamada a, #chamada a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+#ultimas {
+	float:left;
+	width:163px;
+	text-align:right;
+	padding:3px 3px 0px 0px;
+}
+
+#noticias {
+	padding:3px 0px 0px 170px;
+}
+
+/***************************************
+Chamadas de destaques
+***************************************/
+#destaques {
+	border-bottom:1px solid #898989;
+	margin:0px 0px 0px -3px;
+}
+
+#destaques img {
+	margin:0px;
+
+}
+
+/***************************************
+RODAPÉ
+***************************************/
+#rodape {
+	text-align:center;
+	font:60% Verdana, Aria, Tahoma, Sans-serif;
+	margin:10px 0px 5px 0px;
+}

@@ -1,0 +1,143 @@
+body {
+	margin: 0px;
+	padding: 0px;
+} 
+
+img {
+	border: 0px;
+}
+
+/* Classes do Topo */
+#texteira {
+	padding-left: 357px;
+}
+
+/* Menu */
+#menu {
+	padding:0px 0px 0px 21px;
+	background: #CCCCCC;
+}
+
+#menu a img {
+	margin:0px 7px;
+}
+
+#menu #pontape {
+	display: block;
+	margin:0px 0px 0px 214px;
+}
+
+#menu .nomesvivos {
+	margin:0px 0px 5px 197px;
+}
+
+#menu img {
+	vertical-align:middle;
+}
+
+/* Esquerda */
+#esquerda {
+	float:left;
+	width:435px;
+	margin:0px 5px 0px 0px;
+}
+
+#flash {
+	margin: 0px 0px 6px 0px;
+}
+#servicodados {
+	width: 195px;
+	float:left;
+	margin:0px 0px 0px 3px;
+}
+
+#servicodados a, #servicodados a:visited {
+	color: black;
+	text-decoration:none;
+	font:bold 60% Verdana, Arial, Tahoma, Sans-Serif;
+}
+
+#lojavirtual {
+	width:200px;
+	padding:0px 7px;
+	margin:0px 0px 0px 204px;
+	background:url("imagens/linhapont.gif") repeat-Y left ;
+}
+
+#lojavirtual #compre {
+	margin:5px 0px 0px 0px;
+}
+
+/* Direita */
+#direita {
+	margin:0px 0px 0px 440px;	
+	width:336px;
+}
+
+#comunidadestit {
+	font:70% Verdana, Arial, Tahoma, Sans-Serif;
+	color:#333333;
+	margin:6px 0px 0px 0px;
+}
+
+#comunidadestit img {
+	margin:0px 100px 0px 0px;
+}
+
+#listacomunidades {
+	padding:2px;
+	background:url("imagens/linha_pont_h.gif") repeat-X top;
+}
+
+#listacomunidades p img {
+	float:left;
+}
+
+.flecha {
+	margin:13px 0px 0px 0px;
+}
+
+.pont {
+	background:url("imagens/linha_pont_h.gif") repeat-X;
+	font:1px verdana;
+	height:1px;
+	margin:0px 0px 0px 13px;
+}
+
+#listacomunidades p{
+	font:70% Verdana, Arial, Tahoma, Sans-Serif;
+	color:#666666;
+	background-position: 60px 0px 50px 50px ;
+	margin:2px;
+	height:40px;
+}
+
+#listacomunidades p a {
+	color:black;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#outrosestados {
+	background:url("imagens/linha_pont_h.gif") repeat-X;
+	font:9px Verdana, Arial, Tahoma, Sans-Serif;
+	padding:5px 0px 0px 0px;
+	color:#666666;
+}
+
+#outrosestados a {
+	color:#666666;
+	text-decoration:none;
+}
+
+#outrosestados img {
+	float:left;
+}
+
+#rodape {
+	margin:5px 0px 0px 0px;
+}
+
+#rodape img {
+	margin:0px 5px;
+}

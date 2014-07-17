@@ -1,0 +1,114 @@
+BODY     { color: #333; font-size: 11px; font-family: verdana, arial, helvetica; background: #E6E6E6 }
+TD {font-size : 11px; font-family : verdana; color : #333333;}
+A {color : #8a0303; text-decoration:underline;}
+
+A:alink   { color: #fa8710 }
+A:hover  { color: #fa8710 }
+A:vlink      { color: #6690cc }
+A:link   { color: #8A0303 }
+A:visited   { color: #666 }
+A:active   { color: #000 }
+A:hover  { color: #000 }
+P {font-family: verdana, geneva; font-size:11px;}
+LI {font-family: verdana, geneva; font-size:11px;}
+DL {font-family: verdana, geneva; font-size:11px;}
+OL {font-family: verdana, geneva; font-size:11px;}
+UL {font-family: verdana, geneva; font-size:11px;}
+
+/*site specific classes delivered from palm*/
+A.headfont:link    { color: #8a0303; text-decoration: none }
+A.headfont:alink  { color: #8a0303; text-decoration: underline }
+A.headfont:hover { color: #000; text-decoration: underline }
+A.headfont:vlink    { color: #8a0303; text-decoration: none }
+
+.rowColor1 {background:#CECECE;}
+.rowColor2 {background:#FFFFFF;}
+
+.footerlink      { color: #8a0303; font-weight: normal; font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: none }
+A.footerlink:link      { color: #8a0303; font-weight: normal; font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: none }
+A.footerlink:visited       { color: #666; font-weight: normal; font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: none }
+A.footerlink:active      { color: #000; font-weight: normal; font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: underline }
+A.footerlink:hover      { color: #000; font-weight: normal; font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: underline }
+.smalltext { font-size: 10px; }
+
+/*global stuff */
+.pagetext {font-family:verdana,geneva;font-size:11px; text-decoration:none;}
+.pagelink {color:#8a0303; font-family:verdana; font-size:11px; text-decoration:underline; font-weight:bold;}
+.pagelink:hover {color:#FF9C00;} 
+.headfont {font-size:10px; color:#8a0303;text-decoration:none;}
+.headerlink {font-size:10px;color : #00755F; font-weight:bold; text-decoration:none;}
+A.headerlink:link     { color: #00755F; font-weight:bold; text-decoration: none }
+A.headerlink:visited      { color: #00755F; font-weight:bold; text-decoration: none }
+A.headerlink:active     { color: #000; font-weight:bold; text-decoration: underline }
+A.headerlink:hover    { color: #000; font-weight:bold; text-decoration: underline }
+
+
+.footer   { font-size: 10px; line-height: 175%; font-family: arial, helvetica; text-decoration: none }
+.footer:hover {color:#FF9C00;}
+
+.subheadlarge {color: #5a5a5a; font-weight: bold; font-size: 24px; font-family: arial, helvetica; letter-spacing: -1px;}
+.subheadmed {font-family:verdana,geneva; color:#333333; font-size:14px; font-weight:bold;}
+.subheadsmall {font-family:verdana,geneva; color:black; font-size:10px; font-weight:bold;}
+
+.prodhead{color:#8a0303; font-size;12px;} 
+.proddesc{font-size:11px;color:#333333;} 
+.prodtitle{color:#8a0303;font-size:11px;font-weight:bold;}
+.listprice{font-size:10px; color:#333333;}
+.ourprice {font-size:11px; color:#333333;font-weight:bold;}
+.prodourprice {font-size:18px; color:#333333;font-weight:bold;}
+.buyinfo{font-size:10px;color:#00755F ;font-weight:bold;}
+.regImage{border-color: #cccccc; color: #cccccc;}
+.bigprice {font-size:16px; color:#00755F;font-weight:bold;}
+
+.padding {padding:5px;}
+.highlight {background-color:#666666;color:white;font-size:16px;font-weight:bold;}
+
+.breadcrumb      { font-size:10px;color: #8a0303; font-weight: normal; text-decoration: none }
+A.breadcrumb:link     { color: #8a0303; font-weight: normal; text-decoration: none }
+A.breadcrumb:visited      { color: #666; font-weight: normal; text-decoration: none }
+A.breadcrumb:active     { color: #000; font-weight: normal; text-decoration: underline }
+A.breadcrumb:hover    { color: #000; font-weight: normal; text-decoration: underline }
+
+
+.results { color:#cccccc; font-size:10px; font-weight: bold;}
+.searchsortby {color:#003366; font-size:10px; font-weight:bold;}
+
+/* helpdesk style */
+.hd_pagelink {color:#8a0303; text-decoration:underline; font-size:11px; font-weight:bold;}
+.hd_pagelink:hover {color:#000; text-decoration:underline}
+.pagelink:hover {color: #000; text-decoration:underline;}
+.header {font-size:14px; font-weight : bold; text-decoration : none; color:#333333;}
+.subheadNumber {font-size : 12px; padding-left : 2px; font-weight : bold; color : #FF9C00; text-decoration:none;}
+.subnavHeader {font-size : 12px; padding-left : 2px; font-weight : bold; color : #333333; text-decoration:none;}
+.hdSubNav{font-size:11px;color:#333333;font-weight:bold}
+.hdTopicHeading {font-size:14px; font-weight : bold; text-decoration : none; color:#000000;}
+
+/* no search results */
+.noresults {font-size:16px; color: #003366; text-decoration:none; font-weight:bold; background-color:#BFDABB;}
+.noresults2 {font-size:16px; color: #003366; font-weight:bold;}
+.nosearchresultsheader {font-family: verdana, geneva; font-size:16; color:#5F7E9C; font-weight:bold;}
+.noresultsbody {font-size : 10px; font-family : verdana, geneva; color: #003366;}
+.noresultsheader3 {font-family: verdana, geneva; font-size:12; color:#003366; font-weight:bold;}
+.noresultslinks {font-size:10px; color:#003366; text-decoration:underline;}
+.noresultslinks:hover {color: #FF9C00;}
+
+/*site palette*/
+.maincolor {background:#666666;color:#ffffff;}
+.secondarycolor {background:#999999;color:#ffffff;}
+.tertiarycolor {background:#cccccc;}
+.wizmaincolor {background:#EFEFEF;color:#999999;padding-left:10px; padding-right:10px;font-weight:bold;}
+.wizhighcolor {background:#999999;color:#ffffff;padding-left:10px; padding-right:10px;font-weight:bold;}
+/*shopping2.0 checkout styles*/
+.error {font-family:verdana,geneva; color:#cc0000; font-weight:bold; font-size:11px; line-spacing:8px; border-color:#cc0000; border-style:solid; border-width:2px; width:550px; height:65px;}
+.error2 { font-family:verdana,geneva; background-color:yellow; padding:1px; font-weight:bold; font-size:11px;}
+.alert {color:#333333;font-weight:bold;font-size:10px;}
+.details {font-family:verdana,geneva;font-size:10px;color:#8a0303;}
+.promodetails {font-family:verdana,geneva;font-size:9.5px;color:#8a0303;}
+
+/*checkout 2004*/
+.checkbg_lt {background-color:#F5F5F5;}
+.checkbg_dk {background-color:#D7D7D7;}
+.checkbg_border {border:solid 1px #666666;}
+.check_bullet {color:#CC0000;}
+.cartrow1 {background-color:#F5F5F5;}
+.cartrow2 {background-color:#FFFFFF;}

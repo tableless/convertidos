@@ -1,0 +1,73 @@
+hr {
+	display:none;
+}
+
+#tudo1 {
+	margin:auto;
+	width:560px;
+}
+
+
+/*********************************************
+Menu
+*********************************************/
+#menu {
+	border-bottom:1px solid #3366CC;
+	margin:13px 0px 0px 0px;
+	padding:0px 0px;
+	width:560px;
+	font:80% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+#menu li {
+	padding:2px 30px 0px;
+	height:0px;
+	margin:0px 9px;
+	width:120px;
+}
+
+#menu ul {
+	margin:0px;
+}
+
+#menu #selec {
+	background:#3366CC;
+	font:bold;
+	color:white;
+}
+
+#menu a, #menu a:visited {
+	text-decoration:none;
+	cursor:hand;
+	color:#0000CC;
+}
+
+/*********************************************
+Cont
+*********************************************/
+#cont {
+	width:560px;
+	text-align:right;
+}
+
+
+#cont #listapq {
+	background:white;
+	float:right;
+	font:65% Arial, Verdana, Helvetica, Sans-Serif;
+	text-align:left;
+}
+
+
+#cont .inputs {
+	width:355px;
+	margin:0px 0px 0px 0px;
+}
+
+html>body #cont .inputs {
+	margin:0px 3px 0px 0px;
+}
+
+.botaodireito {
+	margin:0px 40px 0px 0px;
+}

@@ -1,0 +1,51 @@
+/***************************************
+OBSERVAÇÕES:
+
+	Todos os comentários que o nome vier acompanhado por: *
+	É sinal que ele está escrito nos dois arquivos css (velhos.css e novos.css
+***************************************/
+
+
+img {
+	border:0px;
+}
+
+/***************************************
+ABAS
+***************************************/
+#abas {
+	background:url(imagens/fundomenuabas.gif);
+	padding:5px 0px 0px 0px;
+	margin:0px 0px 10px 0px;
+}
+
+#opcoesmenu {
+	margin:0px 0px -3px 0px;
+}
+
+/***************************************
+CONTEUDO
+***************************************/
+#cont {
+	margin:auto;
+	width:677px;
+}
+
+#titulo {
+	margin:75px 0px 0px 300px;
+}
+
+/***************************************
+CHAMADAS DAS NOTÍCIAS *
+***************************************/
+#titchama {
+	margin:40px 0px 0px 0px;
+	padding:3px 5px 0px 0px;
+	text-align:right;
+	font:70% Verdana, Aria, Tahoma, Sans-serif;
+}
+
+#titchama img {
+	float:left;
+	margin:-3px 0px 0px -3px;
+}

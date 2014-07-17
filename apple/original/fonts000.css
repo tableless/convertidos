@@ -1,0 +1,183 @@
+/* CSS definitions for fonts */
+
+BODY { margin: 0px 0px; background: #ffffff; font: 10px 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; }
+TABLE, TD { font: 10px 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;}
+
+.V9 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; }
+.V10 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; }
+.V11 			{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+.G9 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 9px; }
+.G9G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #76797c; }
+.G10 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+.G10G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #76797c; }
+.G10W 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ffffff; }
+
+.L10 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+.L10G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #76797c; }
+.L10W 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ffffff; }
+.L11 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+.L12 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.L12G			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #76797c; }
+.L12W			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; }
+.L14 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; }
+.L14G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #76797c; }
+.L14W 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; }
+.L16 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 16px; }
+.L16G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #76797c; }
+.L16W 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff; }
+.L18 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 18px; }
+.L18G			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #76797c; }
+.L18W			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #ffffff; }
+.L24 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 24px; }
+.L24G 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 24px; color: #76797c; }
+.L24W 			{ font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 24px; color: #ffffff; }
+
+.T13 			{ font-family: Times, serif; font-size: 13px; line-height: 115%; }
+.TITLE 			{ font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 900;}
+.INTRO 			{ font-family: Times, serif; font-size: 15px; }
+.form_style 	{ font-size : 12px; font-family : geneva, arial, sans-serif; width: 215px; }
+.form_style_med { font-size : 12px; font-family : geneva, arial, sans-serif; width: 200px; }
+.form_style_srt { font-size : 12px; font-family : geneva, arial, sans-serif; width: 170px; }
+.tableborder 	{ background-color: #ffffff; border: 1px #a1a5a9 solid; }
+
+#header			{ margin-right: auto; margin-left: auto; margin-top: 15px; margin-bottom: 15px; width: 680px; }	
+#breadcrumb		{ margin-top: 20px; margin-bottom: 10px; }
+
+sup {vertical-align: baseline; font-size: 1em; color: #76797c;}
+
+a.black			{ 
+					color: #000000;
+					text-decoration: none;
+				}
+				
+a.black:hover	{
+					color: #000000;
+					text-decoration: underline;
+				}
+				
+a.white			{ 
+					color: #ffffff;
+					text-decoration: none;
+				}
+				
+a.white:hover	{
+					color: #ffffff;
+					text-decoration: underline;
+				}				
+
+
+/* List definitions */
+ul.arrowtext	{
+					list-style-image: url(arrowa1a.gif);
+					margin-top: 0px;
+					margin-bottom: 5px;
+					margin-left: 14px;
+					padding: 0px;
+					padding-left: 1px;
+					line-height: 13px;
+					list-style-position: outside;
+				}
+
+ul.arrowlinks	{
+					list-style-image: url(arrowa1a.gif);
+					margin-top: 0px;
+					margin-bottom: 5px;
+					margin-left: 14px;
+					padding: 0px;
+					padding-left: 1px;
+					line-height: 13px;
+					list-style-position: outside;
+				}
+
+ul.arrowpro		{
+					list-style-image: url(arrowpro.gif);
+					margin-top: 0px;
+					margin-bottom: 5px;
+					margin-left: 14px;
+					padding: 0px;
+					padding-left: 1px;
+					line-height: 13px;
+					list-style-position: outside;
+				}
+
+ul.bullet		{
+					list-style-image: url(dot20000.gif);
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-left: 16px;
+					padding: 0px;
+					padding-left: 1px;
+					line-height: 15px;
+					list-style-position: outside;
+				}
+
+
+
+
+ul.none			{
+					list-style: none;
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-left: 16px;
+					padding: 0px;
+					padding-left: 0px;
+					line-height: 13px;
+				}
+
+ul.square		{
+					list-style: square;
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-top: 0px;
+					margin-left: 16px;
+					padding: 0px;
+					line-height: 13px;
+				}
+
+ul.circle		{
+					list-style: circle;
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-left: 16px;
+					padding: 0px;
+					line-height: 13px;
+				}
+
+ul.decimal		{
+					list-style: decimal;
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-left: 2.8em;
+					padding: 0px;
+					line-height: 13px;
+				}
+
+ol.decimal		{
+					list-style: decimal;
+					margin-top: 0px;
+					margin-bottom: 0px;
+					margin-top: 0px;
+					margin-left: 2.8em;
+					padding: 0px;
+					line-height: 13px;
+				}
+
+
+/* Misc for server */
+.bdrleft		{
+					border-left: 1px solid #a1a5a9;
+				}
+
+.bdrtop			{
+					border-top: 1px solid #a1a5a9;
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}
+				
+.bdrtop_f		{
+					border-top: 1px solid #a1a5a9;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					background-color: #f5f5f5;
+				}

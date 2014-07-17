@@ -1,0 +1,47 @@
+body {
+	text-align:center;
+	background:white;
+}
+
+a {
+	color:#0000CC;
+}
+
+i {
+	font:normal 80% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+
+#tudo2 {
+	font:80% Arial, Verdana, Helvetica, Sans-Serif;
+	margin:51px 0px 0px 0px;
+}
+
+/*********************************************
+Menu
+*********************************************/
+#menu li {
+	list-style-type:none;
+	background:#EFEFEF;
+	display:inline;
+}
+/*********************************************
+Cont
+*********************************************/
+#cont {
+	padding:20px 0px 0px 0px;
+}
+
+
+#opc {
+	margin:0px 108px 0px 0px;
+	font:80% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+/*********************************************
+Rodape
+*********************************************/
+#rodape {
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	margin:21px 0px 0px 0px;
+}

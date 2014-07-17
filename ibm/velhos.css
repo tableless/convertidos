@@ -1,0 +1,164 @@
+body {
+	margin:0px;
+	padding:0px;
+	background:white;
+}
+
+img {
+	border:0px;
+}
+
+form {
+	margin:0px;
+}
+
+h4 {
+	font:bold 120%  Arial, Verdana, Helvetica, Sans-Serif;
+	color:black;
+}
+
+h4 a, h4 a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+/*********************************************
+geral
+*********************************************/
+#geral {
+	background:#6699CC;
+	width:760px;
+}
+
+
+/*********************************************
+Cabecalhos
+*********************************************/
+.menutopo {
+	background:black;
+	height:22px;
+}
+
+.menutopo1 {
+	background:black;
+	height:22px;
+	margin:14px 0px 0px 0px;
+	color:#999999;
+	float:inherit;
+}
+
+.menutopo2 {
+	background:black;
+	height:22px;
+	color:#999999;
+	float:inherit;
+	border-top:1px solid white;
+}
+
+.menutopo2 span {
+	float:right;
+}
+
+.menutopo2 span a, .menutopo2 span a:visited {
+	font:bold 60% Verdana, Arial, Helvetica, Sans-Serif;
+	color:#FFCC00;
+	text-decoration:none;
+}
+
+.menutopo2 span a:hover, .menutopo2 span a:active {
+	text-decoration:underline;
+}
+
+.menutopo a, #menutopo a:visited, .menutopo1 a, #menutopo1 a:visited, .menutopo2 a, #menutopo2 a:visited {
+	font:bold 60% Verdana, Arial, Helvetica, Sans-Serif;
+	color:white;
+	text-decoration:none;
+}
+
+.proc {
+	vertical-align:top;
+}
+
+/*********************************************
+Esquerda
+*********************************************/
+#esquerda {
+	width:150px;
+	float:left;
+	background:#6699CC;
+}
+
+#links {
+	margin:24px 0px 0px 11px;
+}
+
+.rlinks {
+	margin:0px 0px 5px 0px;
+}
+
+.rlinks2 {
+	margin:5px 0px 0px 8px;
+}
+
+.rlinks3 {
+	margin:5px 0px 0px 0px;
+}
+
+.rlinks3b a, .rlinks3b a:visited {
+	font:bold 80% Verdana;
+	text-decoration:none;
+}
+
+.rlinks a, .rlinks a:visited {
+	font:bold 75% Arial, Verdana, Helvetica, Sans-Serif;
+	color:white;
+	text-decoration:none;
+}
+
+.rlinks2 a, .rlinks2 a:visited {
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+	color:white;
+	text-decoration:none;
+}
+
+.rlinks3 a, .rlinks3 a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+#linksdestin {
+	font:75% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+#linksdest a, #linksdest a:visited {
+	color:#006699;
+}
+
+/*********************************************
+Direita
+*********************************************/
+#direita {
+	background:white;
+	float:right;
+	width:610px;
+}
+
+#conteudodireita {
+	background:white;
+	font:65%  Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+.linkopc a, .linkopc a:visited {
+	text-decoration:none;
+	color:#006699;
+}
+
+.dentroopc {
+	margin:0px 0px 0px 15px;
+}
+
+.dentroopc a, .dentroopc a:visited{
+	text-decoration:none;
+	color:#006699;
+	font:bold 120% Arial, Verdana, Helvetica, Sans-Serif;
+}

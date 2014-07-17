@@ -1,0 +1,275 @@
+	
+	body, div, h1, h2, h3, p, dl, ul, li, a {
+		margin: 0;
+		padding: 0;
+	}
+	ul {
+		list-style: none;
+	}
+	img {
+		border: 0;
+	}
+	form {
+		margin: 0;
+		padding: 2px 0 0;
+	}
+	fieldset {
+		border: none;
+		display: inline;
+		padding: 0;
+		margin: 0;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	
+	
+	body {
+		background: #FFF url(imagens/bg.gif) repeat-x;
+		font: 11px/1.5em Arial, Helvetica, sans-serif;
+	}
+	#geral {
+		text-align: left;
+		width: 750px;
+	}
+	
+	#logo {
+		float: left;
+		height: 73px;
+		padding-left: 10px;
+		margin-right: 180px;
+	}
+	#logo h1 a {
+		display: block;
+		width: 116px;
+		height: 32px;
+		margin: 21px 48px 20px 0;
+		float: left;
+		background: url(imagens/logo_nokia.gif) no-repeat;
+	}
+	#logo h1 a span {
+		display: none;
+	}
+	#logo p.escolha {
+		padding: 18px 0 3px;
+	}
+	#logo p.escolha a {
+		color: #03C;
+	}
+	#logo h2 {
+		color: #666;
+		font-size: 1.1em;
+	}
+	
+	#busca {
+		padding-top: 9px;
+		color: #666;
+		width: 180px;
+		float: right;
+		text-align: right;
+	}
+	#busca a {
+		color: #666;
+	}
+	#search {
+		padding-top: 7px;
+	}
+	#qt {
+		font-size: 0.9em;
+		margin: 4px 3px 0 6px;
+		width: 100px;
+	}
+	#conteudo {
+		clear: both;
+		padding-left: 10px;
+		width: 740px;
+	}
+	#conteudo ul.menu {
+		background: #03C;
+		width: 100%;
+		float: left;
+	}
+	#conteudo ul.menu li {
+		display: inline;
+	}
+	#conteudo ul.menu li a {
+		padding: 2px 5px 1px 6px;
+		color: #FFF;
+		font-size: 1.1em;
+		font-weight: bold;
+		text-decoration: none;
+		float: left;
+		background: #03C url(imagens/separador.gif) right no-repeat;
+	}
+	#conteudo ul.menu li a.sel {
+		color: #000;
+		background: #CCC url(imagens/separador.gif) right no-repeat;
+	}
+	#conteudo ul.menu li a:hover {
+		text-decoration: underline;
+	}
+	
+	#banner {
+		height: 150px;
+		width: 534px;
+		padding: 5px 0 10px;
+		border-bottom: 1px solid #999;
+	}
+	#miolo {
+		float: left;
+		padding-top: 20px;
+		padding-left: 28px;
+		width: 537px;
+	}
+	#miolo h2 {
+		font-size: 1.1em;
+		height: 39px;
+		line-height: 1.2em;
+		padding-bottom: 13px;
+	}
+	#imprensa {
+		float: left;
+		width: 116px;
+		padding: 10px 10px 0 0;
+		line-height: 1.2em;
+	}
+	#imprensa p {
+		padding-bottom: 13px;
+	}
+	#imprensa a {
+		color: #03C;
+		text-decoration: underline;
+	}
+	#coluna1, #coluna2, #coluna3 {
+		float: left;
+		width: 126px;
+		height: 480px;
+		padding: 10px 10px 0 0;
+		line-height: 1.2em;
+	}
+	#coluna1 p, #coluna2 p, #coluna3 p {
+		padding: 1px 0;
+	}
+	#coluna1 a, #coluna2 a, #coluna3 a {
+		color: #03C;
+		text-decoration: underline;
+	}
+	
+	#direita {
+		padding-top: 20px;
+		width: 164px;
+		float: right;
+		line-height: 1.2em;
+	}
+	#direita h2 {
+		font-size: 1.1em;
+		color: #666;
+		padding: 9px 0 0 4px;
+		height: 17px;
+		width: 160px;
+		background: url(imagens/topobox.gif) no-repeat;
+	}
+	#direita a {
+		color: #03C;
+		text-decoration: underline;
+	}
+	#direita p {
+		color: #666;
+	}
+	.box {
+		background: url(imagens/bordabox.gif);
+		margin-bottom: 10px;
+	}
+	#boxloja, #boxfale {
+		height: 119px;
+	}
+	#boxtecnica {
+		height: 132px;
+	}
+	#boxsuporte {
+		height: 103px;
+	}
+	#boxcarreiras {
+		height: 106px;
+	}
+	.icone {
+		padding: 5px 0 0 6px;
+		float: left;
+		width: 62px;
+		background: url(imagens/cantobox.gif) left bottom no-repeat;
+	}
+	.textobox {
+		padding: 5px;
+		width: 85px;
+		float: left;
+		background: url(imagens/basebox.gif) bottom repeat-x;
+	}
+	#icoloja, #icofale {
+		height: 88px;
+	}
+	#icotecnica {
+		height: 101px;
+	}
+	#icosuporte {
+		height: 72px;
+	}
+	#icocarreiras {
+		height: 75px;
+	}
+	#txtloja, #txtfale {
+		height: 83px;
+	}
+	#txttecnica {
+		height: 96px;
+	}
+	#txtsuporte {
+		height: 67px;
+	}
+	#txtcarreiras {
+		height: 70px;
+	}
+	
+	#rodape {
+		clear: both;
+		text-align: center;
+		line-height: 1.3em;
+		padding-bottom: 13px;
+		margin: auto;
+	}
+	#rodape ul li {
+		display: inline;
+		margin: 0;
+		padding-left: 6px;
+		background: url(imagens/pipe.gif) -3px 2px no-repeat;
+	}
+	#rodape ul li.sem {
+		background: url(imagens/pipe.gif) -9px 2px no-repeat;
+	}
+	#rodape ul li.copyright {
+		background: url(imagens/pipe.gif) -9px 2px no-repeat;
+		color: #9C9A9C;
+		font-size: 0.9em;
+	}
+	#rodape ul li a {
+		color: #03C;
+		text-decoration: none;
+	}
+	#rodape ul li a:hover {
+		text-decoration: underline;
+	}
+	#rodape ul li a.selecionado {
+		color: #9C9A9C;
+		text-decoration: none;
+	}
+	#linha2 {
+		margin-bottom: 5px;
+	}

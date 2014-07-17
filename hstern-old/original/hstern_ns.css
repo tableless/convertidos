@@ -1,0 +1,24 @@
+/* Geral */
+
+body,div,td,input,select,textarea{font-size:11px}
+input{border: 0}
+
+/* Fonts */
+
+.font-0{font-size:10px}
+.font-1{font-size:11px}
+.font-2{font-size:14px}
+.font-3{font-size:17px}
+.font-4{font-size:19px}
+.font-5{font-size:25px}
+.font-6{font-size:33px}
+.font-7{font-size:49px}
+
+.line-height-0{line-height:10px}
+.line-height-1{line-height:11px}
+.line-height-2{line-height:14px}
+.line-height-3{line-height:17px}
+.line-height-4{line-height:19px}
+.line-height-5{line-height:25px}
+.line-height-6{line-height:33px}
+.line-height-7{line-height:49px}

@@ -1,0 +1,435 @@
+/*Global*/
+
+*{
+	margin:0;
+	padding:0;
+}
+fieldset, img{
+	border:none;
+}
+body{
+	font:x-small verdana, sans-serif;
+}
+#content{
+	float:left;
+	position:relative;
+	width:796px;
+	background:url(i/bg.gif) no-repeat 0 52px;
+}
+.hlabel, a.span, p.hide, h2 span{ display:none; }
+h1{
+	text-indent:-9000px;
+	margin-left:22px;
+}
+h1 a{
+	text-decoration:none;
+	display:block;
+	width:110px;
+	height:73px;
+	background:url(i/logo.gif) no-repeat top left;
+}
+
+#footer{
+	width:100%;
+	clear:both;
+}
+
+/*
+Navigation
+*/
+#nav{
+  position:absolute;
+  top:7px;
+  right:-1px;
+  height:73px;
+}
+#nav li{
+  display:inline;
+}
+#nav li a{
+  font:9px verdana, helvetica, sans-serif;
+  text-decoration:none;
+  color:#666;
+  padding:0 8px 0 1px;
+  border-right:1px solid #999;
+}
+#nav li#login a{
+  color:#d50000;
+  font-weight:bold;
+}
+#nav li.last a{
+  border:none;
+}
+
+
+/*
+Dropdown Menu
+*/
+#mainnav{
+	position:absolute;
+	margin-top:2px;
+}
+#menu {
+  margin-bottom:5px;
+}
+#menu li{
+  position:relative;
+}
+li ul {
+	position: absolute;
+	left: 153px;
+	top: 11px;
+	display: none;
+    border:1px solid #000;
+	}
+ul.level2 ul{
+  left:234px;
+}
+ul#menu li a {
+	display: block;
+	text-decoration: none;
+	color: #900;
+	padding: 4px 0 4px 6px;
+	border: 1px solid #ccc;
+    border-left:none; border-right:none;
+	border-top: 0;
+    font:bold 11px verdana, sans-serif;
+    background:url("i/gt.gif") no-repeat 98% 50%;
+	}
+#menu li ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: 1px 1px 1px 5px;
+	border: none;
+	border-bottom: 0;
+    font:10px verdana, sans-serif;
+    background:url("i/gt_ccc.gif") no-repeat 98% 50%;
+	}
+
+ul#menu, #menu ul{
+	list-style: none;
+	width: 153px;
+	margin-top:-12px;
+	}
+#menu ul.level2, #menu ul.level2 ul{
+   background:#ccc;
+   width:239px;
+}
+li ul li ul{
+  background:#ccc;
+  z-index:5;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul#menu li { float: left; height: 1%; }
+* html ul#menu li a { height: 1%; }
+/* End */
+#menu li.level1:hover ul.level2,
+#menu li.level1.over ul.level2{
+  display:block;
+}
+ul.level2 li:hover ul,
+ul.level2 li.over ul{
+  display:block;
+}
+#menu a:hover{
+  background:#900 url("i/gt_h.gif") no-repeat 98% 50%;
+  color:#fff;
+}
+ul#menu .level2 li ul li a:hover{
+  background:#666;
+  color:#fff;
+}
+ul#menu{
+  padding-top:30px;
+}
+#menu .nochild a, #menu .nochild a:hover{
+  background-image:none;
+}
+#menu .all a, #menu .important a{
+  font-weight:bold;
+  border-top: 1px solid #000;
+  padding:3px 0 3px 5px;
+}
+#menu .important ul a{ 
+  border:none;
+  font-weight:normal;
+  padding:1px 1px 1px 5px;
+}
+
+/*Secondary Menu*/
+#menu2{
+  clear:both;
+  margin-left:6px;
+  margin-top:8px;
+}
+#menu2 li{
+	margin:5px 0;
+}
+
+#menu2 li a{
+  font:bold 11px verdana, helvetica, sans-serif;
+  color:#000;
+  text-decoration:none;
+  display:block;
+}
+
+/*Main Content*/
+#tsunami{
+	float:left;
+	margin-left:154px;
+	margin-top:22px;
+}
+#tsunami p{
+	height:1px;
+	text-indent:-9999px;
+}
+#tsunami h2{
+	text-indent:-9999px;
+}
+#tsunami h2 a{
+	text-decoration:none;
+	display:block;
+	width:465px;
+	height:230px;
+	background:url(i/tsunami.jpg) no-repeat top left;
+}
+#sidebar{
+	float:right;
+	width:177px;
+	margin-top:22px;
+}
+#news{
+	float:left;
+}
+#access{
+	float:right;
+}
+#search input{
+	display:block;
+}
+#keyword{
+	font:1.2em monospace;
+	width:128px;
+}
+#search select{
+	width:131px;
+	font-size:.9em;
+}
+#go{
+	float:left;
+	margin-top:-18px;
+	margin-left:136px;
+}
+#search{
+	height:61px;
+	background:#699;
+}
+#search form{
+	margin-left:8px;
+}
+#search label{
+	color:#fff;
+	font-size:110%;
+	font-weight:bold;
+}
+
+#log{
+	height:78px;
+	background:#ccc;
+	margin-top:2px;
+}
+#log h2, #links h2, #news h3, #access h3{
+	background:#699;
+	height:20px;
+	font:bold 1.1em/18px verdana, sans-serif;
+	color:#fff;	
+	padding-left:9px;
+}
+#log ul{
+	padding:8px 5px 0 23px;
+}	
+#log li{
+	list-style:outside url(i/li_marker.gif);
+	color:#333;
+	font-size:.9em;
+}
+#log li a{
+	color:#366;
+	font-weight:bold;
+}
+#links{
+	background:#ccc;
+	height:137px;
+	margin-top:2px;
+}
+#links ul{
+	list-style:none;
+	padding:12px 5px 0 9px;
+}
+#links li a{
+	color:#366;
+	font-size:.9em;
+}
+#defend{
+	margin-top:2px;
+}
+#news{
+	margin-left:154px;
+	width:272px;
+	border:1px solid #699;
+	border-bottom:none;
+	border-top:none;
+}
+#news ul{
+	list-style:outside url(i/arrow.gif) none;
+	padding:8px 8px 0 25px;
+}
+#news li{
+	color:#555;
+	margin:5px 0;
+}
+#news li a{
+	color:#366;
+	font-size:.9em;
+}
+#news li#more{
+	margin-top:10px;
+	list-style:none;
+}
+#news li#more a{
+	font-weight:bold;
+	color:#000;
+}
+#access{
+	width:187px;
+	margin-right:2px;
+}
+#access ul{
+	list-style:none;
+}
+#downloads, #industries{
+	display:none;
+	border:1px solid #699;
+	width:150px;
+	margin-left:10px;
+	background:#fff;
+	position:absolute;
+	padding:0;
+}
+#access a.downloads, #access a.industries{
+	display:block;
+	background:url(i/dd-arrow.gif) no-repeat 136px 1px;
+	height:15px;
+	line-height:15px;
+	width:145px;
+	margin-left:10px;
+	margin-top:5px;
+	padding-left:5px;
+	border:1px solid #366;
+	text-decoration:none;
+	font-size:1em;
+	color:#000;
+}
+#downloads a, #industries a{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-size:.9em;
+	height:auto;
+	text-decoration:none;
+	font-size:1em;
+	color:#000;
+	display:block;
+}
+#downloads a:hover, #industries a:hover{
+	color:#fff;
+	background:#699;
+}
+#access ul a{
+	background-image:none;
+	border:none;
+	padding-left:0;
+}
+#access h4{
+	font-weight:normal;
+	margin-left:14px;
+	margin-top:5px;
+	font-size:.9em;
+}
+ul#resources{
+	margin-left:14px;
+	margin-top:5px;
+}
+ul#resources a{
+	color:#366;
+	display:block;
+	padding:2px 0;
+	text-decoration:underline;
+}
+#footer{
+	background:url(i/footer.gif) no-repeat 0 15px;
+}
+#footer p{
+	color:#999;
+	font-size:.9em;
+	padding:25px 0 0 16px;
+}
+#footer p a{
+	color:#999;
+}
+
+
+/*Hacks para o IE*/
+
+* html #news {
+	margin-top:0;
+}
+* html #access{
+	margin-top:0;
+}
+* html #mainnav{
+	position:fixed;
+	top:0;
+}
+* html #menu2 li{
+	margin:auto;
+}
+* html #tsunami{
+	margin-left:77px;
+	margin-top:-147px;
+}
+* html #sidebar{
+	margin-top:-147px;
+}
+* html #search select{
+	margin-left:8px;
+	clear:left;
+}
+* html #search label{
+	margin-left:8px;
+}
+* html #go{
+	margin-left:73px;
+}
+* html #news{
+	margin-left:77px;
+}
+* html #downloads, * html #industries{
+	margin-left:0;
+}
+* html ul#resources a{
+	height:1px;
+}
+
+/*Hack para o Opera*/
+
+@media all and (min-width: 0px){
+	#news{
+		margin-left:0;
+		margin-top:253px;
+	}
+	#access{
+		margin-top:253px;
+	}
+}

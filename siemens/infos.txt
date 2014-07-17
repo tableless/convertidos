@@ -1,0 +1,18 @@
+ 
+SIEMENS.COM
+
+Tableless:
+ 
+O tamanho do HTML:13.4 kb
+Tamanho total HTML+CSS+IMAGENS: 57.7 kb
+Velocidade de carregamento em algum tipo de conexão:
+11.71seg / 56k
+
+Original:
+O tamanho do HTML: 68.8 kb
+Tamanho total HTML+CSS+IMAGENS: 229 kb
+Velocidade de carregamento em algum tipo de conexão:
+46.45seg / 56k
+
+Autor: Francisco Penedo
+franchicop@yahoo.com

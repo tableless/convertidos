@@ -1,0 +1,111 @@
+// menu definition for c=us&l=en&s=gen
+//
+var m_menuBar = new Array(  );
+var m_imgPfx = "http://img.dell.com";
+var flag = "us";
+var m_homelink = "http://www1.us.dell.com/content/default.aspx?c=us&l=en&s=gen";
+var m_homelogo = "http://img.dell.com/images/global/brand/ui/homelogo/en.gif";
+var m_seglink = "http://www1.us.dell.com/content/default.aspx?c=us&l=en&s=gen";
+var m_ctryShort = "USA";
+var m_ctryName = "United States";
+var m_ctryImg = "http://img.dell.com/images/global/statichome/di_615A3B2F.gif";
+var m_backto = "BACK TO";
+var m_gototop = "Top";
+var m_popClose = "Close";
+var m_popExpand = "Expand";
+var m_offerdetail = "More Details";
+var m_printableText = "Printable Version";
+var m_printText = "Print this page";
+var m_emailText = "E-mail page";
+var m_emailSubject = "Recommended Dell web page";
+var m_helpText = "Help";
+var m_menuArrows = false;
+var m_search = "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"167\"><form name=\"search\" action=\"http://search.dell.com/results.aspx?s=gen&c=us&l=en\" method=\"get\"><tr><td><select name=\"cat\" style=\"font-family: arial;font-size: 9pt\"><option value=\"all\" selected=\"true\">Search All Dell.com</option><option value=\"snp\">Software & Peripherals</option><option value=\"sys\">Systems</option><option value=\"ser\">Services</option><option value=\"sup\">Technical Support</option><option value=\"abt\">About Dell</option></select><img src=\"http://img.dell.com/images/global/general/spacer.gif\" alt=\"\" border=\"0\" height=\"4\" width=\"4\" /></td><td><input type=\"hidden\" name=\"s\" value=\"gen\" ><input type=\"hidden\" name=\"c\" value=\"us\" ><input type=\"hidden\" name=\"l\" value=\"en\" ><input type=\"hidden\" name=\"cs\" value=\"\" ><input name=\"k\" maxlength=\"30\" type=\"text\" size=\"20\"></td><td width=\"28\" align=\"center\"><input type=\"image\" border=\"0\" src=\"http://img.dell.com/images/global/contentnav/btn_action_brand.gif\" alt=\"\" hspace=\"2\" vspace=\"0\"></td><td nowrap=\"1\"><a href=\"javascript:search.submit();\" class=\"mh_search_large\">Search&nbsp;</a></td></tr><tr><td>&nbsp;</td><td colspan=\"3\" align=\"left\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td width=\"10\" valign=\"middle\"><tr><td valign=\"top\"><a href=\"http://search.dell.com/index.aspx?c=us&l=en&s=gen&~ck=mn\"><img src=\"http://img.dell.com/images/global/brand/ui/secondary.gif\" alt=\"\" border=\"0\" /></a></td><td><a href=\"http://search.dell.com/index.aspx?c=us&l=en&s=gen&~ck=mn\" class=\"mh_search\">Advanced Search</a></TD></TR></TABLE></TD></TR></FORM></TABLE>";
+var  m_searchLinks  = new Array( new menuItem( "Search Dell", "http://www.dell.com/search1" ), new menuItem( "About Dell", "http://www1.us.dell.com/content/topics/global.aspx/corp/en/home?c=us&l=en&s=corp" ) );
+var m_birdseed = "<p class=\"para_small\"><a href=\"http://www1.us.dell.com/content/topics/global.aspx/policy/en/policy?c=us&l=en&s=gen&~ck=lf&~section=002\" target=\"_blank\">Copyright</a> 1999-2004 Dell Inc. For customers of the 50 United States and the District of Columbia only.<br><a href=\"http://www1.us.dell.com/content/topics/global.aspx/policy/en/policy?c=us&l=en&s=gen&~ck=lf&~section=007\" target=\"_blank\">Site Terms</a> | <a href=\"http://www1.us.dell.com/content/topics/global.aspx/policy/en/policy?c=us&l=en&s=gen&~ck=lf&~section=012\" target=\"_blank\">Terms and Conditions of Sale</a> | <a href=\"http://www1.us.dell.com/content/topics/global.aspx/policy/en/policy?c=us&l=en&s=gen&~ck=lf&~section=000\" target=\"_blank\">Privacy Policy</a> | <a href=\"http://www1.us.dell.com/content/topics/global.aspx/corp/en/home?c=us&l=en&s=corp&~ck=lf\">About Dell</a> | <a href=\"http://www1.us.dell.com/content/topics/segtopic.aspx/contact/contact?c=us&l=en&s=gen&~ck=lf\" target=\"_blank\">Contact Us</a> | <a href=\"http://www1.us.dell.com/content/topics/segtopic.aspx/sitemap?c=us&l=en&s=gen&~ck=lf\" target=\"_blank\">Site Map</a></p>";
+var m_localeSelector = "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" height=\"25\" align=\"left\"><tr><td nowrap=\"1\"><span class=\"para_small\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose A Country/Region&nbsp;</td><td><table cellpadding=1 cellspacing=0 border=0 width=><tr><form name=\"selfrm\"><td><select name class=\"para_small\" onChange=\"if( this.options[this.selectedIndex].value != '' ) document.location = this.options[this.selectedIndex].value\">"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ai&amp;l=en&amp;s=gen\">Anguilla</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ag&amp;l=en&amp;s=gen\">Antigua &amp; Barbuda</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ar&amp;l=es&amp;s=gen\">Argentina</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=aw&amp;l=en&amp;s=gen\">Aruba</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=ap&amp;l=en&amp;s=gen\">Asia Pacific</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=au&amp;l=en&amp;s=gen\">Australia</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=at&amp;l=de&amp;s=gen\">Austria</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=bs&amp;l=en&amp;s=gen\">Bahamas</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=bb&amp;l=en&amp;s=gen\">Barbados</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=be&amp;l=nl&amp;s=gen\">Belgium</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=bz&amp;l=en&amp;s=gen\">Belize</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=bm&amp;l=en&amp;s=gen\">Bermuda</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=bo&amp;l=es&amp;s=gen\">Bolivia</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=br&amp;l=pt&amp;s=gen\">Brazil</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=vg&amp;l=en&amp;s=gen\">British Virgin Islands</option>"
+		+ "<option value=\"http://www1.ca.dell.com/content/default.aspx?c=ca&amp;l=en&amp;s=gen\">Canada</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ky&amp;l=en&amp;s=gen\">Cayman Islands</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=cl&amp;l=es&amp;s=gen\">Chile</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=cn&amp;l=zh&amp;s=gen\">China</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=co&amp;l=es&amp;s=gen\">Colombia</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=cr&amp;l=es&amp;s=gen\">Costa Rica</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=cz&amp;l=cs&amp;s=bsd\">Czech Republic</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=eu&amp;l=en&amp;s=gen\">Dell EMEA</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=dk&amp;l=da&amp;s=gen\">Denmark</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=dm&amp;l=en&amp;s=gen\">Dominica</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=do&amp;l=es&amp;s=gen\">Dominican Republic</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ec&amp;l=es&amp;s=gen\">Ecuador</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=sv&amp;l=es&amp;s=gen\">El Salvador</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=ed&amp;l=en&amp;s=gen\">EMEA Distribution Business</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=fi&amp;l=fi&amp;s=gen\">Finland</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=fr&amp;l=fr&amp;s=gen\">France</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=de&amp;l=de&amp;s=gen\">Germany</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=gr&amp;l=en&amp;s=gen\">Greece</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=gd&amp;l=en&amp;s=gen\">Grenada</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=gt&amp;l=es&amp;s=gen\">Guatemala</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=gy&amp;l=en&amp;s=gen\">Guyana</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ht&amp;l=en&amp;s=gen\">Haiti</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=hn&amp;l=es&amp;s=gen\">Honduras</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=hk&amp;l=en&amp;s=gen\">Hong Kong</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=hu&amp;l=en&amp;s=bsd\">Hungary</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=in&amp;l=en&amp;s=gen\">India</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=ie&amp;l=en&amp;s=gen\">Ireland</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=il&amp;l=he&amp;s=bsd\">Israel</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=it&amp;l=it&amp;s=gen\">Italy</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=jm&amp;l=en&amp;s=gen\">Jamaica</option>"
+		+ "<option value=\"http://www1.jp.dell.com/content/default.aspx?c=jp&amp;l=jp&amp;s=gen\">Japan</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=kr&amp;l=en&amp;s=bsd\">Korea</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=my&amp;l=en&amp;s=gen\">Malaysia</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=mx&amp;l=es&amp;s=gen\">Mexico</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=nl&amp;l=nl&amp;s=gen\">Netherlands</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=an&amp;l=en&amp;s=gen\">Netherlands Antilles/Cura&#231;&#227;o</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=nz&amp;l=en&amp;s=gen\">New Zealand</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ni&amp;l=es&amp;s=gen\">Nicaragua</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=no&amp;l=no&amp;s=gen\">Norway</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=pa&amp;l=es&amp;s=gen\">Panama</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=py&amp;l=es&amp;s=gen\">Paraguay</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=pe&amp;l=es&amp;s=gen\">Peru</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=pl&amp;l=pl&amp;s=bsd\">Poland</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=pt&amp;l=pt&amp;s=bsd\">Portugal</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=pr&amp;l=es&amp;s=gen\">Puerto Rico</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=ru&amp;l=ru&amp;s=bsd\">Russia</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=sa&amp;l=en&amp;s=bsd\">Saudi Arabia</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=sg&amp;l=en&amp;s=gen\">Singapore</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=sk&amp;l=sk&amp;s=gen\">Slovak Republic</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=za&amp;l=en&amp;s=gen\">South Africa</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=es&amp;l=es&amp;s=gen\">Spain</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=kn&amp;l=en&amp;s=gen\">St. Kitts &amp; Nevis</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=lc&amp;l=en&amp;s=gen\">St. Lucia</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=vc&amp;l=en&amp;s=gen\">St. Vincent &amp; Grenadines</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=sr&amp;l=en&amp;s=gen\">Suriname</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=se&amp;l=sv&amp;s=gen\">Sweden</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=ch&amp;l=de&amp;s=gen\">Switzerland</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=tw&amp;l=en&amp;s=gen\">Taiwan</option>"
+		+ "<option value=\"http://www1.ap.dell.com/content/default.aspx?c=th&amp;l=en&amp;s=gen\">Thailand</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=tt&amp;l=en&amp;s=gen\">Trinidad &amp; Tobago</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=tr&amp;l=tr&amp;s=bsd\">Turkey</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=tc&amp;l=en&amp;s=gen\">Turks &amp; Caicos Islands</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=ae&amp;l=en&amp;s=bsd\">United Arab Emirates</option>"
+		+ "<option value=\"http://www1.euro.dell.com/content/default.aspx?c=uk&amp;l=en&amp;s=gen\">United Kingdom</option>"
+		+ "<option selected=\"selected\" value=\"http://www1.us.dell.com/content/default.aspx?c=us&amp;l=en&amp;s=gen\">United States</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=uy&amp;l=es&amp;s=gen\">Uruguay</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=vi&amp;l=en&amp;s=gen\">US Virgin Islands</option>"
+		+ "<option value=\"http://www1.la.dell.com/content/default.aspx?c=ve&amp;l=es&amp;s=gen\">Venezuela</option></select></td></form></tr></table></span></td></tr></table>";
+var m_topLinks = "<table align=\"right\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td VALIGN=\"bottom\" WIDTH=\"5\"><a class=\"mh_toplink\" href=\"http://www1.us.dell.com/content/topics/global.aspx/corp/en/home?c=us&l=en&s=corp&~ck=mn\"><img src=\"http://img.dell.com/images/global/brand/ui/primary.gif\" width=\"21\" height=\"17\" alt=\"\" border=\"0\" /></a></td><td valign=\"middle\"><a class=\"mh_toplink\" href=\"http://www1.us.dell.com/content/topics/global.aspx/corp/en/home?c=us&l=en&s=corp&~ck=mn\">About Dell</a></td></tr></table>";
+var m_localeSelectLite = "<div class=\"para_small\" style=\"padding-bottom:4px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"http://www1.us.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen\">Choose A Country/Region</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"crumbsel\">English</span></div>";

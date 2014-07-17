@@ -1,0 +1,259 @@
+body, h1, h2, h3, h4, div, ul, a, form, fieldset, p{
+    margin:0;
+    padding:0;
+}
+body{
+  background:#fff;
+}
+fieldset{
+  border:none;
+}
+#topo{
+  width:740px;
+  margin:7px 0;
+}
+p#data{
+  font:12px arial;
+  margin-top:-15px;
+  margin-left:5px;
+  color:#555;
+}
+html>body p#data{
+  margin:0;
+  margin-left:5px;
+}
+form#lang{
+  float:right;
+  text-align:right;
+  margin-right:10px;
+}
+form#lang label{
+  font:12px arial, "bitstream vera sans", helvetica, sans-serif;
+}
+form#lang select{
+  width:200px;
+}
+#conteudo{
+  position:relative;
+  margin:0;
+  padding:0;
+  width:740px;
+  text-align:left;
+}
+#headers{
+  width:76%;
+  position:relative;
+}
+h1 a span, h2 a span{
+  display:none;
+}
+h1 a{
+  display:block;
+  color:#fff;
+  width:329px;
+  height:150px;
+  border:none;
+  background:#990 url("imgs/mobile.gif") no-repeat top left;
+}
+#headers h2 a{
+  display:block;
+  color:#fff;
+  width:329px;
+  height:95px;
+  border:none;
+  margin-top:5px;
+  background:#990 url("imgs/laserjet.gif") no-repeat top left;
+}
+#headers img{
+  display:block;
+  position:absolute;
+  top:0;
+  left:337px;
+}
+#nav{
+  width:562px;
+  height:110px;
+  background:#333;
+  margin-top:5px;
+  padding-top:10px;
+  position:relative;
+}
+#nav ul{
+  float:left;
+  list-style:none;
+  width:30%;
+  padding-left:1em;
+  text-indent:-.7em;
+}
+#nav ul li{
+  color:#fff;
+  display:block;
+  line-height:12px;
+}
+#nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font:11px arial, "bitstream vera sans", helvetica, sans-serif;
+}
+#nav ul li a:hover{
+  text-decoration:underline;
+}
+#nav:after{
+  content: "";
+  display: block;
+  height: 0px;
+  clear: left;
+}
+#menu{
+  position:absolute;
+  top:0;
+  left:567px;
+  width:173px;
+  height:250px;
+  background:#666;
+}
+#menu ul{
+  list-style:none;
+  height:100%;
+  text-indent:-.7em;
+}
+#menu ul li{
+  display:block;
+  color:#fff;
+  padding:16px 5px;
+  padding-left:15px;
+  margin:0 2px;
+  border-bottom:1px solid #999;
+}
+#menu li.ultimo{
+  border:none;
+}
+#menu ul li a{
+  color:#fff;
+  text-decoration:none;
+  font:12px arial, "bitstream vera sans", helvetica, sans-serif;
+}
+#menu ul li a:hover{
+  text-decoration:underline;
+}
+#destaque{
+  position:absolute;
+  left:567px;
+  top:255px;
+  width:173px;
+  height:120px;
+  background:#900;
+}
+#destaque ul{
+  list-style:none;
+  text-indent:-.7em;
+}
+#destaque ul li{
+  display:block;
+  color:#fff;
+  padding:20px 5px;
+  padding-left:15px;
+  margin:0 2px;
+  border-bottom:1px solid #f9f9f9;
+}
+#destaque li.ultimo{
+  border:none;
+}
+#destaque ul li a{
+  color:#fff;
+  text-decoration:none;
+  font:bold 12px arial, "bitstream vera sans", helvetica, sans-serif;
+}
+#destaque ul li a:hover{
+  text-decoration:underline;
+}
+#principal{
+  width:100%;
+}
+#principal ul#links{
+  width:100%;
+  height:30px;
+  background:#e7e7e7;
+  margin-top:5px;
+
+}
+ul#links li{
+  float:left;
+  display:block;
+  line-height:30px;
+  width:32%;
+  margin-left:5px;
+  color:#036;
+  font-weight:bold;
+}
+ul#links li a{
+  font:bold 12px arial, "bitstream vera sans", helvetica, sans-serif;
+  color:#036;
+  text-decoration:none;
+}
+ul#links form{
+  margin-top:5px;
+}
+html>body ul#links form{
+  margin:0;
+}
+ul#links form input#busca{
+  width:150px;
+}
+ul#links label{
+  font:bold 90% arial, "bitstream vera sans", helvetica, sans-serif;
+  color:#000;
+}
+principal ul#secoes{
+  width:100%;
+  height:25px;
+  background:#fff;
+  margin-top:5px;
+}
+ul#secoes li{
+  float:left;
+  display:block;
+  line-height:25px;
+  width:24%;
+  margin-left:5px;
+  color:#036;
+}
+ul#secoes li a{
+  font:12px arial, "bitstream vera sans", helvetica, sans-serif;
+  color:#036;
+  text-decoration:none;
+}
+#principal a:hover{
+  text-decoration:underline;
+}
+#rodape{
+  width:100%;
+  clear:both;
+}
+#rodape ul{
+  width:100%;
+  height:45px;
+  background:#666;
+  margin-top:5px;
+  text-align:center;
+
+}
+#rodape ul li{
+  float:left;
+  display:table-cell;
+  vertical-align:middle;
+  width:240px;
+  margin-left:5px;
+  color:#036;
+  text-align:center;
+}
+#rodape ul li a{
+  width:180px;
+  font:11px arial, "bitstream vera sans", helvetica, sans-serif;
+  color:#fff;
+}
+#rodape p{
+  font:70% arial, "bitstream vera sans", helvetica, sans-serif;
+  text-align:center;
+  margin:0;
+}

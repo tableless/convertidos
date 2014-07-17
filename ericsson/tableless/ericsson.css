@@ -1,0 +1,397 @@
+/******************
+Definições do gerais
+******************/
+
+body {
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 0.6em;
+margin: 0px;
+padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, li, form, p {
+margin: 0px;
+padding: 0px;
+}
+
+input.text {
+font-size: 10px;
+margin-top: 2px;
+width: 100px;
+}
+
+img {
+border: 0px;
+}
+
+/******************
+Definições do topo
+******************/
+
+div#topo {
+background-color: transparent;
+height: 50px;
+width: 779px;
+}
+
+#logo {
+background-color: transparent;
+float: left;
+width: 175px;
+}
+
+#busca {
+background-color: transparent;
+margin-left: 550px;
+padding-top: 15px;
+width: 200px;
+}
+
+#bot_busca {
+border: 1px dashed #c0c0c0;
+color: #336699;
+float: left;
+height: 12px;
+margin-top: 4px;
+margin-left: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+width: 60px;
+}
+
+#bot_busca a {
+color: #336699;
+text-decoration: none;
+}
+
+#bot_busca a:visited {
+color: #336699;
+text-decoration: none;
+}
+
+#bot_busca a:hover {
+color: #6699CC;
+text-decoration: none;
+}
+
+html>body #bot_busca {
+margin-top: 2px;
+padding-bottom: 2px;
+}
+
+#input {
+float: left;
+width: 102px;
+}
+
+/******************
+Definições do menu
+******************/
+
+#menu {
+background-image: url(imgs/mh_bg_75.gif);
+background-repeat: repeat;
+color: #fff;
+height: 17px;
+height: 17px;
+width: 779px;
+}
+
+#menu a {
+color: #fff;
+text-decoration: none;
+}
+
+#menu a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+#menu a:hover {
+color: #fff;
+text-decoration: none;
+}
+
+#cont_menu {
+margin-top: 2px;
+padding-left: 153px;
+}
+
+#menu ul {
+padding-top: 0px;
+}
+
+html>body #menu ul {
+padding-top: 2px;
+}
+
+#menu li {
+border-right: 1px dotted #c0c0c0;
+display: inline;
+font-weight: bold;
+list-style-type: none;
+padding-bottom: 5px;
+width: 80px;
+}
+
+html>body #menu li {
+}
+
+#menu li.pri {
+border-left: 1px dotted #c0c0c0;
+width: 80px;
+}
+
+#menu li.ult {
+border: 0px;
+}
+
+/******************
+Definições do conteúdo
+******************/
+
+#cont_1 {
+height: 440px;
+margin-top: 8px;
+width: 779px;
+}
+
+#left1, #right1 {
+float: left;
+width: 153px; 
+}
+
+#center1 {
+float: left;
+width: 469px;
+}
+
+/******************
+Definições da esquerda
+******************/
+
+#links {
+height: 300px;
+}
+
+#left1 ul {
+list-style-type: none;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+#left1 li.esp {
+margin-bottom: 1px;
+}
+
+html>body #left1 li.esp {
+margin-bottom: 13px;
+}
+
+#left1 li.tit {
+color: #336699;
+font-weight: bold;
+}
+
+#left1 li.txt {
+color: #000000;
+}
+
+#press_left {
+border-bottom: 1px dotted #c0c0c0;
+color: #666666;
+font-weight: bold;
+margin-left: 10px;
+padding-bottom: 3px;
+width: 130px;
+}
+
+#links2{
+margin-left: 10px;
+}
+
+/******************
+Definições do centro
+******************/
+
+#center1 ul {
+list-style-image: url(imgs/h_m_a_45.gif);
+padding-top: 20px;
+padding-left: 40px;
+}
+
+#parte1 {
+border-left: 1px dotted #c0c0c0;
+border-right: 1px dotted #c0c0c0;
+height: 270px;
+width: 469px;
+}
+
+#parte2 {
+margin-top: 10px;
+width: 469px;
+}
+
+#parte1 p {
+color: #336699;
+font-size: 20px;
+padding-left: 5px;
+}
+
+#txt_center1 {
+padding-left: 50px;
+}
+
+#cont_1 a {
+color: #336699;
+text-decoration: none;
+}
+
+#cont_1 a:visited {
+color: #336699;
+text-decoration: none;
+}
+
+#cont_1 a:hover {
+color: #6699CC;
+text-decoration: none;
+}
+
+#esq, #dir {
+float: left;
+height: 170px;
+}
+
+#esq {
+border-left: 1px dotted #c0c0c0;
+border-right: 1px dotted #c0c0c0;
+width: 227px;
+}
+
+#esq li.seta {
+font-weight: bold;
+list-style-image: url(imgs/a_151x150.gif);
+}
+
+#esq ul.dois {
+color: #000000;
+padding-left: 25px;
+}
+
+#dir_esp1 {
+margin-left: 25px;
+}
+
+#dir {
+width: 239px;
+}
+
+#dir li.seta {
+font-weight: bold;
+list-style-image: url(imgs/a_151x150.gif);
+}
+
+#dir ul.dois {
+color: #000000;
+padding-left: 40px;
+}
+
+#dir_esp2 {
+margin-left: 40px;
+}
+
+/******************
+Definições da direita
+******************/
+
+#cont_right1 {
+height: 280px;
+padding-left: 10px;
+}
+
+#press {
+border-bottom: 1px dotted #c0c0c0;
+color: #666666;
+font-weight: bold;
+padding-bottom: 3px;
+width: 130px;
+}
+
+#right1 ul.um {
+color: #336699;
+list-style-image: url(imgs/callout_.gif);
+padding-left: 18px;
+}
+
+#right1 li.data {
+color: #666666;
+}
+
+#right1 li.seta {
+font-weight: bold;
+list-style-image: url(imgs/a_151x150.gif);
+}
+
+#txt {
+color: #336699;
+}
+
+#right1 ul.dois {
+color: #000000;
+padding-left: 25px;
+}
+
+#right_2 {
+border-left: 1px dotted #c0c0c0;
+height: 170px;
+margin-left: 0px;
+}
+
+#dir_esp3 {
+margin-left: 25px;
+}
+
+html>body #right_2 {
+margin-left: 2px;
+}
+
+/******************
+Definições do rodapé
+******************/
+
+#rodape {
+background-color: #E5E5E5;
+border: 1px dotted #ADADAD;
+color: #666666;
+height: 18px;
+margin-top: 25px;
+width: 779px;
+}
+
+#rodape ul.rodape {
+list-style-type: none;
+margin-top: 3px;
+}
+
+#rodape li.link {
+border-right: 1px dotted #ADADAD;
+display: inline;
+height: 18px;
+padding-bottom: 5px;
+padding-top: 3px;
+}
+
+#rodape a {
+color: #666666;
+text-decoration: none;
+}
+
+#rodape a:visited {
+color: #666666;
+text-decoration: none;
+}
+
+#rodape a:hover {
+color: #666666;
+text-decoration: none;
+}

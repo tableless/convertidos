@@ -1,0 +1,31 @@
+#cb{background:black;height:85px}
+#di{width:380px;margin:0px 0px 0px 260px }
+#es{float:left;width:260px;text-align:right}
+#ls a, #ls a:visited{color:#9C9A9C;text-decoration:none}
+#ls a:hover, #ls a:active{color:black;text-decoration:underline}
+#ls{width:750px}
+#logo{float:left}
+#mnnav{margin:0px 0px 7px 0px}
+#mnrp a, #mnrp a:visited{text-decoration: none;color: #999999}
+#mnrp a:hover, #mnrp a:active{color: black;text-decoration:underline}
+#mnrp div{float:left;margin:0px 20px 0px 0px}
+#mnrp{font:bold 65% Verdana,Arial,sans-serif;margin:0px 0px 0px 20px;background:url(i/pontos.gif) no-repeat left white;padding:20px 0px 0px 0px}
+#navbar{margin:0px 267px 0px 0px;text-align:right}
+#prlista{background:url("i/pontos.gif") no-repeat bottom center;padding:0px 0px 15px 0px ;margin:0px 0px 15px 0px}
+#rp .lsrodault{float:left;line-height: 135%; margin:0px 10px 0px 0px;padding:0px 10px 0px 0px;text-decoration: none}
+#rp .lsroda{float:left;background:url(i/1dot.gif) repeat-Y right white;line-height: 135%; text-decoration: none;margin:0px 10px 0px 0px;padding:0px 10px 0px 0px}
+#rp a, #rp a:visited{color:#CC0000;font:Verdana, Arial,sans-serif;text-decoration:none}
+#rp a:hover, #rp a:active{color:black;font:Verdana, Arial,sans-serif;text-decoration:underline}
+#rp{color: #999999;margin:20px 0px 0px 15px;font: 65% Verdana,Arial,sans-serif}
+#selo1{margin:0px 0px 10px 0px}
+#selos{background:url(i/1dot.gif) repeat-Y right white;padding:0px 10px 0px 0px}
+#ticont{margin:15px 0px 0px 210px}
+#tisls{background:#CE0000}
+.cxls div, .cxlspr div{background:url("i/redbullet2.gif") no-repeat top left;padding:0px 0px 0px 7px;margin:0px 0px 5px 25px}
+.cxls, .cxlspr{float:left;width:185px;font:bold 60% Verdana, Arial, sans-serif;background:url("i/fundoponto.gif") repeat-Y left;padding:6px 0px 0px 0px ;height:149px;border-bottom:5px solid #CECFCE}
+.cxlspr{width:189px}
+.listas div a, .listas div a:visited{color:#CE0000;font-weight:bold;text-decoration:none}
+.listas div a:hover, listas div a:active{color:black;text-decoration:underline}
+.listas div, #prlista div{font:70% Verdana, Arial, sans-serif;background:url("i/redarrow2.gif") no-repeat top left;padding:0px 0px 0px 15px;margin:0px 0px 5px 20px}
+body{margin:0px;padding:0px;background:white}
+img{border:0px;vertical-align:middle}

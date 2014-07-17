@@ -1,0 +1,93 @@
+body {
+	background:white;
+	margin:9px;
+}
+
+/*********************************************
+Cabecalho
+*********************************************/
+#cabecalho span {
+	margin:48px 0px 0px 0px;
+}
+
+#tudo {
+	width:705px;
+	background:white;
+}
+
+/*********************************************
+Esquerda
+*********************************************/
+#esquerda {
+	background:white;
+	width:222px;
+	float:left;
+	margin:6px 0px 0px 0px;
+}
+
+hr {
+	display:none;
+}
+
+h5 {
+	margin:0px;
+}
+
+/*********************************************
+Direita
+*********************************************/
+#direita {
+	background:white;
+	width:476px;
+	margin:-5px 0px 0px 0px;
+	float:right;
+}
+
+/*********************************************
+Divs do lado esquerda
+*********************************************/
+#q1 ul {
+	list-style-image:url(imagens/bullet1.gif);
+	margin:0px 0px 0px 20px;
+	padding:0px;
+}
+
+#q1 li {
+	margin:6px 0px 0px 0px;
+}
+
+#q1 a:hover, #q1 a:active, #q2 a:hover, #q2 a:active, #q3 a:hover, #q3 a:active {
+	color:#333333;
+	text-decoration:underline;
+}
+
+#q2 ul {
+	list-style-image:url(imagens/bullet3.gif);
+	margin:-7px 0px 0px 20px;
+	padding:0px;
+}
+
+#q2 li {
+	margin:6px 0px 0px 0px;
+}
+
+#q2 .selec {
+	list-style-image:url(imagens/bullet2.gif);
+	font:bold 90% Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	text-decoration:none;
+}
+
+/*********************************************
+Divs do lado Direito
+*********************************************/
+#direita p a:hover, #direita p a:active,.opc a:hover, .opc a:active {
+	color:#CC0000;
+}
+
+/*********************************************
+Rodape
+*********************************************/
+#rodape a:hover, #rodape a:active {
+	color:#333333;
+}
+

@@ -1,0 +1,162 @@
+/* Basic Aesthetic */
+
+body {
+
+  font: 7.5pt verdana, arial, "sans-serif";
+  background-color: #E2E2E2;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  
+}
+
+form, input, select, textarea {
+
+  font: 7pt verdana, arial, "sans-serif";
+  
+}
+
+/* Individual elements */
+
+div#contents {
+
+  background-color: #FFFFFF;
+  border: 1px solid #333333;
+  width: 752px;
+  
+}
+
+div#language {
+
+  padding: 3px 0px 8px 9px;
+  text-align: left;
+  border-bottom: 1px solid #999999;
+  
+}
+
+ul.ulone {
+
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+li.lione {
+
+  display: inline;
+  
+}
+
+div.lionediv {
+
+  float: left;
+  width: 151px;
+  border-right: 1px solid #333333;
+  background-color: #FFFFFF;
+  
+}
+
+a.topnav:link, a.topnav:visited {
+
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  
+}
+
+a.topnav:hover, a.topnav:active {
+
+  background-color: #DFDFDF;
+  
+}
+
+div#mupperb {
+
+  background: url('Assets/menu_bew.gif');
+  font-size: 1px;
+  height: 4px;
+  
+}
+
+div.litwodiv {
+
+  float: left;
+  width: 126px;
+  background-color: #FFFFFF;
+  
+}
+
+a.topnavtwo:link, a.topnavtwo:visited {
+
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 1px 0px 3px 0px;
+  background: url('Assets/dotted_w.gif');
+  background-repeat: repeat-y;
+  background-position: right;
+  
+}
+
+a.topnavtwo:hover, a.topnavtwo:active {
+
+  background-color: #DFDFDF;
+  
+}
+
+div#mlowerb {
+
+  background: url('Assets/menu_bev.gif');
+  font-size: 1px;
+  height: 4px;
+  
+}
+
+div#contfooter {
+
+  background-color: #F7F7F7;
+  border-top: 1px solid #D7D7D7;
+  border-bottom: 1px solid #D7D7D7;
+  padding: 4px 0px;
+  margin-bottom: 5px;
+  color: #333333;
+  
+}
+
+a.simple:link, a.simple:visited {
+
+  color: #333333;
+  text-decoration: none;
+  
+}
+
+a.simple:hover, a.simple:active {
+
+  text-decoration: underline;
+  
+}
+
+div#footer {
+
+  width: 752px;
+  
+}
+
+div#footerleft {
+
+  float: left;
+  padding-left: 5px;
+  font: 8pt verdana;
+  color: #333333;
+  
+}
+
+div#footerright {
+
+  float: right;
+  padding-right: 5px;
+  color: #333333;
+  
+}

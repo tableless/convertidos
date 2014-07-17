@@ -1,0 +1,326 @@
+a {
+    	color: #0033FF;
+    	text-decoration: none;
+    }
+    
+    a:visited {
+    	color: #660066;
+    }
+    
+    a:hover {
+    	text-decoration: underline;
+    }
+    
+    a:active {
+    	color: #660066;
+    	text-decoration: underline;
+    }
+    
+    body {
+    	background: #FFFFFF;
+    	font-family: Arial, Verdana, Helvetica, 'Sans-Serif';
+    	font-size: 0.7em;
+    	margin: 10px 11px;
+    }
+    
+    dd {
+    	margin-left: 26px;
+    }
+    
+    dl, dt {
+    	margin: 0px;
+    	padding: 0px;
+    }
+    
+    form {
+    	margin: 0px;
+    }
+    img {
+    	margin: 0px; border: none;
+    }
+    h2 {
+    	font: bold 1.1em Arial, Verdana, Helvetica, 'Sans-Serif';
+    	margin: 0px 0px 6px 0px;
+    }
+    
+    html>body #start {
+    	width: 707px;
+    }
+   
+    li.new {
+    	margin: 0px;
+    	padding-bottom: 5px;
+    }
+    
+    li.rodape {
+    	display: inline;
+    	padding-left: 3px;
+    	padding-right: 3px;
+    }
+    
+    p {
+    	margin: 0px;
+    }
+ul.new { margin: 0px; display: block; font-size: 1.1em;list-style:none;padding:0 }
+ul.news2 { margin: 0px; display: block; font-size: 1.1em;list-style:none;padding:0 }
+ul.new li{
+  padding-left: 20px;
+ background: url(img_tableless/secondary.gif) 10px 0px no-repeat;
+}
+ul.news2 li{
+  padding-left: 35px;
+ background: url(img_tableless/secondary.gif) 25px -1px no-repeat;
+}
+    ul.rodape {
+    	list-style-type: none;
+    	margin: 0px 0px 0px 60px;
+    	padding: 5px 0px 0px 0px;
+		border: 1px solid;
+		width: 600px;
+    }
+    
+    .buy {
+       color: #FFFFFF;
+       font: bold 1.1em Arial, Verdana, Helvetica, 'Sans-Serif';
+       padding-right:20px;
+
+   }
+    
+    .country {
+    	border: 1px solid #666666;
+    	font: 11px Arial, Verdana, Helvetica, 'Sans-Serif';
+    }
+    .searchdell {
+    	font: 9pt Arial, Verdana, Helvetica, 'Sans-Serif';
+    }
+    .imgdestaque {
+    	float: left;
+    }
+    .imgabout {
+    	vertical-align: top;
+    }
+	 .imglarge {
+    	vertical-align: middle;
+		margin-right: 5px;
+    }
+	.p a{
+		font-size: 9pt;
+	}
+	 .imgadv {
+    	vertical-align: top;
+		margin-right: 5px;
+    }
+    .limpa{
+    	clear: both;
+    }
+    
+    .limpa {
+    	clear: both;
+    }
+    
+    .space10 {
+    	margin-right: 5px;
+		vertical-align: top;
+    }
+    
+    #busca {
+    	background: #0066CC;
+    	height: 45px;
+		position: relative;
+    }
+	#logo{
+		position: relative;
+		top: 7px; left:15px;
+	}  
+    #col1, #col2, #col3, #col4 {
+    	float: left;
+    	margin-top: 10px;
+    }
+	
+	#col1{
+    	width: 165px;
+    }    
+    #col2 {
+    	width: 150px;
+		margin-left: 15px;
+    }
+    
+    #col3 {
+    	width: 178px;
+		margin-left: 15px;
+    }
+    
+    #col4 {
+    	width: 159px;
+		margin-left: 15px;
+    }
+    
+    #compra {
+       background: url(img_tableless/bg_phonestrip.gif) top repeat-x ;
+	line-height: 18px; 
+	text-align: right;
+	padding: 1px 0px 3px 0px;
+	_padding: 1px 0px 0px 0px;
+	}
+    
+    #corpo {
+    	background: url(img_tableless/bg_main.gif) no-repeat top right;
+		height: 230px;
+    }
+    
+    #destaque {
+    	background: url(img_tableless/di_65BF2000.jpg) no-repeat top left;
+    	border-bottom: 1px solid #E1E1E1;
+    	height: 149px;
+    }
+    
+    #imgstart {
+    	background: #0099FF;
+		border: 1px solid #666666;
+    	float: left;
+    	height: 20px;
+		padding-left: 10px;
+    	width: 515px;
+		_width: 527px; /* hack pro IE - 12px (10 de padding mais 2 de borda) a MAIS */
+    }
+    
+    #imgsupport {
+    	background: #0066CC;
+    	border: 1px solid #666666;
+    	clear: right;
+    	float: left;
+    	height: 20px;
+    	margin-left: 5px;
+		padding-left: 10px;
+    	width: 184px;
+		_width: 196px; /* hack pro IE - 12px (10 de padding mais 2 de borda) a MAIS */
+    }
+    
+    #news {
+    	margin-left: 491px;
+    	padding-top: 3px;
+    	width: 225px;
+    }
+    
+    #opcoes {
+    	background: url(img_tableless/pn_shader.gif) #E1E1E1 repeat-x top;
+    	border-bottom: 1px solid #666666;
+    	height: 22px;
+    }
+
+    #rodape {
+    	background: #EDEDED;
+    	border-bottom: 1px solid #CCCCCC;
+    	border-top: 1px solid #CCCCCC;
+    	padding: 5px;
+    	text-align: center;
+		margin: 0 auto;
+		position: relative;
+    }
+
+    #navlist li{
+    display:inline;
+	 margin: 0px;
+	 }
+	 #navlist1 li{
+    display:inline;
+	 margin: 0px;
+	 }
+ 	#navlist li a{
+    display:block;
+    float:left;
+    padding: 0px 1em;
+    border-left: 1px solid black;
+	 margin: 0px;
+	 height: 20px;
+	 line-height: 20px;
+}
+#navlist1 li a{
+    display:block;
+    float:left;
+    padding: 0px 0.5em;
+    border-left: 1px solid black;
+	 margin: 0px;
+}
+	 #navlist li a#current {
+    border-left:none;
+}
+#navlist1 li a#current1 {
+    border-left:none;
+}
+#navcontainer {
+	padding-left: 50px;
+	margin: 0px;
+	float: right;
+	font-size: 9pt;
+}
+#navcontainer1 {
+	padding-left: 60px;
+	margin: 0px;
+	border: 1px solid #ededed;
+}
+    #start {
+    	border-right: 1px;
+    	padding-right: 10px;
+    	width: 718px;
+    	width: 707px;
+    }
+    #topo{
+    	height: 25px;
+		position: relative;
+    }
+    #pais{
+    	position: absolute;
+		top: 2px; left: 18px;
+    }
+	 #about{
+	 	position: absolute;
+		top: 0px; right: 0px;
+	 }
+	 #about a {
+	 	font: 1.1em Arial, Verdana, Helvetica, 'Sans-Serif';
+	 }
+	 #search {
+	 	position: absolute;
+		top: 0px; right: 0px;
+		width: 360px;
+	 }
+	 #search a{
+	 	font: bold 9pt Arial, Verdana, Helvetica, 'Sans-serif';
+		color: White;
+	 }
+	 #advanced {
+	 	position: absolute;
+		top: 25px; right: 100px;
+	 }
+	 #advanced a{
+	 	font: bold 8pt Arial, Verdana, Helvetica, 'Sans-serif';
+		color: #80CDFF;
+	 }
+	 #opcoes img{
+	 	vertical-align: middle;
+	 }
+	 #topo, #compra, #busca, #opcoes, #destaque, #corpo{
+    	margin: 0px;
+    	width: 728px;
+    }
+	 #rodape {
+		width: 718px;
+	 	_width: 728px; /* hack pro IE (o hack em sempre DEPOIS) */
+		margin: 0px;
+	 }
+	 #opcoes {
+		right: 0px;
+	 }
+	 #navlist, #navlist1 {
+	 	margin-top: 0px;
+	 }
+	#top {
+		position: absolute;
+		top: 12px; right: 11px;
+	}
+	#top a {
+		font-size: 9pt;
+	}
+	label{ display:none; }
+

@@ -1,0 +1,129 @@
+h4 {
+	margin:0px 0px 0px 43px;
+}
+
+h4 a:hover, h4 a:active {
+	color:black;
+	text-decoration:underline;
+}
+
+hr {
+	display:none;
+}
+
+/*********************************************
+geral
+*********************************************/
+#geral {
+	margin:2px;
+}
+
+/*********************************************
+Cabecalhos
+*********************************************/
+.topo {
+	background:url("imagens/fundotopo.gif") repeat-Y #006699;
+	height:68px;
+}
+
+.menutopo a:hover, #menutopo a:active, .menutopo1 a:hover, #menutopo1 a:active, .menutopo2 a:hover, #menutopo2 a:active,  #rlinks a:hover, #rlinks a:active, #rlinks2 a:hover, #rlinks2 a:active, {
+	text-decoration:underline;
+}
+
+#search {
+	float:right;
+	width:270px;
+	margin:13px 0px 0px 0px;
+}
+
+#search input {
+	font:70% Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+#brasil {
+	font:65% Verdana, Arial, Helvetica, Sans-serif;
+	color:#99CCFF;
+	padding:20px 0px 0px 0px;
+}
+
+/*********************************************
+Esquerda
+*********************************************/
+#conteudoesquerda {
+	background:white;
+	float:left;
+	border:1px solid white;
+}
+
+#linksdest {
+	width:404px;
+	margin:5px 0px 0px 0px;
+	border-top:9px solid black;
+}
+
+#linksdestin {
+	margin:9px 0px 0px 11px;
+}
+
+#linkdestin img {
+	vertical-align:bottom;
+}
+
+/*********************************************
+Direita
+*********************************************/
+.opc {
+	margin:7px 0px 0px 0px;
+	border-bottom:1px solid #CCCCCC;
+	padding:0px 0px 7px 0px;
+}
+
+.opcult {
+	margin:8px 0px 0px 0px;
+	border-bottom:9px solid #006699;
+	padding:0px 0px 3px 0px;
+}
+
+.opcult2 {
+	margin:8px 0px 18px 0px;
+	padding:0px 0px 3px 0px;
+}
+
+.opcult2 b {
+	font:bold 115% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+.dentroopc2 {
+	margin:0px 0px 0px 14px;
+}
+
+.dentroopc2 .texti {
+	background:#CCCC99;
+	width:125px;
+	font: 125% Arial, Verdana,  Helvetica, Sans-Serif;
+	float:left;
+
+}
+
+.dentroopc2 input {
+	margin:7px 0px 0px 0px;
+}
+
+.dentroopc2 a, .dentroopc2 a:visited {
+	color:#006699;
+	font:bold 100% Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+.linkopc {
+
+	margin:0px 0px 0px 42px;
+}
+
+#conteudodireita {
+	float:right;
+	width:197px;
+}
+
+#conteudodireita img {
+	float:left;
+}

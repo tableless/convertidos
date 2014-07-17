@@ -1,0 +1,389 @@
+/* -----------------------------------------------------------------------------------------------------*/
+
+.snpText, .snpTextList, .snpTable, A.snpSimpleLink /* .txt12 */
+{
+	font-style:normal;
+	text-decoration:none; 
+	font-size:11px;
+	color:#333333;
+	font-family:Arial,Verdana; 
+	line-height:16px;
+}
+
+
+.snpTextList { float:left; }
+.snpParagraphSpacer { line-height:5px; }
+
+P.snpCollection { margin:4px 0px; }
+
+UL.snpContent { margin:0px 20px; }
+
+/* TOC ------------------------------------------------------------------------------------------------ */
+SELECT.snpTOC { overflow:hidden; width:280px; }
+P.snpTOC { margin:2px 0px; }
+A.snpTOC /* .txtbold */ {
+	font-family:Arial,sans-serif; 
+	font-size:11px; 
+	line-height:15px; 
+	color:#333333; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+
+/* LINK ------------------------------------------------------------------------------------------------ */
+P.snpSimpleLink {margin:0px 0px 0px 18px}
+P.snpSimpleLink IMG {margin-left:-18px}
+
+P.snpCategory, P.snpCategory A
+{
+   margin:5px 0px 5px 0px;
+   font-weight:bold;
+}
+
+
+/* IMAGE --------------------------------------------------------------------------------------------*/
+DIV.snpImageLeft, DIV.snpCPrImageRight, DIV.snpCPrImageBottom { font-size:8pt; }  
+DIV.snpImageLeft { float:left; margin:0px 8px 5px 0px; clear:all;}
+DIV.snpImageRight { float:right; margin:0px 0px 5px 8px; clear:all;}
+DIV.snpImageBottom { margin:0px 0px 8px 0px; clear:all;}
+IMG.snpImage { margin-bottom:5px; }
+
+
+/* PARAGRAPH --------------------------------------------------------------------------------------------*/
+DIV.snpParagraph, DIV.snpCollectionItem
+{
+   padding:0px; margin:0px 0px 0px 0px;
+/*border:1px solid red; */
+   clear:all;
+}
+
+H3.snpParagraphHeadline /* .headline */ {
+	font-family:Arial,sans-serif; 
+	font-size:11px; 
+	line-height:15px; 
+	color:#333333; 
+	text-decoration:none; 
+	font-weight:bold;
+  font-style:normal;
+}
+H3.snpParagraphHeadline { margin:7px 0px; }
+
+H4.snpParagraphSubHeadline /* .text11Bgrey3 */ {
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  line-height:15px;
+  color:#CCCCCC;
+  text-decoration:none;
+  font-weight:bold;
+  font-style:normal;
+}
+H4.snpParagraphSubHeadline { margin:7px 0px; }
+
+DIV.snpCollectionItem
+{
+   padding:0px; margin:0px 0px; /* border:1px solid red; */
+   clear:all;
+   /* white-space:nowrap; */
+}
+
+TD.snpCollectionItem
+{
+   padding:5px;
+   /* border:1px solid red; */
+}
+
+/* EMBED --------------------------------------------------------------------------------------------*/
+DIV.snpEmbed { margin:5px 0px; }
+
+/* CONTENT ----------------------------------------------------------------------------------------------*/
+
+TABLE.snpMultiColumns
+{
+	width:100%;
+	padding:10px 0px;
+	margin-bottom:10px;
+	clear:all;
+	table-layout:fixed;
+	/* border:1px solid green; */
+}
+
+DIV.snpMultiColumns, DIV.snpContent, DIV.snpBlock
+{
+	width:100%;
+	padding:10px 0px;
+	margin-bottom:10px;
+	clear:all;
+	/* border:1px solid green; */
+}
+
+TABLE.snpContent { margin:0px 0px 9px 0px; }
+
+TD.snpContent { padding:0px 9px 4px 0px; }
+
+H1.snpContent, H1 A.snpContent:link, H1 A.snpContent:visited, H1 A.snpContent:active, H1 A.snpContent:hover
+{
+  font-weight:bold;
+  color:black;
+  margin:0px 0px 8px 0px;
+}
+
+H2.snpContent, H2 A.snpContent:link, H2 A.snpContent:visited, H2 A.snpContent:active, H2 A.snpContent:hover
+{
+  font-weight:bold;
+  color:black; margin:0px 0px 4px 0px;
+}
+
+H3.snpContent
+  { font-size:10pt; font-weight:bold; margin:0px 0px 0px 0px; }
+
+P.snpContent { margin:9px 0px; }
+
+FORM.snpContent {
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+/* SECTION ----------------------------------------------------------------------------------------------*/
+TABLE.snpSection
+{
+   margin-bottom:10px;
+   border-collapse:collapse;
+   width:100%;
+}
+
+DIV.snpSectionFrame
+{
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	border-color:#999999;
+	padding:0px 5px 5px 5px; 
+}
+
+DIV.snpSection
+{	
+/*	margin-bottom:10px;*/
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px;
+	border-collapse:collapse;
+	width:100%;
+	overflow:hidden;
+/*border:1px solid green; */
+}
+
+H2.snpSection
+{
+	text-decoration:none; 
+	font-size:11px; 
+	color:#333333; 
+	font-family:Arial,Verdana; 
+	font-weight:bold; 
+	line-height:18px;
+
+/*	padding:0px 5px 0px 5px;*/
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+TD.snpSection, DIV.snpSection
+{
+    padding:0px;
+/*  padding:0px 5px;*/
+  /* margin:0px; */
+}
+P.snpSection
+{
+   margin:11px;
+}
+
+.snpSectionTable
+{
+   border:1px solid #ff9900;
+}
+
+TABLE.snpSectionTable
+{
+   border-collapse:collapse;
+   margin:5px 0px;
+}
+
+TD.snpSectionTable
+{
+   padding:5px;
+}
+
+TH.snpSectionTable
+{
+   font-size:10pt;
+   font-weight:bold;
+   padding:5px;
+   text-align:left;
+}
+
+/* BLOCK ------------------------------------------------------------------------------------------------- */
+DIV.snpBlock {
+  border:1px solid #ff9900;
+  padding:0px 0px;
+  margin:0px 0px
+}
+TD.snpBlock
+{
+  /* border:1px solid #ff9900; */
+  padding:5px;
+}
+
+
+/* PROFILE ------------------------------------------------------------------------------------------------- */
+IMG.snpProfile { margin-right:5px }
+
+
+/* Label --------------------------------------------------------------------------------------------------- */
+.snpLabel
+{
+   font-weight:bold;
+}
+TD.snpLabel
+{
+   padding-left:5px;
+   padding-right:5px;
+}
+
+/* Table - ---------------------------------------------------------------------------------------------- */
+.snpTable, TD.snpRowHead
+{
+   border-width:1px 1px 1px 1px;
+   border-style:solid;
+   border-color:#ff9900;
+}
+
+TABLE.snpTable
+{
+   border-collapse:collapse;
+   margin-bottom:10px;
+}
+
+TH.snpTable { font-size:10pt; font-weight:bold; }
+TD.snpTable, TD.snpRowHead
+{
+   padding:5px;
+}
+
+TD.snpRowHead
+{
+   font-weight:bold;
+}
+
+/* Row - ---------------------------------------------------------------------------------------------- */
+TD.snpRow P {
+	margin:0px 0px 0px 0px;
+}
+TD.snpRow { margin:5px 0px; }
+
+/* Spacer - ---------------------------------------------------------------------------------------------- */
+DIV.snpSpacer { background-color:#999999; margin:10px 0px; }
+
+
+/* == BIO ================================================================================================= */
+DIV.snpBIOContent, DIV.snpBIOTOC, TD.snpBIOCollectionItem, H2.snpBIOSection, DIV.snpBIOSectionText,
+DIV.snpBIOParagraph, P.snpBIOSectionTable, H1.snpBIOContent /* innercontent */ {
+  padding:0px 5px; clear:all;
+}
+TD.snpBIOContent {
+  padding:1px 5px;
+}
+DIV.snpBIOContent TD.snpLabel { padding:0px; }
+
+DIV.snpBIOContent { margin:0px 0px 5px 0px; }
+P.snpBIOContent { margin:0px 0px 1px 0px; text-align:right; }
+H1.snpBIOContent { margin:10px 0px 15px 0px; }
+P.snpBIOTOC { margin:2px 0px; }
+DIV.snpBIOSectionFrame { margin:0px 0px 30px 0px; }
+DIV.snpBIOTOC { margin:10px 0px 30px 0px; }
+DIV.snpBIOSection { margin:0px; }
+
+P.snpBIOLink { margin:0px 0px 0px 18px; }
+P.snpBIOLink IMG { margin-left:-18px; }
+
+TH.snpBIOSectionTable, TH.snpBIOSectionTableRight, CAPTION.snpBIOSectionTable,
+H1.snpBIOContent, H2.snpBIOSection,
+P.snpBIOLink A:link, P.snpBIOLink A:active, P.snpBIOLink A:hover, P.snpBIOLink A:visited,
+TD.snpBIOContent, H3.snpBIOParagraphHeadline,
+A.snpBIOTOC:link, A.snpBIOTOC:active, A.snpBIOTOC:hover,A.snpBIOTOC:visited,
+DIV.snpBIOContent DIV.snpText,
+TD.snpBIOContent A:link, TD.snpBIOContent A:active, TD.snpBIOContent A:hover, TD.snpBIOContent A:visited /* .headline */ {
+	font-family:Arial,sans-serif; 
+	font-size:11px; 
+	line-height:15px; 
+	color:#333333; 
+	text-decoration:none; 
+	font-weight:bold;
+  font-style:normal;
+}
+TD.snpBIOContent { background-color:#CCCCCC; }
+H2.snpBIOSection { background-color:#EEEEEE; margin:0px 0px 7px 0px; }
+H3.snpBIOParagraphHeadline { margin:7px 0px; }
+H4.snpBIOParagraphSubHeadline /* .text11Bgrey3 */ {
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  line-height:15px;
+  color:#CCCCCC;
+  text-decoration:none;
+  font-weight:bold;
+  font-style:normal;
+}
+H4.snpBIOParagraphSubHeadline { margin:-5px 0px 7px 0px; }
+DIV.snpBIOParagraph { margin:0px 0px 14px 0px; }
+P.snpBIOSectionTable { margin:0px; }
+TABLE.snpBIOSectionTable { margin:7px 0px; }
+CAPTION.snpBIOSectionTable { padding:0px 4px 8px 4px; text-align:left; }
+TH.snpBIOSectionTable, TH.snpBIOSectionTableRight { background-color:#CCCCCC; padding:3px; vertical-align:bottom; }
+TD.snpBIOSectionTable, TD.snpBIOSectionTableRight { background-color:#EEEEEE; padding:3px; vertical-align:top; }
+TH.snpBIOSectionTable, TD.snpBIOSectionTable { text-align:left; }
+TH.snpBIOSectionTableRight, TD.snpBIOSectionTableRight { text-align:right; }
+P.snpBIOSectionBackToTop { margin:0px; clear:all; }
+.snpBIOParagraphSpacer { line-height:7px; }
+/*
+#mainContentArea { border:1px solid red; }
+*/
+
+
+
+/* == RC ================================================================================================= */
+
+DIV.snpRcContentFrame { margin:0px 5px 0px 5px; }
+
+DIV.snpRcSectionFrame { margin:12px 0px 0px 0px; }
+
+H2.snpRcSection
+{
+  text-decoration:none; 
+  font-size:11px; 
+  color:#ffffff; 
+  font-family:Arial,Verdana; 
+  font-weight:bold; 
+  line-height:15px;
+  
+  background-color:#CC3300;
+
+	padding:0px 5px 0px 5px;
+	margin:0px 0px 7px 0px;
+}
+
+DIV.snpRcSection { margin:0px 5px; }
+
+DIV.snpRcParagraph { margin:5px 0px 0px 0px; }
+BR.snpRcParagraphSpacer { line-height:0px; }
+
+H3.snpRcParagraphHeadline /* .headline */ {
+	font-family:Arial,sans-serif; 
+	font-size:11px; 
+	line-height:15px; 
+	color:#333333; 
+	text-decoration:none; 
+	font-weight:bold;
+  font-style:normal;
+}
+H3.snpRcParagraphHeadline { margin:5px 0px 0px 0px; }

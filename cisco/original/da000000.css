@@ -1,0 +1,63 @@
+.DefaultHomeDA {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 2px;
+}
+
+.DAModuleHeader {
+	background-color: #669999;	
+	padding: 2px 0 0 0;
+	height: 18px;
+} 
+
+.DAHeaderText {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	display: block; 
+	margin: 0 0 3px 9px;
+	vertical-align: bottom
+}
+
+.DAModule {
+	background-color: #ffffff;
+	padding: 8px 0 18px 9px;
+}
+
+.DAModuleItem {
+	position: relative;
+	margin: 0;
+	line-height: 15px; 
+	margin-top:5px; 
+	margin-left:6px;
+}
+
+.DAModuleContent {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:9px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.DAModuleLink {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	color:#336666;
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+.DANoScriptModuleItem {
+	position: relative;
+	margin-top: 4px; 
+}
+
+.DANoScriptPulldownLink {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:10px;
+	color:#336666;
+	text-decoration:underline;
+	font-weight:normal;
+}

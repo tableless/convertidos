@@ -1,0 +1,377 @@
+
+
+	
+
+	
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="en-us">
+<head>
+<title>Ericsson - the world-leading supplier in telecommunications</title>
+<meta name="description" content="Ericsson is shaping the future of Mobile and Broadband Internet communications through its continuous technology leadership, helping to create the most powerful communication companies in the world.">
+<meta name="abstract"    content="ericsson.com: Ericsson's global Internet site.">
+<meta name="keywords"    content="telecommunications equipment suppliers telecom mobile cellular systems radio messaging GSM PDC AMPS D-AMPS TDMA DECT PCS personal communications PCN access telephones terminals modems ISDN cordless datacom public networks networking transport enterprise cable fiber data PBX PABX packet switching frame relay IP Internet ATM engineering management microwave transmission components services business consulting energy defense radar routers switches Ericcson Erikson Eriksson Ericson Erickson WCDMA CDMA">
+<meta name="contact"     content="Corporate Web Group">
+<link rev="made" href="mailto:asq@ericsson.com?subject=homepage">
+<meta name="class" content="open">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta name="category" content="Products">
+<meta name="subcategory" content="">
+<meta name="date.created" scheme="W3CDTF" content="Tue, 21 Dec 2004 14:29:50 GMT">
+<meta name="date.valid.until" scheme="W3CDTF" content="21 03 2005 14:29:50 GMT">
+
+
+<meta name="coverage" content=" Global">
+<meta name="audience" content=" all">
+<meta name="lifecycle" content=" none">
+<meta name="publisher" content="Telefonaktiebolaget LM Ericsson">
+<meta name="format" scheme="IMT" content="text/html">
+<meta name="rights" content="http://www.ericsson.com/legal.shtml">
+<meta name="robots" content="index,follow">
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen true for "http://www.ericsson.com"  r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.ericsson.com"  r (n 0 s 0 v 0 l 0))'>
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="global_r.css"/>
+	
+	<!--vvv Full Rotating Highlight Section vvv-->
+	<script language="JavaScript">
+    <!--
+		var imgArrayZero    = new Array();
+		var imgArrayOne     = new Array();
+		var imgArrayTwo     = new Array();
+		var imgArrayThree   = new Array();
+		var arrNo           = 0;
+			
+			
+				
+					
+						
+							imgArrayZero[arrNo++] = new imgArrayItem(0, "tr_12mobileuse_455x169.jpg", "Telecom report");
+						
+				
+			
+			
+			
+				
+					arrNo = 0;
+				
+				
+					
+						
+							imgArrayOne[arrNo++] = new imgArrayItem(0, "conversion_227x61.gif", "[Conversion]", "/investors/shareholders/index.shtml", "Information for holders of<BR>A-shares", "Conversion of B-shares to A-shares and handling of conversion rights");
+						
+				
+			
+			
+			
+				
+					arrNo = 0;
+				
+				
+					
+						
+							imgArrayTwo[arrNo++] = new imgArrayItem(0, "mobile_broadband_227x61.jpg", "[Mobile Broadband]", "/products/mobile_broadband/index.shtml", "Mobile Broadband", "High-speed internet access everywhere");
+						
+				
+			
+			
+			
+				
+					arrNo = 0;
+				
+				
+					
+						
+							imgArrayThree[arrNo++] = new imgArrayItem(0, "success_stories_151x61.jpg", "[Customer success stories]", "http://www.ericsson.com/successstories/index.shtml", "Customer success stories", "Success stories of the month");
+						
+				
+			
+		
+			
+
+	function imgArrayItem(intCount, strImage, strAlt, strUrl, strUrlText, strText){
+			this.intCount       = intCount;
+			this.strImage       = strImage;
+			this.strAlt         = strAlt;
+			this.strUrl         = strUrl;
+			this.strUrlText     = strUrlText;			
+			this.strText        = strText;
+	}
+		
+	function getIntDate(){ 
+			var dateNow = new Date();
+			var intDate = dateNow.getDate();
+			return intDate;
+	}
+	
+	function getValue(strArrayNo, strItem){
+   			var intDate       = getIntDate();
+   			var strPicUrl     = "nothing";
+			var idx           = intDate % eval("imgArray" + strArrayNo + ".length");			
+			strPicUrl         = eval("imgArray" + strArrayNo + "['"+idx+"']." + strItem);
+			return strPicUrl;
+	}
+
+	function openDoc(){
+		//document.open();
+	}
+	
+	function closeDoc(){
+		//document.close();
+	}
+	
+	function NS_Reload(){
+		if ( navigator.appName.indexOf("Netscape") > -1){
+			document.location.reload();
+		}
+	}
+		
+    //-->
+	</script>
+	<!--vvv Full Rotating Highlight Section vvv-->
+	</head>
+	
+<body bgcolor="#ffffff" topmargin="3" leftmargin="3" marginwidth="3" marginheight="3" onResize="javascript:NS_Reload();">
+
+
+	
+	
+		
+<!--vvv Masthead Section vvv-->
+	<table width="759" border="0" cellspacing="0" cellpadding="0" height="42">
+		<tr>
+			<td width="151" align="left"><a href=""><img width="117" height="42" border="0" alt="www.ericsson.com" title="www.ericsson.com" src="l_117x42.gif"></a></td>
+			<td width="151" align="left" vAlign="bottom" class="cn">&nbsp;</td>
+			<!--305--><td width="280" align="left" vAlign="bottom"><div class="lang">&nbsp;</div></td>
+
+			<form name="frmSearch" action="http://www.ericsson.com/search/query.html">
+			<input type="hidden" name="charset" value="UTF-8">
+
+			<!--151--><td width="176" align="right" valign="bottom">
+				<table  border="0" cellspacing="0" cellpadding="0">
+					<tr valign="top">
+						<td vAlign="middle"><input type="text" name="qt" size="14" value="" maxlength="2047" style="height:17px;font-size:9pt;"></td>
+						<td width="5"></td>
+						<td vAlign="middle">
+							<table border="0" cellPadding="0" cellSpacing="0">
+								<tr>
+									<td height="1" class="grey" colSpan="3"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+								</tr>
+								<tr>
+									<td class="f" width="1"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+									<td>
+										<table border="0" cellPadding="1" cellSpacing="0">
+											<tr>
+												<td width="2"></td>
+												<td>
+													<div class="btn"><a href="javascript:document.frmSearch.submit();">Search</a></div>
+												</td>
+												<td width="2"></td>
+											</tr>
+										</table>
+									</td>
+									<td class="f" width="1" vAlign="top"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+								</tr>
+								<tr>
+									<td height="1" class="grey" colSpan="3"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+
+			</form>
+		</tr>
+	</table>
+	<table width="759" cellspacing="0" cellpadding="0" border="0" height="17" class="sM" bgcolor="#336699">
+		<tr>
+			<td width="759" class="mH">
+				<div class="mHtSP">
+					<table width="455" cellspacing="0" cellpadding="0" border="0" height="15">
+						<tr>
+							<td class="mHi"><div class="mHsp"><a href="">&nbsp;<b>Home</b></a></div></td>
+							<td class="mHi"><div class="mHsp"><a href="http://www.ericsson.com/products/">&nbsp;<b>Products</b></a></div></td>
+							<td class="mHi"><div class="mHsp"><a href="http://www.ericsson.com/products/services/">&nbsp;<b>Services</b></a></div></td>
+							<td class="mHi"><div class="mHsp"><a href="http://www.ericsson.com/technology/">&nbsp;<b>Technologies</b></a></div></td>
+							<td class="mHi"><div class="mHsp"><a href="http://www.ericsson.com/support/">&nbsp;<b>Support</b></a></div></td>
+							<td class="mHi"><div class="mHsp"><a href="http://www.ericsson.com/about/">&nbsp;<b>About Ericsson</b></a></div></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+<!--^^^ Masthead Section ^^^-->
+
+	
+
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" class="s">
+	<tr valign="top">
+		<td width="152" class="w152"> 
+			<div class="chSP">
+			
+			<!--vvv Major Link Section vvv-->
+            
+			
+				
+							
+							<a href="http://www.ericsson.com/consumer/"><b>Consumers</b></a><br>Mobile phones and other products<br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/enterprise/"><b>Enterprise</b></a><br>Enterprise products and services<br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/network_operators/"><b>Network Operators</b></a><br>Solutions for network operators<br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/developers/"><b>Developers</b></a><br>Ericsson Mobility World<br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/jobs/"><b>Ericsson Job Site</b></a><br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/investors/"><b>Investors</b></a><br><br>
+						
+				
+							
+							<a href="http://www.ericsson.com/press/"><b>Press</b></a><br><br>
+						
+				
+			
+			
+			<!--^^^ Major Link Section ^^^-->
+			
+			<br>
+			</div>
+		</td>
+				
+		<td width="456" class="hC">
+			
+				
+			
+			<a href="http://www.ericsson.com/about/publications/telecomreport/index.shtml"><img src="tr_10culturalfactor_455x169.jpg" width="455" height="169" /><br><div class="hCsp">
+			<a href="http://www.ericsson.com/about/publications/telecomreport/index.shtml">TELECOM REPORT<br></a><span class="t">An online magazine providing unique insight into the telecom business</span></div>
+		</td>
+		
+		<td width="152">
+			<div class="sp">
+				<span class="t">December 31, 2004<br></span>
+			</div>
+				
+					
+					
+		
+			<!--vvv News Include Section vvv-->
+			<div class="sp">
+				<table width="133" border="0" cellspacing="0" cellpadding="0">
+					<tr><td height="47" valign="bottom" class="hU"><div class="h4"><b>Press releases</b></div></td></tr>
+					<!--vvv News Include File vvv-->
+
+<tr><td width="137"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2" color="#666666">
+<img src="callout_.gif" width="13" height="9"><font color="#666666">
+Dec&nbsp;28,&nbsp;2004
+<br><a href="http://www.ericsson.com/press/20041228-090328.html" class="nav2">Ericsson provides mobile coverage in the world's tallest skyscraper in Taiwan
+</font></a><br><br>
+<img src="callout_.gif" width="13" height="9"><font color="#666666">
+Dec&nbsp;27,&nbsp;2004
+<br><a href="http://www.ericsson.com/press/20041227-091620.html" class="nav2">Ericsson and Sharp extends license agreement from WCDMA to GPRS platforms
+</font></a><br><br>
+
+
+					</font></td></tr><!--^^^ News Include File ^^^-->
+					<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/press/pressrel.shtml" class="t">More</a></div></td></tr>
+					<tr><td height="5">&nbsp;</td></tr>
+				</table>
+			</div>
+			<!--^^^ News Include Section ^^^-->
+
+	
+				
+		</td>
+	</tr>
+</table>
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" class="s">
+	<tr valign="top">
+		<td width="152" class="w152">
+			
+				
+				
+		
+			<!--vvv Simple Link Section vvv-->
+				<div class="sp">
+					<table width="133" border="0" cellSpacing="0" cellPadding="0">
+						<tr><td height="47" vAlign="bottom" class="hU"><div class="h4"><b>Ericsson worldwide</b></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/US-CA.shtml" class="t">US/Canada</a></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/europe.shtml" class="t">Europe</a></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/asia-pacific.shtml" class="t">Asia Pacific</a></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/latinamerica.shtml" class="t">Latin America</a></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/africa.shtml" class="t">Africa/Middle East</a></div></td></tr>
+						<tr><td class="a"><div class="aSP"><a href="http://www.ericsson.com/about/worldwide/index.shtml" class="t">All locations</a></div></td></tr>
+					</table>
+				</div>
+				<br>
+			<!--^^^ Simple Link Section ^^^-->
+
+	
+			
+		</td>
+		<td width="228" class="c"><img src="conversion_227x61.gif" /><br />
+			<div class="cAsp"><a href=""><b>Information for holders of
+A-shares</b></a><br />Conversion of B-shares to A-shares and handling of conversion rights</div>
+		</td>
+		
+		<td width="228" class="c"><img src="mobile_broadband_227x61.jpg" /><br />
+			<div class="cAsp"><a href=""><b>Mobile Broadband</b></a><br />High-speed internet access everywhere</div>
+		</td>
+
+		<td width="152" class="c"><img src="success_stories_151x61.jpg" /><br />
+			<div class="cAsp"><a href=""><b>Customer success stories</b></a><br />Success stories of the month</div><br />
+		</td>
+	</tr>
+</table>
+
+
+	
+	
+		
+<!--vvv Footer Section vvv-->
+	<table width="759" border="0" cellspacing="0" cellpadding="0" class="f">
+		<tr>
+			<td height="1" class="hRf"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+		</tr>
+		<tr>
+			<td>
+				<table border="0" cellSpacing="2" cellPadding="0">
+					<tr>
+						<td class="f1"><a href="http://www.ericsson.com/contact/">&nbsp;Contact&nbsp;</a></td>
+						<td class="f"><a href="http://www.ericsson.com/legal.shtml">&nbsp;Legal&nbsp;</a></td>
+						<td class="f"><a href="http://www.ericsson.com/privacy.shtml">&nbsp;Privacy (cookies)&nbsp;</a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="1" class="hRf"><table border="0" cellPadding="0" cellSpacing="0"><tr><td></td></tr></table></td>
+		</tr>
+	</table>
+<!--^^^ Footer Section ^^^-->
+
+	
+
+
+</body>
+</html>
+
+  
+
+<!-- This document saved from http://www.ericsson.com/ -->

@@ -1,0 +1,110 @@
+
+.geral {
+	width:1150px;
+	margin:0 auto;
+}
+
+h1 {font:bold 30px arial, tahoma, sans-serif; color:#000; width:700px; margin:0 auto 5px;}
+p {
+	font:13px arial, tahoma, sans-serif;
+	color: #666;
+	width:700px;
+	margin: 0 auto 20px;
+}
+p:last-child {	border-bottom:1px solid #CCC; 	padding-bottom:20px;
+}
+
+/*** Tabela de dados comparativos ***/
+table.dadoscomp, table.dadoscomp2 {
+	float:left;
+	height:410px;
+	width:500px;
+	font:70% Verdana, Arial, Tahoma, 'Sans-Serif';
+	color:#494949;
+	margin-right:25px;
+	margin-bottom:20px;
+}
+
+table.dadoscomp th {font-weight:bold;}
+
+table.dadoscomp tr.logosite th {
+	text-align:center;
+	border:0px;
+	padding-bottom:7px;
+}
+
+tr.logosite th h4 {
+	/*text-indent:-5000px;
+	overflow:hidden;*/
+	width:460px;
+	font:bold 200% Verdana, Arial, Tahoma;
+	/*height:80px;
+	background-repeat:no-repeat;
+	background-position:center bottom;*/
+}
+
+/*h4#titapple {background-image:url(http://www.tableless.com.br/convertidos/apple/logo_apple.gif);}
+h4#titmicrosoft {background-image:url(http://www.tableless.com.br/convertidos/microsoft/logo_microsoft.gif);}
+h4#tituol {background-image:url(http://www.tableless.com.br/convertidos/uol/logo_uol.gif);}
+h4#tithp {background-image:url(http://www.tableless.com.br/convertidos/hp/logo_hp.gif);}
+h4#titibm {background-image:url(http://www.tableless.com.br/convertidos/ibm/logo_ibm.gif);}
+h4#titsamsung {background-image:url(http://www.tableless.com.br/convertidos/samsung/logo_samsung.gif);}
+h4#tithstern {background-image:url(http://www.tableless.com.br/convertidos/hstern/logo_hstern.gif);}
+h4#titfedex {background-image:url(http://www.tableless.com.br/convertidos/fedexbr/logo_fedex.gif);}
+h4#titlexmark {background-image:url(http://www.tableless.com.br/convertidos/lexmark/logo_lexmark.gif);}
+h4#titxerox {background-image:url(http://www.tableless.com.br/convertidos/xerox/logo_xerox.gif);}
+h4#titericsson {background-image:url(http://www.tableless.com.br/convertidos/ericsson/logo_ericsson.gif);}
+h4#titdell {background-image:url(http://www.tableless.com.br/convertidos/dell/logo_dell.gif);}
+h4#titcisco {background-image:url(http://www.tableless.com.br/convertidos/cisco/logo_cisco.gif);}
+h4#titnokia {background-image:url(http://www.tableless.com.br/convertidos/nokia/logo_nokia.gif);}
+h4#titsiemens {background-image:url(http://www.tableless.com.br/convertidos/siemens/logo_siemens.png);}
+h4#titreal {background-image:url(http://www.tableless.com.br/convertidos/real/logo_real.gif);}
+h4#titpalmone {background-image:url(http://www.tableless.com.br/convertidos/palmone/logo_palmone.gif);}
+h4#titsun {background-image:url(http://www.tableless.com.br/convertidos/sun/logo_sun.gif);}
+h4#titbradesco {background-image:url(http://www.tableless.com.br/convertidos/bradesco/logo_bradesco.gif);}*/
+
+table.dadoscomp tr.degrade th {
+	padding:7px;
+	border:0px;
+}
+
+table.dadoscomp tr.degrade th.pri {background:#E2E2E2 url(imagens/degradeconvert.gif) repeat-Y top left;}
+table.dadoscomp tr.degrade {background:#E2E2E2;}
+
+table.dadoscomp th, table.dadoscomp tr td, table.dadoscomp2 th, table.dadoscomp2 tr td {
+	border-bottom:1px solid #C1C1C1;
+	text-align:left;
+	padding:10px;
+}
+
+table.dadoscomp tr td.enviado {
+	font-weight:bold;
+	text-align:right;
+}
+
+table.dadoscomp tr td a.baixar {
+	display:block;
+	padding:5px 30px;
+	width:135px;
+	background:url(imagens/zip.gif) no-repeat;
+}
+
+xmp {
+	margin:10px 0px;
+	padding:0px;
+	font:105% 'Courier New', Arial, Tahoma, 'Monotype';
+	_font:80% 'Courier New', Arial, Tahoma, 'Monotype';
+}
+
+table.dadoscomp2 th {
+	background:#F1F1F1;
+	font-weight:bold;
+}
+
+table.dadoscomp2 tr td.tdcheck, table.dadoscomp2 tr td.tdcheck {
+	text-indent:-5000px;
+	overflow:hidden;
+}
+
+table.dadoscomp2 tr td.tdcheck {background:url(imagens/check.gif) no-repeat center center;}
+table.dadoscomp2 tr td.tdxizin {background:url(imagens/xizin.gif) no-repeat center center;}

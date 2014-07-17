@@ -1,0 +1,312 @@
+/*
+
+$Revision: 1.3 $
+
+*/
+
+/*
+I found the combination of an absolute positioned div inside a relative position
+div to be necessary.  setOrigin is used just for that.
+*/
+.setOrigin {
+	position:relative;
+	z-index:2;
+	top:0px;
+	left:0px;
+}
+
+
+/*
+this is the container that shows up as a flyout
+*/
+.flyoutDiv {
+	position:absolute;
+	background-color:#cccccc;
+	border: 1px #000000 solid;
+	width:240px;
+}
+
+/* makes the first flyout flush with the edge of the arrow */
+.one .flyoutDiv {
+	top:-21px;
+	left:151px;
+}
+/* make second flyout flush with arrow (sized to flyoutLink class, not flyoutLinkBold class */
+.two .flyoutDiv {
+	top:-15px;
+	left:234px;
+}
+
+
+
+/* this doesn't work in IE see uglier workaround below
+.flyoutLinkBold + div .flyoutDiv {
+	top:-20px;
+}
+*/
+
+
+
+/* this will have problems if bold links are ever used for a flyout with more flyouts inside
+which by the current usage would mean a flyout link used for the root level flyout or flyouts nested more than 2 layers
+*/
+.flyoutBold .flyoutDiv {
+	top:-20px;
+}
+
+/*
+This is the declaration that makes all the flyouts on the page be hidden to start
+The class "hiddenFlyout" is actually changed to "visibleFlyout" by the javascript.
+*/
+.hiddenFlyout .flyoutDiv {display:none;}
+
+
+/*** default look for the links that open flyouts ***/
+.flyoutLink,.flyoutLinkBold,.flyoutLinkRoot {
+	display:block;
+	position:relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	z-index:0;
+
+	background-image: url(flyout_a.gif);
+	background-repeat:no-repeat;
+	background-position: 230px 50%;
+
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+
+
+
+}
+.flyoutLinkRoot {
+	background-position: 147px 50%;
+}
+
+/* this formats the red links on the page itself */
+/* for the rollover state, see "hover bahviour of links that have flyouts that are not currently open" */
+.flyoutLinkRoot,.hiddenFlyout .flyoutLinkRoot {
+	font-weight:bold;
+	font-size:11px;
+	color:#990000;
+
+	padding-left:7px; /* 7px matches perceptual spec of 9px */
+	padding-top: 3px; /* 3px matches perceptual spec of 7px */
+	margin-left: 0px;
+	/* width: 154px; */
+	height:22px;
+
+	border-bottom: 1px solid #cccccc;
+
+}
+
+
+
+/*** links in flyouts that open other flyouts ***/
+.flyoutLink, .flyoutLinkBold {
+	padding-left:7px; /* perceptual spec of 9 */
+	font-size:10px;
+	color:#00000;
+}
+.flyoutLink {
+	height: 15px;
+	padding-top: 1px; /* 1px = 3.5px (text is 6px high, 4px each on top & bottom = 14px) */
+
+}
+.flyoutLinkBold {
+	padding-top: 3px; /* 3px = 7px (text is 6px high, 7px each on top & bottom = 20px) */
+	height: 19px; /* 19px = 20px with 1px thick border */
+	font-weight: bold;
+}
+
+/* hover bahviour of links that have flyouts that are not currently open */
+.hiddenFlyout .flyoutLink:hover,.hiddenFlyout .flyoutLinkBold:hover,.hiddenFlyout .flyoutLinkRoot:hover {
+
+	color:#ffffff;
+	background-color:#666666;
+	background-image: url(flyout_b.gif);
+}
+/* the links as they appear when their associated flyouts are open */
+.visibleFlyout .flyoutLink,.visibleFlyout .flyoutLinkBold,.visibleFlyout .flyoutLinkRoot {
+
+	color:#ffffff;
+	background-color:#990000;
+	background-image: url(flyout_b.gif);
+
+}
+
+/* nathan -- why is this down here? */
+/* the comment below is correct but maybe unclear. Ask me in email or comment it out and see what happens. */
+/* re-override to negate the cascade for nested child flyouts (">", the child selector (unsupported by IE now) in the previous set of styles would alleviate the need to re-override) */
+.hiddenFlyout .flyoutLink,.hiddenFlyout .flyoutLinkBold {
+
+	color:#000000;
+	background-color:#cccccc;
+	background-image: url(flyout_a.gif);
+
+}
+
+
+.flyoutLinkBold,.hiddenFlyout .flyoutLinkBold {
+	color:#000000;
+	font-weight:bold;
+	background-color:#cccccc;
+	background-image: url(flyout_a.gif);
+
+}
+
+
+/* Now better called "all link";  they changed the wording from the earlier spec.
+	Jan used to call these overflow links, meaning they link to content where there was too much to show on the page.
+	*/
+.moreLink {
+	display:block;
+	font-weight:bold;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	color:#000000;
+	height: 20px;
+	padding-left: 6px; /* 6px = 9px */
+	padding-top: 3px; /* 3px = 7px, to make it look centered */
+}
+
+.moreLink:hover{
+	background-color:#666666;
+	color:#ffffff;
+}
+
+
+
+
+/***** regular links *****/
+/* these are used on links that don't open flyouts.  They work the way any user supplied styles would, it just happnes that they give the look and hover bahviour specified in the spec. */
+.linkInFlyout, .linkInFlyoutBold {
+	display:block;
+	color:#000000;
+	position:relative;
+	margin-bottom:0px;
+	padding-left:6px; /* 6px = 9px */
+	padding-bottom: 3px; /* 3px = 6px */
+	z-index:0;
+
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	text-decoration:none;
+
+
+}
+
+
+.linkInFlyout {
+	line-height:80%;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+
+.one .linkInFlyout:hover {
+	background-color:#990000;
+	color:#ffffff;
+}
+.two .linkInFlyout:hover {
+	background-color:#666666;
+	color:#ffffff;
+}
+
+
+/* bold links */
+.linkInFlyoutBold {
+	font-weight:bold;
+}
+.linkInFlyoutBold:hover {
+	background-color:#990000;
+	color:#ffffff;
+}
+
+
+
+
+/* put this class on a div and you get the solid grey full width bar
+	only use these for bars in the flyouts */
+.bar {
+	width:100%; /* enables margns within the horiz separator in IE - has no affect on width blowout all browsers */
+	border-top:1px #666666 solid;
+
+}
+
+/* this was from a previous spec, the half bar is now just extra white space (perceptual 4px high)
+	for use between FlyoutLink and LinkInFlyout links */
+.halfBar {
+
+	height:7px;
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* nav bar links that do not open flyouts at all */
+.linkRoot {
+	display:block;
+	position:relative;
+	margin-top:0;
+	margin-bottom:0;
+	padding-top: 5px;/* text is 6px high; use to make bottom of text - bottom of text = 18px */
+	z-index:0;
+	/* width:154px; */
+	height:18px; /* minor bug: top-most entry is only 17px from gray line, not 18px */
+
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#333333;
+	padding-left:7px; /* 7px matches perceptual spec of 9px */
+}
+.noFlyout {
+
+	/* width:154px; */
+}
+
+.non-flyoutLinkRoot {
+
+	display:block;
+	position:relative;
+	/* width:154px; */
+	height:22px;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left:7px; /* 7px matches perceptual spec of 9px */
+	padding-top: 3px; /* 3px matches perceptual spec of 7px */
+	border-bottom: 1px solid #cccccc;
+
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#990000;
+}
+
+.non-flyoutLinkRoot:hover {
+	color:#ffffff;
+	background-color:#666666;
+	border-bottom: 1px solid #ffcccc;
+}
+
+/* IE 6 has a weird bug where overlapping layers and certain hover styles intersect... When a hover style changes the background in the topmost overlapping layer, it causes the border of the underlying layer to poke through.
+
+These overrides keep the bug from effecting flyouts.  The image never actually shows and can even be a broken link but must exist in order to fix the problem.
+
+The flyoutBackground container did not previously exist and is not necessary for anything except fixing this bug.  It wouldn't be needed except that we wanted a way to have the background show up before the image loaded.
+
+*/
+
+
+.flyoutDiv .flyoutDiv {
+   background: url(spacer_g.gif) repeat;
+}
+
+.flyoutBackground{background-color:#cccccc;padding-top:1px;}

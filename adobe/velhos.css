@@ -1,0 +1,107 @@
+body {
+	margin:0px;
+	padding:0px;
+	background:white;
+}
+
+/**********************************
+Links
+**********************************/
+.caixalinks, .caixalinksprimeira  {
+	float:left;
+	width:185px;
+	font:bold 60% Verdana, Arial, sans-serif;
+	background:url("imagens/fundoponto.gif") repeat-Y left white;
+	padding:6px 0px 0px 0px ;
+	height:149px;
+	border-bottom:5px solid #CECFCE;
+}
+
+.caixalinks div, .caixalinksprimeira div {
+	background:url("imagens/redbullet2.gif") no-repeat top left white;
+	padding:0px 0px 0px 7px;
+	margin:0px 0px 5px 25px;
+}
+
+/**********************************
+Esquerdo
+**********************************/
+#titulocont {
+	margin:15px 0px 0px 210px;
+}
+
+#esquerda {
+	float:left;
+	width:260px;
+	text-align:right;
+}
+
+#selos {
+	background:url(imagens/1dot.gif) repeat-Y right white;
+	padding:0px 10px 0px 0px;
+}
+
+#selo1 {
+	margin:0px 0px 10px 0px;
+}
+
+/**********************************
+Direita
+**********************************/
+#direita {
+	width:380px;
+}
+
+.listas div, #primeiralista div {
+	font:70% Verdana, Arial, sans-serif;
+	background:url("imagens/redarrow2.gif") no-repeat top left white;
+	padding:0px 0px 0px 15px;
+	margin:0px 0px 5px 20px;
+}
+
+/**********************************
+Menu rodapé
+**********************************/
+#menurodape {
+	background:url(imagens/pontos.gif) no-repeat left white;
+	padding:20px 0px 0px 0px;
+}
+
+#menurodape div{
+	margin:0px 20px 0px 0px;
+}
+
+#menurodape a, #menurodape a:visited  {
+	text-decoration: none;
+	color: #999999;
+}
+
+
+/**********************************
+Rodapé
+**********************************/
+#rodape {
+	color: #999999;
+	margin:20px 0px 0px 15px;
+	font: 65% Verdana,Arial,sans-serif;
+}
+#rodape .linksroda {
+	background:url(imagens/1dot.gif) repeat-Y right white;
+	line-height: 135%; 
+	text-decoration: none;
+	margin:0px 10px 0px 0px;
+	padding:0px 10px 0px 0px;
+}
+
+#rodape .linksrodault {
+	line-height: 135%; 
+	margin:0px 10px 0px 0px;
+	padding:0px 10px 0px 0px;
+	text-decoration: none;
+}
+
+#rodape a, #rodape a:visited {
+	color:#CC0000;
+	font:Verdana, Arial,sans-serif;
+	text-decoration:none;
+}

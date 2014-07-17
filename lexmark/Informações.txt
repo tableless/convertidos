@@ -1,0 +1,21 @@
+Lexmark Tableless - Informações
+=======================
+
+Tamanho do HTML: 4,74 KB
+Tamanho total: 40,47 KB
+Velocidade: 2,73 s @ ISDN 128K
+Válido: XHTML Transitional - Cross-browser
+
+Lexmark Original - Informações
+=======================
+
+Tamanho do HTML: 28,6 KB
+Tamanho total: 88,47 KB
+Velocidade: 5,73 s @ ISDN 128K
+Válido: Não! HTML 4.01 Transitional
+
+Informações Pessoais
+=======================
+Nome: Klaus Roberto de Paiva
+Site: http://rssgenesis.sourceforge.net/
+E-mail: klausphp@gmail.com

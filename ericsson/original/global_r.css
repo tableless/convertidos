@@ -1,0 +1,159 @@
+.p {padding-bottom: 12px; font-family: Verdana; font-size: 60%;padding-right: 7px; padding-left: 12px}
+.pA {padding-bottom: 12px; font-family: Verdana; font-size: 70%; line-height: 18px;padding-right: 7px; padding-left: 12px}
+.pA a {text-decoration:underline;}
+.t {font-size: 60%;font-family: Verdana; }
+.caption {font-size: 60%;font-family: Verdana; color:#666666;padding-top: 4px; } 
+.d  {font-size: 60%;font-family: Verdana; color:#999999} 
+.sM { margin-top: 10px; } 
+td.mH { background-image: url(mh_bg_75.gif);}
+.mHtSP {margin-top: 1px; margin-bottom: 1px;margin-left: 151px; margin-right: 153px} 
+td.mHi { background-repeat: repeat-y;background-image: url(mh_s_1x3.gif); text-align: center}
+td.mHe { background-repeat: repeat-y;background-image: url(mh_s_1x3.gif); text-align: center}
+td.mHiON { background-repeat: repeat-y;background-image: url(mh_s_1x3.gif); text-align: center;background-color: #ffffff}
+.mHsp { margin-left: 5px; margin-right: 5px}
+td.mH td.mHi a { font-family: Verdana; font-size: 60%;  color: #ffffff; text-decoration: none}
+td.mH td.mHe a { font-family: Verdana; font-size: 55%;  color: #ffffff; text-decoration: none}
+td.mH td.mHiON a{font-family: Verdana; font-size: 60%;  color: #369; text-decoration: none} 
+.h1 { font-family: Arial; font-size: 150%; color: #666666; ; padding-top: 8px; }
+.h1V2 { font-family: Arial; font-size: 120%; color: #666666; ; padding-top: 8px; }
+.h1Sub { color: #999999;  }
+.h2 {    font-family: Arial; font-size: 110%; color: #666666; padding-bottom: 10px; }
+.h2V2 {  font-family: Arial; font-size: 110%; color: #666666;  padding-bottom: 2px;margin-right: 6px; margin-left: 12px; } 
+.h4 { font-family: Verdana; font-size: 60%;  color: #666666; padding-bottom: 12px; }
+.h4A { font-family: Verdana; font-size: 70%;  color: #666666; padding-bottom: 12px; }
+td.hU {  background-image:   url(l_437x15.gif);}
+.iHsp {margin-top: 1px;margin-bottom: 1px; }
+.iHsp table { url(bg_i_437.gif);}
+.iHoff  { font-family: Verdana; font-size: 60%; color: #FFFFFF; }
+a.iH  { font-family: Verdana; font-size: 60%; color: #FFFFFF; text-decoration: underline;}
+a.iH:visited {   color: #FFFFFF;} 
+a.bI {font-weight:bold;text-decoration:underline}
+.i a {font:bold 60% Verdana; margin-right:19px;text-decoration:underline}
+.i .sp {margin-bottom:4px;} 
+td.w140 {background-repeat: repeat-y; background-image:   url(w_140x30.gif);}
+td.w152 {background-repeat: repeat-y; background-image:   url(w_152x30.gif);}
+td.w228 {background-repeat: repeat-y; background-image:   url(w_228x30.gif);}
+td.w304 {background-repeat: repeat-y; background-image:   url(w_304x30.gif);}
+td.w456 {background-repeat: repeat-y; background-image:   url(w_456x30.gif);} 
+.s { margin-top: 8px; }
+.sp {margin-right: 7px; margin-left: 12px;}
+.hSP {  margin-right: 153px; margin-left: 164px}
+td.h {background-image:   url(h_759x15.gif); color: #666666}
+td.h a {text-decoration:underline;}
+.desc {  margin-right: 7px;  margin-left: 12px; font-size: 60%;font-family: Verdana;color:#ffffff;}
+td.pa {  background-image:   url(bg_h_759.gif);}
+td.pa2 {  background-image:   url(bg_h_75A.gif);}
+.paSP { margin-top: 1px;margin-bottom:1px } 
+a.nH { font-family: Verdana; font-size: 60%; text-decoration: none; font-weight:bold; color: #FFFFFF}
+a.nH:visited {color: #FFFFFF;}
+a.nH:hover {color: #FFFFFF;}
+a.nHON { font-family: Verdana; font-size: 60%; text-decoration: none; font-weight:bold; color: #FFFFFF}
+a.nHON:visited {color: #FFFFFF;}
+a.nHON:hover {color: #FFFFFF;}
+a.n1 { font-family: Verdana; font-size: 60%; text-decoration: none; font-weight:bold;color: #336699;}
+a.n1:visited {color: #336699;}
+a.n1:hover {color: #6699CC;}
+a.n1ON { font-family: Verdana; font-size: 60%; text-decoration: none; font-weight:bold; color: #666666}
+a.n1ON:visited {color: #666666;}
+a.n1ON:hover {color: #6699CC;}
+a.n2 { font-family: Verdana; font-size: 60%; text-decoration: none;color: #336699; }
+a.n2:visited {color: #336699;}
+a.n2:hover {color: #6699CC;}
+a.n2ON { font-family: Verdana; font-size: 60%; text-decoration: none;  color: #666666}
+a.n2ON:visited {color: #666666;} 
+a.n2ON:hover {color: #6699CC;} 
+td.n1 {  background-image:   url(nav_line.gif);}
+td.n1ON{ background-image:   url(nav_linf.gif);}
+td.n2 { background-image:  url(nav_arro.gif);}
+td.n2ON { background-image:  url(nav_arrp.gif);}
+td.nH{ background-image:  url(nav_ling.gif);} 
+.n1SP{padding-left: 12px;padding-right: 6px;padding-top: 2px;padding-bottom: 2px;}
+.n2SP{padding-left: 24px;padding-right: 6px;padding-top: 2px;padding-bottom: 2px;} 
+td.dirI { background-image:  url(f_151x20.gif);}
+td.dirI img { margin-top: 1px;margin-bottom: 1px;}
+td.dirP { background-image:  url(d_400x20.gif);}
+td.dirP .p { margin-top: 8px;margin-bottom: 6px;}
+table.dir2 {}
+table.dir2 td{ background-image:  url(f_600x33.gif);}
+table.dir2 td img { margin-top: 1px;margin-bottom: 1px;} 
+.ul { margin-bottom:12px; margin-right: 6px; margin-left: 12px;}
+.ul td {background-image: url(bu_456_2.gif);}
+.liA { font-family: Arial; font-size: 80%;margin-left: 12px;margin-bottom:5px}
+.li { font-family: Arial; font-size: 60%;margin-left: 12px;margin-bottom:5px} 
+td.a { background-repeat: no-repeat; background-image: url(a_151x15.gif);}
+td.aN {background-repeat: no-repeat; background-image: url(a_n_151x.gif);}
+td.j { background-image: url(j_151x15.gif);}
+.aSP {margin-left: 12px;}
+.aSPa {margin-left: 12px;padding-bottom: 12px;}
+.aNsp {padding-bottom: 12px;}
+.jSP {padding-bottom: 12px;margin-left: 12px;} 
+td.ba {  background-image:   url(l_solid_.gif);}
+img.ba { margin-top: 41px;}
+.baSP{  margin-left: 24px;margin-top: 5px; margin-right: 6px;} 
+.lp { margin-top: 28px; margin-left: 12px; margin-right: 7px; font-family: Verdana; color:#999999; font-size:60% ; vertical-align: bottom} 
+table.f {   background-color: #e5e5e5; margin-top: 8px;}
+td.f { background-repeat: repeat-y;  background-image:   url(f_s_1x30.gif);}
+td.f a {color:#666666;text-decoration:none;font-family: Verdana; font-size: 60%;}
+td.f1 a {color:#666666;text-decoration:none;font-family: Verdana; font-size: 60%;} 
+td.f a:visited {color:#666666;}
+td.f1 a:visited {color:#666666;}
+.abs {margin-left: 12px; margin-right:7px;font-family: Verdana; font-size: 60%;color: #666666; font-weight: bold;line-height: 14px;} 
+table.aIMG {margin-right: 10px;}
+td.aIMG{background-image: url(f_152x12.gif);}
+td.aIMG img {margin-top: 1px; margin-bottom: 1px;} 
+td.c {background-image:url(c_228x25.gif);}
+td.c img {margin-top:1px}
+.cAsp {font-size:60%;font-family:Verdana;margin:10px 6px 2px 24px}
+.cAsp a {text-decoration:none}
+.cAsp a:visited {color: #369} 
+.cAsp a:hover {color: #69c} 
+.chSP {font-size:60%;font-family:Verdana;margin-right:7px; margin-left:12px;}
+.chSP a {text-decoration:none} 
+.chSP a:visited {color:#369} 
+.chSP a:hover {color:#69c}
+td.hC {background-image:url(h_m_a_45.gif);}
+.hCsp {margin-top:26px;margin-left:42px}
+.hCsp a {font:110% Arial}
+.hCsp a:visited {color:#369}
+.hCsp a:hover {color: #69c}
+td.hUm {background-image:url(l_m_437x.gif);}
+a {color:#369;text-decoration:none;}
+.p a {color:#369;text-decoration:underline;}
+b a {color:#369;text-decoration:underline;}
+a:visited {color:#966;}
+a:hover {color:#69c;}
+
+.lang {font-size: 60%; font-family: Verdana; padding-bottom: 2px;}
+.lang a {text-decoration:underline;}
+.cn {font-family: Arial; font-size: 110%; color: #999999; padding-left: 12px;}
+.btn a {font-size: 60%; font-family: Arial; font-weight: bold;}
+td.hRf {background-image:url(hori_rul.gif);}
+
+/* MUST look like this until this  char       | File is read by DCR                                         */
+/*                                            v                                                             */
+td.blue				{background-color:#336699;}	/*	identity color		Dark blue/Blue1/Tasks				*/
+td.blueLight		{background-color:#6699CC;}	/*	identity color		Light blue/Blue2/Ericsson worldwide	*/
+td.greydark			{background-color:#666666;}	/*	identity color		Dark grey/Grey1						*/
+td.greymedium		{background-color:#999999;}	/*	identity color		Medium grey/Grey2					*/
+td.grey				{background-color:#CCCCCC;}	/*	identity color		Grey/Grey3							*/
+td.black			{background-color:#000000;}	/*	identity color		Black/Text black					*/
+td.orange			{background-color:#FF6600;}	/*	instructional color	Orange/Instructional orange			*/
+
+td.redbrick			{background-color:#990000;}	/*	Brick red/Consumers										*/
+td.orangelight		{background-color:#FF9900;}	/*	Light orange/Network operators							*/
+td.purple			{background-color:#663366;}	/*	Purple/Enterprise										*/
+td.tealdark			{background-color:#336666;}	/*	Dark teal/Developers									*/
+td.aquamarinedark	{background-color:#669999;}	/*	Dark aquamarine/Job site								*/
+td.beige			{background-color:#CCCC99;}	/*	Beige/Investors											*/
+td.green			{background-color:#99CC66;}	/*	Green/Press												*/
+
+td.turquoisemedium	{background-color:#99CCCC;}	/*	Medium turquoise/Accent blue							*/
+td.greenmustard		{background-color:#CCCC33;}	/*	Mustard green/Accent green								*/
+td.sage				{background-color:#999966;}	/*	Sage/Accent sage										*/
+td.moss				{background-color:#CCCC66;}	/*	Moss/Accent moss										*/
+td.yellow			{background-color:#FFCC33;}	/*	Yellow/Accent yellow									*/
+td.tan				{background-color:#CC9966;}	/*	Tan/Accent tan											*/
+td.brown			{background-color:#996666;}	/*	Brown/Accent brown										*/
+td.red				{background-color:#CC3333;}	/*	Red/Accent red											*/
+/*                                            ^                                                             */
+/* MUST look like this until this  char       | File is read by DCR                                         */

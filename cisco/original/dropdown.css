@@ -1,0 +1,112 @@
+/* dropdownDHTML-ie.css v.0.9.9 		*/
+/* all below styles are for dhtml menus */
+.collapsed,.shown {
+	width:154px;
+	margin:0px 0px 4px 0px;
+}
+
+.setOriginDropdown {
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index:2;
+}
+
+.collapsingDiv, .shown .collapsingDiv {
+	display:block;
+	position:absolute;
+	background-color:white;
+	border: 1px;
+	border-color: #336666;
+	border-style: solid;
+	left:0px;
+	width:154px; 
+}
+
+.collapsed .collapsingDiv {
+	display:none;
+}
+
+.dropdownInstruction, .dropdownLink, .dropdownLinkBold {
+	display:block;
+	position:relative;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.dropdownInstruction {
+	padding-left:4px;
+	height:17px;
+	border:1px;
+	border-style:solid;
+	border-color:#336666;
+	padding-top:1px;
+}
+
+.dropdownInstructionOpen {
+	display:block;
+	position:relative;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	background-color:#336666;
+	text-decoration:none;
+	padding-left:4px;
+	height:17px;
+	border:1px;
+	border-style:solid;
+	border-color:#336666;
+	padding-top:1px;
+}
+
+.dropdownLink {
+	padding-left:1px;
+}
+
+.dropdownLink:hover {
+	background-color:#669999;
+	color:#ffffff;
+}
+
+.dropdownLinkBold {
+	padding-left:1px;
+	font-weight:bold;
+}
+
+.dropdownLinkBold:hover {
+	background-color:#669999;
+	color:#ffffff;
+}
+
+.dropdownArrow {
+	height:13px;
+	width:13px;
+	float:right;
+	vertical-align:middle;
+	border:0;
+	margin: 0px 1px 1px 0px;
+}
+
+.dropdownArrowHidden {
+	display:none;
+	height:13px;
+	width:13px;
+	float:right;
+	border:0;
+	margin: 0px 1px 1px 0px;
+}
+
+.dropdownNoScriptModuleItem {
+	position: relative;
+	margin-top: 2px; 
+}
+
+.dropdownNoScriptPulldownLink {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:10px;
+	color:#336666;
+	text-decoration:underline;
+	font-weight:normal;
+}

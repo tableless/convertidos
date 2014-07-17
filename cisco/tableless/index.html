@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Cisco Systems, Inc</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css" media="screen, projection" />
+  <script type="text/javascript" src="getElementsBySelector.js"></script>
+  <script type="text/javascript">
+  <!--
+/*Este JavaScript é necessário para o comportamento
+das duas dropdown lists (downloads e industries)
+Necessita de melhorias para funcionar perfeitamente*/
+
+function showlist(id){
+  var a = document.getElementsBySelector('a.'+id);
+  a[0].style.background='#366';
+  a[0].style.color='#fff';
+  el = document.getElementById(id);
+  if (el.style.display == "block"){
+    el.style.display="none";
+	a[0].style.background='#fff url(i/dd-arrow.gif) no-repeat 136px 1px';
+	a[0].style.color='#000';
+  }else{
+    el.style.display="block";
+  }
+}
+function hidelist(id){
+  var a = document.getElementsBySelector('a.'+id);
+  el = document.getElementById(id);
+  el.style.display="none";
+}
+
+/*Suckerfish Dropdown modificado para menu
+de três níveis. O JavaScript é necessário apenas
+para o IE. Nos browsers de verdade, o menu
+funciona apenas com CSS*/
+
+startList = function() {
+if (document.all&&document.getElementById) {
+navRoot = document.getElementById("menu");
+navRoot2 = document.getElementsBySelector('ul.level2 li');
+for (i = 0; i != navRoot2.length; i++) {
+  a = navRoot2[i];
+  a.onmouseover = function(){
+    this.className+=" over";
+  }
+  a.onmouseout = function(){
+    this.className=this.className.replace(" over", "");
+  }
+}
+for (i=0; i<navRoot.childNodes.length; i++) {
+node = navRoot.childNodes[i];
+if (node.nodeName=="LI") {
+node.onmouseover=function() {
+this.className+=" over";
+  }
+  node.onmouseout=function() {
+  this.className=this.className.replace(" over", "");
+   }
+   }
+  }
+ }
+}
+
+window.onload=startList;
+  -->
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <p class="hide"><a href="#sidebar">Skip menu</a></p>
+  <h1><a href="#">Cisco Systems</a></h1>
+  <ul id="nav">
+    <li id="login"><a href="#">Log In</a></li>
+    <li><a href="#">Register</a></li>
+    <li><a href="#">Contacts &amp; Feedback</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Site Map</a></li>
+    <li class="last"><a href="#">Select a Location / Language</a></li>
+  </ul>
+  <div id="mainnav">
+	  <ul id="menu">
+		<li class="level1"><a href="#">Products &amp; Solutions</a>
+		  <ul class="level2">
+			<li class="nochild"><a href="#"><strong>Products</strong></a></li>
+			<li><a href="#">Broadband Cable</a>
+			  <ul class="nochild">
+				<li><a href="#">RF Switches</a></li>
+				<li><a href="#">uBR10012 Broadband Router</a></li>
+				<li><a href="#">uBR7200 Series Broadband Routers</a></li>
+				<li><a href="#">uBR7100 Series Broadband Routers</a></li>
+				<li><a href="#">uBR900 Series Cable Access Routers</a></li>
+				<li class="all"><a href="#">All Broadband Cable Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Cisco IOS Software</a>
+			  <ul class="nochild">
+				<li><a href="#">Latest Releases</a></li>
+				<li><a href="#">IOS Product Catalog</a></li>
+				<li><a href="#">IOS Technologies</a></li>
+				<li class="all"><a href="#">All Cisco IOS Software</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Content Networking</a>
+			  <ul class="nochild">
+				<li><a href="#">Application &amp; Content Networking</a></li>
+				<li><a href="#">CSS 11500 Content Services Switches</a></li>
+				<li><a href="#">GSS 4490 Series Platforms</a></li>
+				<li><a href="#">IP/TV 3400 Series Video Servers</a></li>
+				<li><a href="#">500 Series Content Engines</a></li>
+				<li class="all"><a href="#">All Content Networking Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Interfaces and Modules</a>
+			  <ul class="nochild">
+				<li><a href="#">Ethernet Switching Network Modules</a></li>
+				<li><a href="#">Gigabit Interface Converters (GBIC)</a></li>
+				<li><a href="#">Line Cards Network Modules</a></li>
+				<li><a href="#">Optical Services Modules</a></li>
+				<li class="all"><a href="#">All Interfaces and Modules</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">LRE and xDSL</a>
+			  <ul class="nochild">
+				<li><a href="#">LRE 48 Series POTS Splitters</a></li>
+				<li><a href="#">Catalyst 2950 LRE Series Switches</a></li>
+				<li><a href="#">6000 Series IP DSL Switches</a></li>
+				<li><a href="#">800 Series Routers</a></li>
+				<li><a href="#">500 Series LRE CPE Devices</a></li>
+				<li class="all"><a href="#">All LRE &amp; xDSL Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Network Management</a>
+			  <ul class="nochild">
+				<li><a href="#">CiscoWorks IP Telephony Environment</a></li>
+				<li><a href="#">CiscoWorks LAN Management Solution</a></li>
+				<li><a href="#">CiscoWorks VPN/Security Management</a></li>
+				<li><a href="#">CNS Network Registrar</a></li>
+				<li><a href="#">12000/10720 Router Manager</a></li>
+				<li class="all"><a href="#">All Network Management Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Optical Networking</a>
+			  <ul class="nochild">
+				<li><a href="#">ONS 15600 Series</a></li>
+				<li><a href="#">ONS 15500 Series</a></li>
+				<li><a href="#">ONS 15400 Series</a></li>
+				<li><a href="#">ONS 15300 Series</a></li>
+				<li><a href="#">ONS 15216 Series</a></li>
+				<li class="all"><a href="#">All Optical Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Routers &amp; Routing Systems</a>
+			  <ul class="nochild">
+				<li><a href="#">Integrated Services Routers</a></li>
+				<li><a href="#">Carrier Routing System</a></li>
+				<li><a href="#">12000 Series Routers</a></li>
+				<li><a href="#">7600 Series Routers</a></li>
+				<li><a href="#">3700 Series Multiservice Access Routers</a></li>
+				<li><a href="#">2600 Series Multiservice Platforms</a></li>
+				<li><a href="#">1700 Series Modular Access Routers</a></li>
+				<li><a href="#">800 Series Routers</a></li>
+				<li class="all"><a href="#">All Routers &amp; Routing Systems</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Security and VPN</a>
+			  <ul class="nochild">
+				<li><a href="#">Endpoint Security/Cisco Security Agent</a></li>
+				<li><a href="#">PIX 500 Series Firewalls</a></li>
+				<li><a href="#">Self-Defending Networks</a></li>
+				<li><a href="#">Threat Defense System</a></li>
+				<li class="all"><a href="#">All Security and VPN Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Storage Networking</a>
+			  <ul class="nochild">
+				<li><a href="#">MDS 9000 Series Multilayer Switches</a></li>
+				<li><a href="#">SN 5400 Series Storage Routers</a></li>
+				<li class="all"><a href="#">All Storage Networking Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Switches</a>
+			  <ul class="nochild">
+				<li><a href="#">Catalyst 6500 Series Switches</a></li>
+				<li><a href="#">Catalyst 4500 Series Switches</a></li>
+				<li><a href="#">Catalyst 3750 Series Switches</a></li>
+				<li><a href="#">Catalyst 3550 Series Switches</a></li>
+				<li><a href="#">Catalyst 2950 Series Switches</a></li>
+				<li class="all"><a href="#">All Switches</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Universal Gateways/Access Servers</a>
+			  <ul class="nochild">
+				<li><a href="#">AS5800 Series Universal Gateways</a></li>
+				<li><a href="#">AS5400 Series Universal Gateways</a></li>
+				<li><a href="#">AS5300 Series Universal Gateways</a></li>
+				<li class="all"><a href="#">All Universal Gateways/Access Servers</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Video</a>
+			  <ul class="nochild">
+				<li><a href="#">Cisco Alarm Manager</a></li>
+				<li><a href="#">IP/VC 3500 Series Videoconferencing</a></li>
+				<li><a href="#">Multimedia Conference Manager</a></li>
+				<li><a href="#">uMG9800 Digital Video Networking</a></li>
+				<li class="all"><a href="#">All Video Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Voice &amp; IP Communications</a>
+			  <ul class="nochild">
+				<li><a href="#">7900 Series IP Phones</a></li>
+				<li><a href="#">Cisco CallManager</a></li>
+				<li><a href="#">Cisco Unity Conferencing / MeetingPlace</a></li>
+				<li><a href="#">IPCC Express Edition</a></li>
+				<li class="all"><a href="#">All Voice Products</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Wireless</a>
+			  <ul class="nochild">
+				<li><a href="#">Aironet 1400 Series Wireless Bridge</a></li>
+				<li><a href="#">Aironet 1200 Series Access Point</a></li>
+				<li><a href="#">Cisco Mobile Exchange</a></li>
+				<li><a href="#">IP Transfer Point</a></li>
+				<li><a href="#">Structured Wireless-Aware Network</a></li>
+				<li class="all"><a href="#">All Wireless Products</a></li>
+			  </ul>
+			</li>
+			<li class="important"><a href="#">Services</a>
+			  <ul class="nochild">
+				<li><a href="#">Advanced Services</a></li>
+				<li><a href="#">Partner Advanced</a></li>
+				<li><a href="#">Services Services for Technologies</a></li>
+				<li><a href="#">Technical Support Services</a></li>
+				<li class="all"><a href="#">All Services</a></li>
+			  </ul>
+			</li>
+			<li class="important"><a href="#">Networking Solutions</a>
+			  <ul class="nochild">
+				<li><a href="#">Large Enterprise</a></li>
+				<li><a href="#">Small &amp; Medium Business</a></li>
+				<li><a href="#">Home &amp; Home Office</a></li>
+				<li><a href="#">Service Provider</a></li>
+				<li class="all"><a href="#">All Networking Solutions</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</li>
+		<li class="level1"><a href="#">Ordering</a>
+		  <ul class="level2 nochild">
+			<li><a href="#"><strong>Ordering</strong></a></li>
+			<li><a href="#">How to Order</a></li>
+			<li><a href="#">Customer Support Information</a></li>
+			<li><a href="#">Cisco Capital Finance</a></li>
+		  </ul>
+		</li>
+		<li class="level1"><a href="#">Technical Support</a>
+		  <ul class="level2 nochild">
+			<li><a href="#"><strong>Technical Support</strong></a></li>
+			<li><a href="#">Product Support</a></li>
+			<li><a href="#">Technology Support</a></li>
+			<li><a href="#">Tools &amp; Resources</a></li>
+			<li><a href="#">Downloads</a></li>
+			<li><a href="#">My Tech Support</a></li>
+		  </ul>
+		</li>
+	  </ul>
+	  <ul id="menu2">
+		<li><a href="#">Learning &amp; Events</a></li>
+		<li><a href="#">Partners &amp; Resellers</a></li>
+		<li><a href="#">About Cisco</a></li>
+	  </ul>
+  </div>
+  <div id="sidebar">
+	  <div id="search">
+		<form id="searchform" action="" method="post">
+		  <fieldset>
+			<label for="keyword">Search:</label>
+			<input type="text" id="keyword" name="keyword" size="20" value="keywords" onfocus="if (this.value='keywords') this.value='';" />
+			<input type="image" id="go" src="i/go.gif" alt="Go!" />
+			<label for="searchon" class="hlabel">Search on:</label>
+			<select id="searchon">
+			  <option selected="selected" value="0">Search All Cisco.com</option>
+			  <option value="1">Tech Support &amp; Docs</option>
+			</select>
+		  </fieldset>
+		</form>
+	  </div>
+	  <div id="log">
+		<h2>Log In</h2>
+		<ul>
+		  <li><a href="#">Log In</a> to access additional tools and content.</li>
+		  <li>New User? <a href="#">Register Now.</a></li>
+		</ul>
+	  </div>
+	  <div id="links">
+		<h2>Quick Links</h2>
+		<ul>
+		  <li><a href="#">Technical Documentation</a></li>
+		  <li><a href="#">Partner Locator</a></li>
+		  <li><a href="#">Find a Service Provider</a></li>
+		  <li><a href="#">Security at Cisco</a></li>
+		  <li><a href="#">Career Certifications</a></li>
+		  <li><a href="#">Government Affairs</a></li>
+		  <li><a href="#">Discussion Forums</a></li>
+		  <li><a href="#">2004 Annual Report</a></li>
+		</ul>
+	  </div>
+	  <div id="defend">
+		<a href="#"><img src="i/defense.jpg" alt="Self-Defending Networks Protect Against Human Nature" /></a>
+	  </div>
+  </div>
+  <div id="tsunami">
+	<h2><span>[</span><a href="http://www.cisco.com/warp/public/779/largeent/landingPage/spotlight/tsunami_relief.htm">Help Tsunami survivors recover and rebuild</a><span>]</span></h2>
+	<p>Click Here to see a list of organizations where you can make charitable donations</p>
+  </div>
+  <div id="news">
+    <h3>News</h3>
+      <ul>
+        <li><a href="#">Cisco, Microsoft Team to Improve Security</a> 18 Oct 2004</li>
+        <li><a href="#">Cisco and Microsoft Tackle Security</a> 18 Oct 2004</li>
+        <li><a href="#">Regional NSW uses Converged Network</a> 15 Oct 2004</li>
+        <li><a href="#">IBM and Cisco Automate Enterprise Security</a> 14 Oct 2004</li>
+        <li><a href="#">CA Supports NAC</a> 13 Oct 2004</li>
+        <li id="more"><a href="#">More News</a></li>
+      </ul>
+  </div>
+  <div id="access">
+	<h3>Direct Access</h3>
+    <a href="#" class="downloads" onclick="showlist('downloads');" onkeypress="showlist('downloads');">Downloads</a>
+    <ul id="downloads">
+      <li><a href="http://www.cisco.com/public/sw-center/sw-ios.shtml"><span>Download</span> Cisco IOS Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-access.shtml">Access Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-cable.shtml">Cable/Broadband Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-ciscosecure.shtml">Cisco Secure Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-lan.shtml">LAN Switching Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-netmgmt.shtml">Network Management Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-optical.shtml">Optical Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-reseller.shtml">Reseller Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-stornet.shtml">Storage Networking Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-voice.shtml">Voice Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-web.shtml">Web Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/sw-wireless.shtml">Wireless Software</a></li>
+      <li><a href="http://www.cisco.com/public/sw-center/index.shtml">All Downloads</a></li>
+    </ul>
+    <a href="#" class="industries" onclick="showlist('industries');" onkeypress="showlist('industries');">Industries</a>
+    <ul id="industries">
+      <li><a href="/en/US/strategy/education/index.html">Education</a></li>
+      <li><a href="/en/US/strategy/financial/index.html">Financial Services</a></li>
+      <li><a href="/en/US/strategy/government/index.html">Government</a></li>
+      <li><a href="/en/US/strategy/healthcare/index.html">Healthcare</a></li>
+      <li><a href="/en/US/strategy/legal/index.html">Legal</a></li>
+      <li><a href="/en/US/strategy/manufacturing/index.html">Manufacturing</a></li>
+      <li><a href="http://business.cisco.com/prod/tree.taf%3Fasset_id=103785&amp;public_view=true&amp;kbns=1.html">Public Safety</a></li>
+      <li><a href="/en/US/strategy/retail/index.html">Retail</a></li>
+      <li><a href="http://business.cisco.com/prod/tree.taf%3Fasset_id=48301&amp;public_view=true&amp;kbns=1.html"><span>Ind.</span> Service Provider</a></li>
+      <li><a href="/en/US/strategy/transportation/index.html">Transportation</a></li>
+      <li><a href="/en/US/strategy/index.html">All Industries</a></li>
+    </ul>
+    <h4>Resources for:</h4>
+    <ul id="resources">
+      <li><a href="#">Large Enterprise</a></li>
+      <li><a href="#">Small &amp; Medium Business</a></li>
+      <li><a href="#">Home &amp; Home Office</a></li>
+      <li><a href="#">Service Provider</a></li>
+      <li><a href="#">Investors</a></li>
+      <li><a href="#">Press</a></li>
+    </ul>
+  </div>
+  <div id="footer">
+    <p>&copy; 1992-2004 Cisco Systems, Inc. All rights reserved. <a href="#">Terms and Conditions</a>, <a href="#">Privacy Statement</a>, <a href="#">Cookie Policy</a> and <a href="#">Trademarks</a> of Cisco Systems, Inc.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

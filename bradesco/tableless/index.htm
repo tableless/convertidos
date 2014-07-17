@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!--
+
+		Bradesco Tableless			
+		XHTML 1.0 Strict
+		
+		por
+		Walter Michel Deringer <wmichel@estatis.com.br>
+		28.06.05
+		para: www.tableless.com.br
+		
+		Features:
+		=========
+		+ Menu do topo que era feito com imagens (tsc) foi convertido para uma UL, muito mais acessivel.
+		+ Os links no box de fundo vermelho, que eram feitos com duas ULs + 2 BR's + 1 IMG foi transformado em apenas 1 UL.
+		+ A grande "lista" de links vertical que era composta por 10 H1's e 21 H2's (pqp) foi convertida para duas listas UL.
+		+ Outras listas emuladas com H1 e afins foram convertidas para UL.
+		+ O Conteúdo da esquerda foi colocado no final do codigo pois tem menos importancia do que o conteudo central.
+		+ Pixel-Perfect <:o) (IE6/FF1.0)
+		
+		Obs:
+		=========
+		1 - O texto do menu superior nao ficou identico ao original pois foi convertido para texto puro. Antes era uma <IMG>.
+		2 - O menu de selecao de idioma, antes era feito com apenas uma IMG que continha 2 links em <MAP> (pqp!), foi convertido
+		para texto normal, mas eu naum consegui acertar na fonte. Por isso ficou um pouco diferente. *smiles*
+		3 - Todas as bordas horizontais que antes eram 'emuladas' com uma imagem em background foram transformadas em bordas CSS. Por isso
+		tambem nao ficaram identicas as originais.
+		4 - Eu não converti o texto do footer pois nao tem muita relevancia mesmo... (melhor visualizado em 1024 eh?)
+		5 - Eu nao re-adicionei os scripts pois o objetivo era apenas refazer o layout. (e tambem pq lugar de javascript eh isolado em um .js)
+		6 - 15 hacks (ie-fixes) no CSS. Infelizmente foram necessarios para igualar IE e FF, mas daria pra fazer sem nenhum hack, usando mais tags html e sendo menos exigente!
+		7 - "expression" eh feature, nao eh hack :o) (mas tbm nao valida..)
+		
+		Ainda nao eh o ideal, mas melhorou bastante.
+						
+-->
+<title>Bradesco Tableless</title>
+	<style type="text/css"><!-- @import url("i/style.css"); --></style>
+</head>
+<body>
+
+<div id="ch">
+<h1><a href="http://www.bradesco.com.br/" title="Volta ao início do site">Banco Bradesco S/A</a></h1>
+<div id="cc">
+	<ul id="topMenuUl" title="Seção do site">
+		<li class="first sel"><a href="http://www.bradesco.com.br/br/home/home.shtm?paramPag=AbaPF" accesskey="1">Pessoa Física</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/segmentacao/prime.html" accesskey="2">Bradesco Prime</a></li>	
+		<li class="last"><a href="http://www.bradesco.com.br/br/redirect/segmentacao/private.html" accesskey="3">Bradesco Private</a></li>	
+		<li class="pjuridica"><a href="http://www.bradesco.com.br/br/pj/default.shtm?paramPag=AbaPFPJ" accesskey="4">Pessoa Jurídica</a></li>
+	</ul>
+	<ul id="subTopLinksUl" class="v3ul" title="Links Pessoa Física">
+		<li class="noborder"><a href="http://www.bradesco.com.br/br/pessoa_fisica/contas/contas5632.html?paramPag=MnContas">Contas e Servi&ccedil;os</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/investimentos80d5.html?paramPag=MnInvestimentos">Investimentos</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/emprestimos8dfc.html?paramPag=MnEmprestimos">Empréstimos e Financiamentos</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/cartoes.html">Cartões</a></li>
+		<li class="noborder b"><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/consorcios.html">Consórcios</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/PF_previdencia_seguros.html">Seguros e Previdência</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/capitalizacao.html">Capitalização</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/cambiob8b7.html?paramPag=MnCambio">Câmbio</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/comercio_eletronicoe8f1.html?paramPag=MnCompras">Comércio Eletrônico</a></li>
+	</ul>
+
+	<ul id="leftCcMenuUl" class="v2ul">
+		<li><h3><a href="../pessoa_fisica/contas/contase5af.html?paramPag=MnBrContas">Contas e Servi&ccedil;os</a></h3></li>
+		<li class="subul">
+		<ul>
+			<li><a href="http://www.bradesco.com.br/br/redirect/abreconta.html">Abra sua Conta</a></li>					
+			<li><a href="http://www.bradesco.com.br/br/redirect/banner/novo_nikkei.html">Bradesco Nikkei</a></li>
+			<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/contas/conta_corrente5e66.html?paramPag=MnBrContaCorrente">Conta-corrente</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/conta_univ.html">Conta Universitária</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/cidadetran.html">Despachante e CFC</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/poder_publico.html">Poder P&uacute;blico</a></li>
+			<li ><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/regularizacao8e86.html?paramPag=Regularizacao">Regularização&nbsp;de&nbsp;Dívida</a></li>
+		</ul>
+		</li>
+		<li ><h3><a href="http://www.shopinvest.com.br/">Investimentos</a></h3></li>
+		<li class="subul">
+		<ul>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/acoes_shopinvest.html">Ações</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/fundos_shopinvest.html">Fundos</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/cdb_shopinvest.html">CDB</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/poupanca_shopinvest.html">Poupança</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/imoveisvenda_shopinvest.html">Imóveis à Venda</a></li>
+		</ul>
+		</li>
+		<li><h3><a href="http://www.bradesco.com.br/br/pessoa_fisica/emprestimosc7c9.html?paramPag=MnBrEmprestimos">Empréstimos e Financiamentos</a></h3></li>
+		<li class="subul">
+		<ul>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/simuladores_shopcredit.html">Simuladores</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/creditopessoal_shopcredit.html">Pessoal</a></li>		
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/veiculos_shopcredit.html">Veículos</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/imoveis_shopcredit.html">Imóveis</a></li>
+		</ul>
+		</li>
+		<li><h3><a href="http://www.bradesco.com.br/br/redirect/menuvert/cartoes.html">Cartões</a></h3></li>
+		<li class="subul">
+		<ul>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/visa_cartoes.html">Visa</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/mastercard_cartoes.html">Mastercard</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/cartoes/solicit_cartoes.html">Solicita&ccedil;&atilde;o de Cart&otilde;es</a></li>
+		</ul>
+		</li>
+		<li><h3><a href="http://www.bradesco.com.br/br/redirect/menuvert/consorcios.html">Consórcios</a></h3></li>
+		<li class="subul">
+		<ul>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/imoveis_consorcio.html">Imóveis</a></li>
+			<li><a href="http://www.bradesco.com.br/br/redirect/menulateral/veiculos_consorcio.html">Automóveis</a></li>
+		</ul>
+		</li>
+		<li><h3><a href="http://www.bradesco.com.br/br/redirect/menuvert/seguros.html">Seguros</a></h3></li>
+		<li><h3><a href="http://www.bradesco.com.br/br/redirect/menuvert/vida_e_prev.html">Vida e Previdência</a></h3></li>
+		<li><h3><a href="http://www.bradesco.com.br/br/redirect/menuvert/capitalizacao.html">Capitalização</a></h3></li>
+		<li><h3><a href="http://www.bradesco.com.br/br/pessoa_fisica/cambio01d3.html?paramPag=MnBrCambio">Câmbio</a></h3></li>
+		<li><h3><a href="http://www.bradesco.com.br/br/pessoa_fisica/comercio_eletronico2743.html?paramPag=MnBrShopFacil">Comércio Eletrônico</a></h3></li>
+	</ul>	
+	
+	<div id="rightCcContent">
+
+		<div id="rightCcTopContent">
+			<a href="http://www.bradesco.com.br/br/redirect/consorcio.html"><img id="topContentBanner" src="i/banners/banner_consorcio_mulher_casa.jpg" width="195" height="292" title="Bannner do Bradesco Consórcios" alt="Torne realidade o desejo de comprar seu imóvel" /></a>
+			<dl>
+				<dt>Segurança</dt>
+				<dd class="first"><a href="http://www.bradesco.com.br/br/seguranca/seguranca_geral.shtm?paramPag=ComSeg"><img src="i/selo_seguranca.gif" width="50" height="69" alt="" />Confira nossas dicas para aumentar ainda mais a sua proteção.</a></dd>
+				<dt>Boleto de Cobrança</dt>
+				<dd class="second"><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/ib_servdisp.shtm?parmpag=DestBc"><img src="i/selo_pagtoboleto.gif" width="57" height="55" alt="" />Agende ou pague pelo Internet Banking. É rápido e fácil!</a></dd>
+				<dt>Investimentos</dt>
+				<dd class="last"><a href="http://www.bradesco.com.br/br/redirect/invest.html"><img src="i/selo1_ir.gif" width="57" height="55" alt="" />Restituição de IR? Aproveite a oportunidade para investir.</a></dd>
+			</dl>		
+		</div>	
+	
+		<div id="rightCcBottomContent">
+			<div id="rCcBottomContentBox">
+			<h3>Contas e Serviços</h3>
+			<dl>
+				<dt>Conta Universitária</dt>
+				<dd><a href="http://www.bradesco.com.br/br/redirect/destaques/conta_univ.html">Conheça as vantagens da Conta Universitária Bradesco. Clique aqui e acesse o portal.</a></dd>
+			</dl>
+			<h3>Capitalização</h3>
+			<dl>
+				<dt>Clique Fácil</dt>
+				<dd><a href="http://www.bradesco.com.br/br/redirect/destaques/cliquefacil.html">São 21.840 chances de ganhar! Adquira já o seu por apenas R$&nbsp;10,00 mensais.</a></dd>
+			</dl>
+			<h3>Internet Banking</h3>
+			<dl class="last">
+				<dt>Licenciamento</dt>
+				<dd><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/licenciamento.shtm?paramPag=HmLicenc">Lembre-se de licenciar o seu veículo. Facilite sua vida e faça pelo Internet Banking.</a></dd>
+			</dl>
+			</div>
+			<a id="topContentBottomBanner" href="http://www.bradesco.com.br/br/redirect/banner/vida_segura.html"><img src="i/banners/lateral_vidasegura.jpg" width="171" height="278" title="Bannner Vida Segura Bradesco" alt="Proteger a família é um direito de todos. Apenas R$9,62 Mensais" /></a>
+		</div>
+		<a id="ccHorizBanner" href="http://www.bradesco.com.br/br/redirect/10_anos.html"><img src="i/banners/banner_10anos.gif" width="374" height="60" alt="Banner Bradesco 10 Anos de Internet" /></a>
+	</div>
+	<div id="bottomCcContentDiv">
+	<ul id="subTopLinksBottomUl" class="v3ul" title="Links Pessoa Física">
+		<li class="noborder"><a href="http://www.bradesco.com.br/br/pessoa_fisica/contas/contas5632.html?paramPag=MnContas">Contas e Servi&ccedil;os</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/investimentos80d5.html?paramPag=MnInvestimentos">Investimentos</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/emprestimos8dfc.html?paramPag=MnEmprestimos">Empréstimos e Financiamentos</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/cartoes.html">Cartões</a></li>
+		<li class="noborder b"><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/consorcios.html">Consórcios</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/PF_previdencia_seguros.html">Seguros e Previdência</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menuhoriz/capitalizacao.html">Capitalização</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/cambiob8b7.html?paramPag=MnCambio">Câmbio</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/comercio_eletronicoe8f1.html?paramPag=MnCompras">Comércio Eletrônico</a></li>
+	</ul>
+	</div>
+</div>
+<div id="lc">
+	<div id="dateDiv">
+		<p class="firstp">Terça-feira, 21 de Junho de 2005</p>
+		<p>23:45</p>	
+	</div>
+	<object type="application/x-shockwave-flash" data="http://www.bradesco.com.br/inc/TVPF_NOVA/template_tv.swf" width="213" height="244" id="tvObj"><param name="movie" value="http://www.bradesco.com.br/inc/TVPF_NOVA/template_tv.swf" /><param name="wmode" value="transparent" /><img src="i/spcr.png" width="213" height="244" alt="" /></object>
+	<ul id="lcItensUl">
+		<li><a href="http://www.bradesco.com.br/br/redirect/go_ri.html">Relações com Investidores</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/faleconosco.html">Fale Conosco</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menutv/redeatend.html">Rede de Atendimento</a></li>
+		<li><a href="http://www.bradesco.com.br/br/noticias/bradesco_noticias.shtm?paramPag=MnEsqNoticias">Bradesco Notícias </a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/go_finasaesportes.html">Finasa Esportes</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/go_cfinanc.html">Economia em Dia</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menutv/seg_inf.html">Segurança da Informação</a></li>
+		<li><a href="http://www.bradesco.com.br/br/redirect/menutv/pol_qualidade.html">Política de Qualidade</a></li>
+		<li class="langLi"><a href="http://www.bradesco.com.br/index_eng.html?ParmPag=MnEsqIngl" title="Versão em Inglês" class="uk">Inglês</a><a href="http://www.bradesco.com.br/index_esp.html?ParmPag=MnEsqEspa" title="Versão em Espanhol" class="es">Espanhol</a></li>
+	</ul>
+	<p class="preComboHp firstp"><span>::</span> Institucional</p>
+	<select>
+		<option value="">Selecione</option>
+		<option value="">Sobre o Bradesco</option>
+		<option value="">História</option>
+		<option value="">Prêmios</option>
+		<option value="">Responsabilidade Social</option>
+		<option value="">Oportunidade de Carreira</option>
+		<option value="">Amador Aguiar - 100 anos</option>
+		<option value="">Simbologia Bradesco</option>
+	</select>	
+	<p class="preComboHp"><span>::</span> Sites Bradesco</p>
+	<select>
+		<option>Selecione</option>
+		<option value="">ShopInvest</option>
+		<option value="">ShopCredit</option>
+		<option value="">ShopFácil</option>
+		<option value="">Cartões</option>
+		<option value="">Consórcios</option>
+		<option value="">Net Empresa</option>
+		<option value="">Bradesco Poder Público</option>
+		<option value="">Bradesco Capitalização</option>
+		<option value="">Bradesco Custódia</option>
+		<option value="">Bradesco Previdência</option>
+		<option value="">Bradesco Prime</option>
+		<option value="">Bradesco Saúde</option>
+		<option value="">Bradesco Seguros</option>
+		<option value="">Bradesco Cidadetran</option>
+		<option value="">Bradesco Corporate</option>
+		<option value="">Bradesco Empresas</option>
+		<option value="">Bradespar</option>
+		<option value="">Câmbio</option>
+		<option value="">Economia em Dia</option>
+		<option value="">Fundação Bradesco</option>
+		<option value="">Finasa</option>
+		<option value="">Finasa Esportes</option>
+		<option value="">H. Edmundo Vasconcelos</option>
+		<option value="">Museu Histórico</option>
+		<option value="">Bradesco Nikkei</option>
+		<option value="">Private</option>
+		<option value="">Relações com Investidores</option>
+		<option value="">Universitários</option>
+	</select>
+	<h4>Bradesco Dia e Noite</h4>
+	<ul id="lcAtendUl">
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/internetbank.shtm?paramPag=MnBDNInternet">- Na Internet</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/telefone.shtm?paramPag=MnBDNTelefone">- No Telefone</a></li>	
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/autoatendimento.shtm?paramPag=MnBDNAutoAtend">- No Auto-atendimento</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/celular.shtm?paramPag=MnBDNCelular">- No Celular</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/pocket.shtm?paramPag=MnBDNPocket">- No Pocket</a></li>
+		<li><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/homeoffice/infoemail.shtm?paramPag=MnBDNInfoemail">- No E-mail</a></li>
+	</ul>
+</div>
+</div>
+<div id="f"><img src="i/footer.png" alt="Copyright Bradesco 2005 Todos os direitos Reservados" title="Copyright" width="719" height="29" /><a href="http://www.bradesco.com.br/br/pessoa_fisica/prodserv/iso.shtm"><img src="i/footer-iso.png" alt="ISO 9001" width="52" height="28" /></a></div>
+</body></html>

@@ -1,0 +1,45 @@
+body {
+	background:#EEEEEE;
+	margin:0px;
+	padding:0px;
+}
+
+/**********************************
+Esquerda
+**********************************/
+#esquerda {
+	float:left;
+	padding:24px 0px 0px 3px;
+	font: 60%  Verdana, Arial, Helvetica, Sans-Serif;
+	background:#E6E6E6;
+	width:139px;
+}
+
+/***** Onde fica os banners  *****/
+#banners {
+	margin:43px 0px 0px 0px;
+	text-align:center;
+}
+
+#banners img {
+	margin:4px 0px;
+}
+
+#banners .faleconosco  {
+	margin:17px 0px;
+}
+
+/**********************************
+Rodapé
+**********************************/
+#rodape {
+	background:#4A4A4A;
+	padding:2px 0px 0px 142px;
+	font:55%  Verdana, Arial, Helvetica, Sans-Serif;
+	color:white;
+	height:17px;
+}
+
+#rodape a, #rodape a:visited {
+	color:white;
+}
